@@ -1,0 +1,16 @@
+{
+      "id": 6,
+      "title": "Alarm Kayıtları",
+      "submenu": [
+        {
+          "id": 104,
+          "title": "Alarm Raporları",
+          "link": "http://88.250.21.119:180/Login.aspx"
+        },
+        {
+          "id": 105,
+          "title": "Şifre Talebi",
+          "link": "contact"
+        }
+      ]
+    }

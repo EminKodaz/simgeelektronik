@@ -8,18 +8,50 @@
     },
     {
       "id": 2,
-      "title": "Hakkımızda",
-      "link": "about-us"
+      "title": "Kurumsal",
+      "submenu": [
+        {
+          "id": 100,
+          "title": "Hakkımızda",
+          "link": "corporate/about-us"
+        },
+        {
+          "id": 101,
+          "title": "Sertifikalarımız",
+          "link": "corporate/certificates"
+        },
+        {
+          "id": 102,
+          "title": "Bayilik Başvurusu",
+          "link": "corporate/dealership"
+        },
+        {
+          "id": 103,
+          "title": "İnsan Kaynakları",
+          "link": "corporate/human-resources"
+        }
+      ]
     },
     {
       "id": 3,
+      "title": "Referanslarımız",
+      "link": "references"
+    },
+    {
+      "id": 4,
+      "title": "Hizmetlerimiz",
+      "link": "services"
+    },
+    {
+      "id": 5,
       "title": "Blog",
       "link": "blog"
     },
     {
-      "id": 4,
-      "title": "İletisim",
+      "id": 7,
+      "title": "İletişim",
       "link": "contact"
     }
   ]
 }
+
