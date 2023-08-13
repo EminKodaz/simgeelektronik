@@ -18,8 +18,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className={`fixed backdrop-blur-sm w-full text-sm py-3 flex flex-col items-center z-10 font-bold ${poppins.className}`}>
-      <div className='border flex justify-end max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]'>
+    <nav className={`fixed backdrop-blur-sm w-full text-sm pt-3 flex flex-col items-center z-50 font-bold ${poppins.className}`}>
+      <div className=' flex justify-end max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]'>
         <Link className='bg-sky-700 text-white p-2 text-xs font-light rounded-lg' href="alarm-report">
           Alarm Raporları
         </Link>

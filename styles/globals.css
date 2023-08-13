@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  @apply bg-white
+  @apply bg-white;
+}
+
+.gradient-bg {
+  background: rgb(255,255,255);
+  background: linear-gradient(113deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.819765406162465) 62%, rgba(255,255,255,0.6937149859943977) 100%);
+}
+.gradient-bg-2{
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.6685049019607843) 0%, rgba(255,255,255,0.758140756302521) 35%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 100%);
 }
