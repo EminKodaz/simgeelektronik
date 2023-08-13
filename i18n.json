@@ -1,7 +1,7 @@
 {
   "locales": ["en", "tr"],
-  "defaultLocale": "en",
+  "defaultLocale": "tr",
   "pages": {
-    "*": ["navbar", "home", "footer", "services", "about", "contact", "404"]
+    "*": ["navbar", "home", "footer", "about"]
   }
 }
