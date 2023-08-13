@@ -1,0 +1,22 @@
+{
+  "header": "Hızlı Menü",
+  "footerHeader": "Bizimle sosyal ağlarda bağlantı kurun:",
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Anasayfa"
+    },
+    {
+      "id": 2,
+      "title": "Hakkımızda"
+    },
+    {
+      "id": 3,
+      "title": "Blog"
+    },
+    {
+      "id": 4,
+      "title": "İletisim"
+    }
+  ]
+}

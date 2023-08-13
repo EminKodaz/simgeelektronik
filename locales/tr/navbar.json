@@ -1,0 +1,25 @@
+{
+  "header": "marhaba",
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Anasayfa",
+      "link": "tr"
+    },
+    {
+      "id": 2,
+      "title": "Hakkımızda",
+      "link": "about-us"
+    },
+    {
+      "id": 3,
+      "title": "Blog",
+      "link": "blog"
+    },
+    {
+      "id": 4,
+      "title": "İletisim",
+      "link": "contact"
+    }
+  ]
+}

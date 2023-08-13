@@ -1,0 +1,20 @@
+{
+  "contactHeader": "İletişime geçin",
+  "description": "İletişime geçmek ister misiniz? Sizden haber almak isteriz. İşte bize nasıl ulaşabileceğiniz...",
+  "row1": "İletişime geçmek ister misiniz? Sizden haber almak isteriz. İşte nasıl",
+  "row2": "bize ulaşabilirsiniz...",
+  "formTitle": "İletişim Bilgileri",
+  "nameLabel": "İsim",
+  "emailLabel": "Email",
+  "messageLabel": "Göndermek İstediğiniz Mesaj",
+  "formButton": "Gönder",
+  "namePlaceholder": "Lütfen isminizi giriniz",
+  "emailPlaceholder": "Lütfen email adresinizi giriniz",
+  "messagePlaceholder": "Lütfen mesajınızı giriniz",
+  "rules": [
+    {
+      "required": true,
+      "message": "Lütfen isminizi giriniz"
+    }
+  ]
+}

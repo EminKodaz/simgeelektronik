@@ -1,0 +1,21 @@
+{
+  "caption-1": "Neler ",
+  "caption-2": "Yapıyoruz ?",
+  "services-items": [
+    {
+      "id": 1,
+      "title": "Web Aplikasyonları",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+    },
+    {
+      "id": 2,
+      "title": "Kurumsal Web Çözümleri",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+    },
+    {
+      "id": 3,
+      "title": "Farklı ve Özel Tasarımlar",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+    }
+  ]
+}

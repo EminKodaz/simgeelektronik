@@ -1,0 +1,7 @@
+{
+  "locales": ["en", "tr"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["navbar", "home", "footer", "services", "about", "contact", "404"]
+  }
+}
