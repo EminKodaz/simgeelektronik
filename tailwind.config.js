@@ -15,7 +15,8 @@ module.exports = {
       },
       colors:{
         "darkred":"#5f1515",
-        "lightred": "#B15959"
+        "lightred": "#B15959",
+        "lightred-2": "#b15959c5"
       }
     },
   },

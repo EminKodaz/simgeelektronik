@@ -5,14 +5,27 @@
 body {
   @apply bg-white;
 }
-.clg{
-  background: #5f1515;
+.spreadShadow {
+  box-shadow: 0px 0px 36px -10px rgba(105,105,105,0.25);
+-webkit-box-shadow: 0px 0px 36px -10px rgba(105,105,105,0.25);
+-moz-box-shadow: 0px 0px 36px -10px rgba(105,105,105,0.25);
 }
 .gradient-bg {
-  background: rgb(255,255,255);
-  background: linear-gradient(113deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.819765406162465) 62%, rgba(255,255,255,0.6937149859943977) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    113deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.819765406162465) 62%,
+    rgba(255, 255, 255, 0.6937149859943977) 100%
+  );
 }
-.gradient-bg-2{
-  background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0.6685049019607843) 0%, rgba(255,255,255,0.758140756302521) 35%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 100%);
+.gradient-bg-2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6685049019607843) 0%,
+    rgba(255, 255, 255, 0.758140756302521) 35%,
+    rgba(255, 255, 255, 1) 68%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }

@@ -18,7 +18,7 @@ function HeaderRightSide() {
       />
       <Link
         href=""
-        className="absolute flex items-center py-3 px-5 text-xl font-bold bottom-5 rounded-xl bg-sky-600 text-white -left-4 hover:bg-sky-500 duration-300"
+        className="absolute flex items-center py-3 px-5 text-xl font-bold bottom-5 rounded-3xl bg-sky-600 text-white -left-4 hover:bg-sky-500 duration-300"
       >
         <FaWpforms className="mr-3" />
         {t("exploration")}
