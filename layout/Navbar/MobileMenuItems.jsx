@@ -1,57 +1,114 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Link from 'next/link';
-import { BiBookHeart, BiBriefcaseAlt2, BiDetail, BiHomeHeart, BiImages } from 'react-icons/bi';
-import SocialIcons from './SocialIcons';
-
+import Link from "next/link";
+import SocialIcons from "./SocialIcons";
+import useTranslation from "next-translate/useTranslation";
+import { BiChevronDown } from "react-icons/bi";
+import { MdReport } from "react-icons/md";
+import LangItems from "./LangItems";
 
 function MobileMenuItems({ toggle, setToggle }) {
-  
+  const [menuItems, setMenuItems] = useState([]);
+  const { t } = useTranslation();
+  const [isOpenSub, setIsOpenSub] = useState(false);
 
-    const handleClick = () => {
-        setToggle(!toggle)
-    }
-    return (
-        <motion.div
-            style={{
-                opacity: toggle ? 1 : 0,
-                overflow: "hidden",
-                height: 0,
-            }}
-            animate={{
-                opacity: toggle ? 1 : 0,
-                height: toggle ? "auto" : 0,
-            }}
-            className="max-lg:flex hidden flex-col  w-full"
-        >  <ul className='text-white flex w-full justify-around items-center flex-col  pb-5'>
-                <li className=''>
-                    <Link className='flex  items-center text-xl font-semibold m-2 hover:text-fuchsia-500 duration-150' onClick={handleClick} href="/#carousel" scroll={false}>
-                        <BiHomeHeart size={22} className='mr-1' />Anasayfa
-                    </Link>
-                </li>
-                <li>
-                    <Link className='flex items-center text-xl font-semibold m-2 hover:text-fuchsia-500 duration-150' onClick={handleClick} href="/#aboutus" scroll={false}><BiDetail size={22} className='mr-1' /> Hakkımızda</Link>
-                </li>
-                <li>
-                    <Link className='flex items-center text-xl font-semibold m-2 hover:text-fuchsia-500 duration-150' onClick={handleClick} href="/#services" scroll={false}> <BiBriefcaseAlt2 size={22} className='mr-1' /> Hizmetlerimiz</Link>
-                </li>
-                <li>
-                    <Link className='flex items-center text-xl font-semibold m-2 hover:text-fuchsia-500 duration-150' onClick={handleClick} href="/#gallery" scroll={false}><BiImages size={22} className='mr-1' />Galeri</Link>
-                </li>
-                <li>
-                    <Link className='flex items-center text-xl font-semibold m-2 hover:text-fuchsia-500 duration-150' onClick={handleClick} href="/#blog" scroll={false}><BiBookHeart size={22} className='mr-1' /> Blog</Link>
-                </li>
-                <li className='mt-5'>
-                    <Link
-                        className="px-3 font-semibold text-xl py-2 rounded-md transition-all duration-500 bg-gradient-to-br from-fuchsia-400 via-rose-900 to-pink-600 bg-size-200 bg-pos-0 hover:bg-pos-100"
-                        href="/#contactus" scroll={false} onClick={handleClick}>Bize Ulaşın</Link>
-                </li>
-            </ul >
-            <div className='w-1/2 m-auto mt-5 pb-3'>
-                <SocialIcons />
-            </div>
-        </motion.div>
-    )
+  useEffect(() => {
+    setMenuItems(t("navbar:menuItems", {}, { returnObjects: true }));
+  }, [t]);
+
+  const handleClick = () => {
+    setToggle(!toggle);
+  };
+
+  const handleSubMenu = () => {
+    setIsOpenSub(!isOpenSub);
+  };
+  return (
+    <motion.div
+      style={{
+        opacity: toggle ? 1 : 0,
+        overflow: "hidden",
+        height: 0,
+      }}
+      animate={{
+        opacity: toggle ? 1 : 0,
+        height: toggle ? "auto" : 0,
+      }}
+      className="max-lg:flex hidden flex-col  w-full"
+    >
+      {" "}
+      <ul className="text-zinc-600 flex flex-col w-full justify-around items-end mr-10  pb-5">
+        {menuItems.map((item) => {
+          return (
+            <li key={item.id} className="mr-10">
+              <Link
+                className="flex text-xl font-semibold m-2 w-full items-center ml-12"
+                onClick={item.submenu ? handleSubMenu : handleClick}
+                href="/#carousel"
+                scroll={false}
+              >
+                {item.submenu && (
+                  <BiChevronDown
+                    size={32}
+                    className={`${isOpenSub && "rotate-180"} duration-300`}
+                  />
+                )}
+                {item.title}
+              </Link>
+              {item.submenu && (
+                <motion.ul
+                  style={{
+                    opacity: isOpenSub ? 1 : 0,
+                    overflow: "hidden",
+                    height: 0,
+                  }}
+                  animate={{
+                    opacity: isOpenSub ? 1 : 0,
+                    height: isOpenSub ? "auto" : 0,
+                  }}
+                  className="max-lg:flex hidden flex-col items-end w-full "
+                >
+                  {item.submenu.map((item) => {
+                    return (
+                      <li key={item.id} className="py-2 text-base mr-2">
+                        <Link
+                          href=""
+                          onClick={handleClick}
+                          className="py-2 flex items-center "
+                        >
+                          {item.title}
+                          <div className="w-3 h-3 rounded-full bg-lightred ml-2"></div>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </motion.ul>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+      <div className="flex items-center justify-end mb-5 mr-10">
+        <Link
+          className="mr-5 text-xl hover:text-red-600 font-light rounded-lg"
+          href="alarm-report duration-300"
+        >
+          Şifre Talebi
+        </Link>
+        <Link
+          className="border-sky-800 border text-lg  py-1 px-3  font-light rounded-sm flex justify-center hover:border-red-700 hover:text-red-700 duration-300"
+          href="alarm-report"
+        >
+          <MdReport size={16} className="mr-1 text-red-700" />
+          Alarm Raporları
+        </Link>
+        <LangItems isMobile={true} />
+      </div>
+      <div className="mb-3 mr-10">
+        <SocialIcons isMobile={true} />
+      </div>
+    </motion.div>
+  );
 }
 
-export default MobileMenuItems
+export default MobileMenuItems;

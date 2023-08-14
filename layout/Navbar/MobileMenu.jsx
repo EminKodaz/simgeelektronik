@@ -10,7 +10,7 @@ function MobileMenu({ toggle, setToggle }) {
 
     return (
         <button className='hidden max-lg:flex  items-center ' onClick={handleClick}>
-            <BsListUl size={38} className='text-white' />
+            <BsListUl size={38} className='text-zinc-700' />
         </button>
     )
 }
