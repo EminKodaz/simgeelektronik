@@ -34,7 +34,7 @@ function MenuItems() {
               )}
             </Link>
             {item.submenu && (
-              <ul className="absolute top-7 py-3 left-1/2 transform -translate-x-1/2 w-44 border hidden group-hover:flex flex-col justify-start items-start p-3 rounded-md bg-[#ffffffbe]">
+              <ul className="absolute  top-7 py-3 left-1/2 transform -translate-x-1/2 w-44 border hidden group-hover:flex flex-col justify-start items-start p-3 rounded-md bg-[#fffffffb]">
                 {item.submenu.map((item) => {
                   return (
                     <li key={item.id} className="py-1 hover:text-lightred">

@@ -19,10 +19,10 @@ function Navbar() {
 
   return (
     <nav
-      className={`fixed max-lg:border-b backdrop-blur-sm w-full text-sm pt-3 flex flex-col items-center z-50 font-bold ${poppins.className}`}
+      className={`fixed max-lg:border-b max-lg:bg-[#fcfcfcf1] backdrop-blur-sm w-full text-sm pt-3 flex flex-col items-center z-50 font-bold ${poppins.className}`}
     >
       <TopBanner />
-      <div className="flex  border-b max-lg:border-b-0 pb-5 pt-3 justify-between max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
+      <div className="flex border-darkred border-b max-lg:border-b-0 pb-5 pt-3 justify-between max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
         <Image
           src="/images/logo.png"
           className="w-32"

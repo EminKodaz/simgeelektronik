@@ -88,18 +88,18 @@ function MobileMenuItems({ toggle, setToggle }) {
           );
         })}
       </ul>
-      <div className="flex items-center justify-end mb-5 mr-10">
+      <div className="flex flex-col items-end justify-end mb-5 mr-10">
         <Link
-          className="mr-5 text-xl hover:text-red-600 font-light rounded-lg"
+          className="mb-2 text-xl hover:text-red-600 font-light rounded-lg"
           href="alarm-report duration-300"
         >
           Şifre Talebi
         </Link>
         <Link
-          className="border-sky-800 border text-lg  py-1 px-3  font-light rounded-sm flex justify-center hover:border-red-700 hover:text-red-700 duration-300"
+          className="border-sky-800 mb-2 border text-lg  py-1 px-3  font-light rounded-sm flex justify-center hover:border-red-700 hover:text-red-700 duration-300"
           href="alarm-report"
         >
-          <MdReport size={16} className="mr-1 text-red-700" />
+          <MdReport size={24} className="mr-1 text-red-700" />
           Alarm Raporları
         </Link>
         <LangItems isMobile={true} />

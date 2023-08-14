@@ -5,7 +5,9 @@
 body {
   @apply bg-white;
 }
-
+.clg{
+  background: #5f1515;
+}
 .gradient-bg {
   background: rgb(255,255,255);
   background: linear-gradient(113deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.819765406162465) 62%, rgba(255,255,255,0.6937149859943977) 100%);

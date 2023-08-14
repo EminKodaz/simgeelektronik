@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 //* props ex:  translate = "translateY(-300px)"
 
-
 function InviewAnimate({ children, className, translate, bezier }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -14,7 +13,7 @@ function InviewAnimate({ children, className, translate, bezier }) {
         style={{
           transform: isInView ? "none" : translate,
           opacity: isInView ? 1 : 0,
-          transition: bezier
+          transition: bezier,
         }}
       >
         {children}
@@ -23,4 +22,4 @@ function InviewAnimate({ children, className, translate, bezier }) {
   );
 }
 
-export default InviewAnimate
+export default InviewAnimate;
