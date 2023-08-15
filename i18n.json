@@ -2,6 +2,6 @@
   "locales": ["en", "tr"],
   "defaultLocale": "tr",
   "pages": {
-    "*": ["navbar", "home", "footer", "about"]
+    "*": ["navbar", "home", "footer", "about", "contact"]
   }
 }
