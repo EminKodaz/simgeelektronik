@@ -3,6 +3,7 @@ import InviewAnimate from "@/components/Animation/InViewAnimate";
 import useTranslation from "next-translate/useTranslation";
 import DealershipForm from "@/components/Dealership/DealershipForm";
 import DealershipContent from "@/components/Dealership/DealershipContent";
+import DealershipForm2 from "@/components/Dealership/DealershipForm2";
 
 const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
@@ -42,7 +43,8 @@ function DealerShip() {
               translate="translateX(300px)"
               className="w-full"
             >
-              <DealershipForm />
+              {/* <DealershipForm /> */}
+              <DealershipForm2 />
             </InviewAnimate>
             <InviewAnimate
               bezier={bezier}
