@@ -1,0 +1,18 @@
+{
+  "dealershipHeader": "Bayi Girişi",
+  "dealershipDescription": "Elektronik güvenlik sektöründe öncü bir kuruluş olan SİMGE GROUP çalışanlarının bireysel ve profesyonel gelişimlerini tamamlamaları için her türlü fırsatı yaratır.",
+  "formTitle": "Bayi Kayıt Formu",
+  "formContentDescription": "Bayimiz başvurunuz için formu eksiksiz olarak doldurarak yazılı belgeleri bayibasvuru@simgeelektronik.com.tradresine göndermeniz gerekmektedir.",
+  "formDescriptionDetailList": [
+    "Ticaret Sicil Gazetesi",
+    "Vergi Levhası",
+    "Yetkili İmza sirküleri",
+    "Yetkili Nüfüs Cüzdanı Fotokopisi"
+  ],
+  "formContentDescriptionAuthor": "Simge Group",
+  "nameLabel": "Ad-Soyad",
+  "emailLabel": "Email",
+  "companyName": "Firma Adı",
+  "phoneNumber": "555-444-33-22",
+  "formButton": "Gönder"
+}

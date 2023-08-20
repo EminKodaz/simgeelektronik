@@ -1,0 +1,130 @@
+import useTranslation from "next-translate/useTranslation";
+import React, { useEffect, useState } from "react";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
+import axios from "axios";
+
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+
+function DealershipForm() {
+  const { t } = useTranslation("dealership");
+  const [phoneNumber, setPhoneNumber] = useState();
+
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    companyName: "",
+    tel: phoneNumber,
+  });
+
+  const [status, setStatus] = useState("idle");
+  const { name, email, companyName, tel } = values;
+
+  const handleChange = (e) => {
+    setValues({ ...values, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const send = await fetch("/api/humanResources", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+      setValues({
+        name: "",
+        email: "",
+        tel: "",
+        companyName: "",
+      });
+      setStatus(send.status === 200 ? "success" : "failed");
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const isFormValid =
+    name.trim() !== "" &&
+    companyName.trim() !== "" &&
+    tel.trim() !== "" &&
+    email.trim() !== "" &&
+    email.includes("@");
+
+  useEffect(() => {
+    setTimeout(() => {
+      setStatus("idle");
+    }, 2000);
+  }, [status === "success"]);
+  return (
+    <div className="min-w-full md:h-[40rem] min-h-fit md:w-1/2 md:p-10 p-3 mt-6 flex flex-col justify-center items-center  bg-[#FAFAFA] shadow-[0px_0px_61px_2px_#00000024] md:rounded-[2.5rem] rounded-2xl">
+      <form
+        onSubmit={(e) => handleSubmit(e)}
+        className="w-full gap-2 max-md:w-full m-auto flex font-medium text-black justify-start items-start flex-col"
+      >
+        <h1 className="text-2xl font-bold mb-5 text-center text-[#023047]">
+          {t("formTitle")}
+        </h1>
+        <input
+          className="p-3 indent-2 w-full mb-2 rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791]"
+          placeholder={t("nameLabel")}
+          required
+          name="name"
+          type="text"
+          value={name}
+          onChange={(e) => handleChange(e)}
+        ></input>
+        <input
+          className="p-3 indent-2 w-full mb-2 rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791]"
+          required
+          name="email"
+          value={email}
+          type="email"
+          placeholder={t("emailLabel")}
+          onChange={(e) => handleChange(e)}
+        ></input>
+        <input
+          className="p-3 indent-2 w-full mb-2 rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791]"
+          required
+          name="companyName"
+          value={companyName}
+          type="text"
+          placeholder={t("companyName")}
+          onChange={(e) => handleChange(e)}
+        ></input>
+        <PhoneInput
+          placeholder="Enter phone number"
+          className="p-3 indent-2 w-full mb-2 rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791]"
+          defaultCountry="TR"
+          value={phoneNumber}
+          onChange={setPhoneNumber}
+        />
+        <button
+          className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
+          type="submit"
+          disabled={!isFormValid}
+          onClick={() => setStatus("pending")}
+        >
+          {status === "idle" ? (
+            <>
+              <BsFillSendFill className="mr-2" /> {t("formButton")}
+            </>
+          ) : status === "pending" ? (
+            <AiOutlineLoading3Quarters className="animate-spin" size={32} />
+          ) : status === "success" ? (
+            <BsSendCheckFill size={32} />
+          ) : status === "failed" ? (
+            <BsSendCheckFill size={32} />
+          ) : (
+            ""
+          )}
+        </button>
+      </form>
+    </div>
+  );
+}
+
+export default DealershipForm;

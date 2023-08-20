@@ -11,15 +11,18 @@ function ContactHeader() {
     <>
       <Head>
         <title>Simge Elektronik İletişim Sayfası</title>
-        <meta name="description" content="F" />
+        <meta
+          name="description"
+          content="Firmamızın iletişim sayfası, Ankara merkezli ekmek otomasyon sistemleri hakkında daha fazla bilgi alabileceğiniz ve bize ulaşabileceğiniz bir platformdur. Profesyonel ve deneyimli ekibimiz, işletmenizin ekmek üretimi süreçlerinde size yardımcı olmak için burada bulunmaktadır. İletişim sayfamız aracılığıyla sorularınızı yöneltebilir, taleplerinizi iletebilir veya ürünlerimiz hakkında daha fazla bilgi alabilirsiniz. Müşteri odaklı yaklaşımımızla, size en uygun çözümleri sunmak için iletişim kanallarımızı sürekli olarak açık tutuyoruz. İşbirliği için bizi arayın veya iletişim formumuzu doldurun. Size hızlı ve etkili bir şekilde geri dönüş yapmaktan memnuniyet duyarız."
+        />
         <meta name="robots" content="index, follow"></meta>
         <meta name="author" content="KoerLabs"></meta>
-        <meta name="publisher" content="SİMGE ELEKTRONİK"></meta>
+        <meta name="publisher" content="BAAF MAKİNA"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mb-52">
-        <div className="min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%] mt-6 flex flex-col justify-center items-center">
+      <main className="min-h-fit mb-32">
+        <div className="w-full mt-6 flex flex-col justify-center items-center m-auto">
           <InviewAnimate
             bezier={bezier}
             translate="translateY(300px)"

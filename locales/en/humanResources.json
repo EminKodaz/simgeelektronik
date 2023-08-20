@@ -1,0 +1,24 @@
+{
+  "hrHeader": "İnsan Kaynakları",
+  "hrDescription": "Elektronik güvenlik sektöründe öncü bir kuruluş olan SİMGE GROUP çalışanlarının bireysel ve profesyonel gelişimlerini tamamlamaları için her türlü fırsatı yaratır.",
+  "hrDescriptionDetailHeader": "İnsan Kaynakları'nın misyonu, SİMGE GROUP’un elektronik güvenlik sektörü alanında,",
+  "hrDescriptionDetailList": [
+    "Güvenilir",
+    "Başkalarına duyarlı",
+    "Etik değerlere bağlı",
+    "Değişime açık",
+    "Pazar odaklı, girişimci, uzun vadeli ve alışılagelmiş sınırların dışında, çok boyutlu düşünebilen",
+    "Yenilikçi",
+    "Zorlayıcı hedefler belirleyen ve bunlara ulaşmak için yüksek tempoda çalışan"
+  ],
+  "hrDescriptionDetailFooter": "İşbirliğine açık ve katılımcı profile sahip bireyler için çalışılması en çok tercih edilen şirket olmasını sağlamak ile birlikte ayrıcalıklı bir topluluk olmayı hedeflemektedir.",
+  "formTitle": "İş Başvuru Formu",
+  "formContentDescription": "İş başvurunuzun değerlendirmeye alınabilmesi için, formda yer alan tüm alanların doğru ve eksiksiz bir biçimde doldurulması önemlidir. İlginiz için teşekkür ederiz.",
+  "formContentDescriptionAuthor": "Simge Group İnsan Kaynakları",
+  "nameLabel": "İsim",
+  "emailLabel": "Email",
+  "messageLabel": "Göndermek İstediğiniz Mesaj",
+  "selectCvLabel": "Lütfen CV'nizi yükleyiniz :",
+  "phoneNumber": "555-444-33-22",
+  "formButton": "Gönder"
+}
