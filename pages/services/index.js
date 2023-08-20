@@ -63,7 +63,7 @@ function Services() {
                   title={item.title}
                   desc={item.desc}
                   id={item.id}
-                  url={item.url}
+                  url={item.slug}
                   info={t("information")}
                 />
               );
