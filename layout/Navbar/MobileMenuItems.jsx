@@ -44,7 +44,7 @@ function MobileMenuItems({ toggle, setToggle }) {
               <Link
                 className="flex text-xl font-semibold m-2 w-full items-center ml-12"
                 onClick={item.submenu ? handleSubMenu : handleClick}
-                href="/#carousel"
+                href={item.link ? item.link : ""}
                 scroll={false}
               >
                 {item.submenu && (
@@ -72,7 +72,7 @@ function MobileMenuItems({ toggle, setToggle }) {
                     return (
                       <li key={item.id} className="py-2 text-base mr-2">
                         <Link
-                          href=""
+                          href={item.link}
                           onClick={handleClick}
                           className="py-2 flex items-center "
                         >
