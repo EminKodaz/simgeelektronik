@@ -38,7 +38,7 @@ function MenuItems() {
                 {item.submenu.map((item) => {
                   return (
                     <li key={item.id} className="py-1 hover:text-lightred">
-                      <Link href="" className="py-1 ">
+                      <Link href={item.link} className="py-1 ">
                         {item.title}
                       </Link>
                     </li>

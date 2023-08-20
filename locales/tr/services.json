@@ -1,21 +1,52 @@
 {
-  "caption-1": "Neler ",
-  "caption-2": "Yapıyoruz ?",
+  "caption-1": "Hizmetlerimiz",
+  "main-desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+  "caption-2": "Sizler İçin",
+  "caption-3": "En İyi Hizmeti Sunuyoruz",
+  "sub-desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+  "information": "Daha Fazla Bilgi",
   "services-items": [
     {
-      "id": 1,
-      "title": "Web Aplikasyonları",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 201,
+      "icon": "",
+      "title": "Güvenlik Kamerası",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
     },
     {
-      "id": 2,
-      "title": "Kurumsal Web Çözümleri",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 202,
+      "icon": "",
+      "title": "Yangın Alarmı",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
     },
     {
-      "id": 3,
-      "title": "Farklı ve Özel Tasarımlar",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 203,
+      "icon": "",
+      "title": "Akıllı Ev Çözümleri",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
+    },
+    {
+      "id": 204,
+      "icon": "",
+      "title": "Ev Güvenliği",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
+    },
+    {
+      "id": 205,
+      "icon": "",
+      "title": "İş Yeri Güvenliği",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
+    },
+    {
+      "id": 206,
+      "icon": "",
+      "title": "Akıllı Alarm Sistemleri",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "url": "a"
     }
   ]
 }

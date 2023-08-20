@@ -3,5 +3,20 @@
   "slogan-part-2": "Technology,",
   "slogan-part-3": "Aesthetic",
   "slogan-part-4": "Designs",
-  "head-tech": "Which Technologies Are We Using?"
+  "head-tech": "Which Technologies Are We Using?",
+  "faq-title": "Sıkça Sorulan Sorular",
+  "faq": [
+    {
+      "title": "Neden Simge Elektronik",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "title": "Çalışma Sürecimiz Ve sonrası",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "title": "Ödemeler Ve abonelik",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    }
+  ]
 }

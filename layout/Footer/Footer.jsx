@@ -4,7 +4,7 @@ import CompanyArticle from './CompanyArticle'
 
 function Footer() {
   return (
-    <footer className='min-h-[24rem] bg-[#161616] flex flex-col'>
+    <footer className='min-h-[24rem] bg-[#161616] flex flex-col z-50 relative'>
       <section className='w-[95%] grid grid-cols-3 max-lg:grid-cols-1 m-auto '>
         <QuickLinks />
         <CompanyArticle />

@@ -10,11 +10,11 @@ function Header() {
   const { t } = useTranslation("home");
 
   return (
-    <section className="z-10 mt-44 w-[75%] max-lg:mt-32 max-lg:w-[90%] m-auto grid grid-cols-2 max-lg:grid-cols-1">
+    <section className="z-10 mt-44 w-[75%] max-lg:mt-32 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto grid grid-cols-2 max-lg:grid-cols-1 gap-5">
       <InviewAnimate bezier={bezier} translate="translateX(300px)">
         <HeaderLeftSide />
       </InviewAnimate>
-      <InviewAnimate bezier={bezier} translate="translateX(-300px)">
+      <InviewAnimate bezier={bezier} translate="translateX(-300px) " className="h-full">
         <HeaderRightSide />
       </InviewAnimate>
     </section>

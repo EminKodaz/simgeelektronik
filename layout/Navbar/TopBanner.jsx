@@ -5,7 +5,7 @@ import LangItems from "./LangItems";
 
 function TopBanner() {
   return (
-    <section className="flex max-lg:hidden justify-between items-center max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
+    <section className="flex max-lg:hidden justify-between  items-center max-lg:w-[95%] min-[2000px]:w-[60%] w-[75%] m-auto max-[1300px]:w-[95%]">
       <tel className="text-xs font-light">Tel: +90 (312) 287 17 40 (PBX)</tel>
       <div className="flex items-center justify-between">
         <Link

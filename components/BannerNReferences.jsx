@@ -1,17 +1,20 @@
 import React from "react";
+import { Keyboard, Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
+
+
 
 function BannerNReferences() {
   const { t } = useTranslation("home");
 
   return (
     <div className="mb-48 mt-16 relative">
-      <div className="grid grid-cols-2 spreadShadow w-[75%] m-auto rounded-xl bg-white p-10 z-10 relative">
+      <div className="grid grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-xl bg-white p-10 z-10 relative">
         <article>
           <h2 className="text-6xl font-bold mb-5 text-zinc-800">
             {t("banner-ref-head")}
@@ -42,14 +45,18 @@ function BannerNReferences() {
           />
         </div>
       </div>
-      <div className="w-screen border bg-lightred-2 h-64 flex items-baseline absolute -bottom-32 z-0">
-        <div className="w-[75%] m-auto">
+      <div className="w-full  bg-lightred h-64 flex items-baseline absolute -bottom-32 z-0">
+        <div className="w-[75%] max-lg:w-[95%] m-auto ">
           <Swiper
+            modules={[Keyboard, Autoplay, Pagination]}
             spaceBetween={50}
             slidesPerView={3}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-            className="mt-28"
+            className="mt-28  w-full text-center text-white text-xl"
+            loop={true}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
           >
             <SwiperSlide>Slide 1</SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>

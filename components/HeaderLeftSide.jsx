@@ -6,10 +6,10 @@ function HeaderLeftSide() {
   const { t } = useTranslation("home");
   return (
     <div className="max-lg:mb-10">
-      <h1 className="text-5xl font-bold mb-5 text-darkred">
+      <h1 className="text-5xl max-[1300px]:text-4xl font-bold mb-5 text-darkred">
         {t("slogan-part-1")}
       </h1>
-      <h1 className="text-5xl font-bold text-lightred">{t("slogan-part-2")}</h1>
+      <h1 className="text-5xl max-[1300px]:text-4xl font-bold text-lightred">{t("slogan-part-2")}</h1>
       <div className="flex mt-5">
         <div className="w-7 h-7 bg-darkred rounded-full "></div>
         <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>

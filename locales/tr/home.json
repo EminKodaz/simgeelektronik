@@ -5,7 +5,7 @@
   "experience": "Tecrübe",
   "product": "Ürün",
   "project-done": "Teslim Edilen Proje",
-  "exploration": "Ücretsiz Keşif Formu",
+  "exploration-link": "Ücretsiz Keşif Formu",
   "innovate": "Yenilikçilik",
   "innovate-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
   "high-quality": "Yüksek Kalite",
@@ -19,5 +19,28 @@
   "banner-ref-head-2": "7/24 Destek",
   "banner-ref-p-2": "lorem ipsum dolor",
   "banner-ref-head-3": "5 yıl garanti",
-  "banner-ref-p-3": "lorem ipsum dolor"
+  "banner-ref-p-3": "lorem ipsum dolor",
+  "working-process": "Çalışma Sürecimiz",
+  "working-process-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+  "exploration-t": "Keşif",
+  "exploration-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "research-t": "Araştırma",
+  "research-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "setup-t": "Kurulum",
+  "setup-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "faq-title": "Sıkça Sorulan Sorular",
+  "faq": [
+    {
+      "title": "Neden Simge Elektronik",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "title": "Çalışma Sürecimiz Ve sonrası",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    },
+    {
+      "title": "Ödemeler Ve abonelik",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    }
+  ]
 }

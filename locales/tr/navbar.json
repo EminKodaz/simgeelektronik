@@ -13,22 +13,22 @@
         {
           "id": 100,
           "title": "Hakkımızda",
-          "link": "corporate/about-us"
+          "link": "about-us"
         },
         {
           "id": 101,
           "title": "Sertifikalarımız",
-          "link": "corporate/certificates"
+          "link": "certificates"
         },
         {
           "id": 102,
           "title": "Bayilik Başvurusu",
-          "link": "corporate/dealership"
+          "link": "dealership"
         },
         {
           "id": 103,
           "title": "İnsan Kaynakları",
-          "link": "corporate/human-resources"
+          "link": "human-resources"
         }
       ]
     },
