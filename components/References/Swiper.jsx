@@ -11,10 +11,9 @@ function SwiperSlider({
   reverseDirection,
   data,
 }) {
-  //   SwiperCore.use([Autoplay]);
   return (
     <Swiper
-      className="my-28 pl-40 h-24 flex justify-center items-center  border-2 border-gray-200"
+      className="my-28 pl-40 h-48 flex justify-center items-center  border-2 border-gray-200"
       slidesPerView={slidesPerView}
       modules={[Autoplay]}
       loop={loop}
@@ -22,10 +21,9 @@ function SwiperSlider({
       autoplay={{
         delay: delay,
         pauseOnMouseEnter: true,
+        disableOnInteraction: false,
         reverseDirection: reverseDirection,
       }}
-      //   onSlideChange={() => console.log("slide change")}
-      //   onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide
         className="flex flex-row justify-center flex-wrap content-center"

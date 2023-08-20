@@ -15,7 +15,7 @@ function MapLocations() {
   }, [t]);
 
   return (
-    <div className="w-[70%] gap-6 max-lg:w-[90%] m-auto flex flex-col my-12">
+    <div className="min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%] gap-6 flex flex-col my-12">
       <h3 className="border-b text-center border-darkred mb-2 pb-2 text-darkred text-4xl font-medium">
         {t("contact:locationsHeader")}
       </h3>

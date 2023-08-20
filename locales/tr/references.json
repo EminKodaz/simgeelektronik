@@ -1,42 +1,44 @@
 {
-    "references-1": [
-        {
-            "id": 303,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 304,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 305,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        }
-    ],
-    "references-2": [
-        {
-            "id": 306,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 307,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 308,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        }
-    ]
+  "referencesHeader": "Referanslarımız",
+  "referencesDescription": "Birbirinden güzel projelerle bize destek olan referanslarımızı aşağıda görebilirsiniz.",
+  "references-1": [
+    {
+      "id": 303,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 304,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 305,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ],
+  "references-2": [
+    {
+      "id": 306,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 307,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 308,
+      "url": "/cumhur.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ]
 }
