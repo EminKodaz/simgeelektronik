@@ -11,10 +11,10 @@ function DealershipContent() {
 
   return (
     <div className="text-white flex flex-col lg:gap-9 gap-2 pl-4">
-      <div className="text-start text-lg font-bold italic">
+      <div className="text-start md:text-lg text-md font-bold italic">
         {t("formContentDescription")}
       </div>
-      <div className="text-start text-lg">
+      <div className="text-start md:text-lg text-md">
         {list.map((item, index) => {
           return (
             <ul key={index}>
@@ -23,7 +23,7 @@ function DealershipContent() {
           );
         })}
       </div>
-      <div className="text-start text-lg">
+      <div className="text-start md:text-lg text-md">
         {t("formContentDescriptionAuthor")}
       </div>
     </div>

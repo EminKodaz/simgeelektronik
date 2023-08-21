@@ -2,7 +2,7 @@
   "dealershipHeader": "Bayi Girişi",
   "dealershipDescription": "Elektronik güvenlik sektöründe öncü bir kuruluş olan SİMGE GROUP çalışanlarının bireysel ve profesyonel gelişimlerini tamamlamaları için her türlü fırsatı yaratır.",
   "formTitle": "Bayi Kayıt Formu",
-  "formContentDescription": "Bayimiz başvurunuz için formu eksiksiz olarak doldurarak yazılı belgeleri bayibasvuru@simgeelektronik.com.tradresine göndermeniz gerekmektedir.",
+  "formContentDescription": "Bayimiz başvurunuz için formu eksiksiz olarak doldurarak yazılı belgeleri bayibasvuru@simgeelektronik.com.tr adresine göndermeniz gerekmektedir.",
   "formDescriptionDetailList": [
     "Ticaret Sicil Gazetesi",
     "Vergi Levhası",
@@ -13,6 +13,6 @@
   "nameLabel": "Ad-Soyad",
   "emailLabel": "Email",
   "companyName": "Firma Adı",
-  "phoneNumber": "5554443322",
+  "phoneNumber": "Telefon Numarası Örn. 5554443322",
   "formButton": "Gönder"
 }

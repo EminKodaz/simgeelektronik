@@ -46,8 +46,6 @@ const DealershipForm2 = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Validation logic
     const newErrors = {};
     if (!formData.fullName) newErrors.fullName = "Ad-Soyad alanı zorunludur.";
     if (!formData.email) newErrors.email = "Email alanı zorunludur.";
@@ -63,7 +61,6 @@ const DealershipForm2 = () => {
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
     } else {
-      // Submit logic (API call, etc.)
       console.log("Form submitted:", formData);
       setFormData({
         fullName: "",
