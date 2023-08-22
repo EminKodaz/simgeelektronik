@@ -22,14 +22,12 @@ function BlogDetail() {
 
   useEffect(() => {
     const blogItems = t("blog-list", {}, { returnObjects: true });
-    if (filteredBlog === undefined) {
-      setFilteredBlog(blogItems.filter((item) => item.slug.includes(blogSlug)));
-      setItnerestedBlogs(
-        blogItems.filter((item) => !item.slug.includes(blogSlug))
-      );
-    }
-    console.log(interestedBlogs);
-  }, [blogSlug, filteredBlog, interestedBlogs, setItnerestedBlogs, t]);
+    setFilteredBlog(blogItems.filter((item) => item.slug.includes(blogSlug)));
+    setItnerestedBlogs(
+      blogItems.filter((item) => !item.slug.includes(blogSlug))
+    );
+    console.log(filteredBlog, " HERE");
+  }, [blogSlug]);
 
   return (
     <>
