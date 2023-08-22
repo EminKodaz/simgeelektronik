@@ -153,7 +153,7 @@ const DealershipForm2 = () => {
           >
             <div className="flex items-center justify-start">
               <FaFolderPlus size={32} />
-              Select File
+              Dosya Seç
             </div>
             <p className="text-gray-500 mt-1">
               {formData.files.length == 1 ? formData.files[0].name : fileStatus}
@@ -163,7 +163,7 @@ const DealershipForm2 = () => {
             id="selectFile"
             type="file"
             multiple
-            accept=".pdf,.doc,.docx,.png"
+            accept=".pdf,.doc,.docx"
             onChange={handleFileChange}
             className={`hidden`}
           />

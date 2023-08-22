@@ -1,19 +1,49 @@
-import React from 'react'
-import QuickLinks from './QuickLinks'
-import CompanyArticle from './CompanyArticle'
+import React from "react";
+import Image from "next/image";
+import useTranslation from "next-translate/useTranslation";
+import SocialMedia from "@/components/SocialMedia";
+import WorkingHours from "./WorkingHours";
+import QuickLinks from "./QuickLinks";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Footer() {
+  const { t } = useTranslation("footer");
+
   return (
-    <footer className='min-h-[24rem] bg-[#161616] flex flex-col z-50 relative'>
-      <section className='w-[95%] grid grid-cols-3 max-lg:grid-cols-1 m-auto '>
-        <QuickLinks />
-        <CompanyArticle />
-      </section>
-      <p className='text-white text-center py-3 border-t border-zinc-600'>
-        Created by Koer Labs
-      </p>
+    <footer className="min-h-[24rem] bg-[url('/images/footerImg.jpg')] bg-cover  flex flex-col z-50 relative">
+      <div className="bg-[#5e23239a] backdrop-blur-[2px]">
+        <section className="min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%] grid grid-cols-3 max-lg:grid-cols-1 max-lg:gap-10 py-14">
+          <div className="flex flex-col items-start max-lg:items-center pr-10 gap-5">
+            <Image
+              src="/images/logo.png"
+              className="w-80"
+              width={2611}
+              height={609}
+              alt="simgeelektronik"
+            />
+            <p className="text-zinc-300 text-start max-lg:items-center mt-5">
+              {t("footerDescription")}
+            </p>
+            <SocialMedia />
+          </div>
+          <QuickLinks />
+          <div className="w-fit mx-auto max-lg:items-center">
+            <WorkingHours />
+            <button className="py-4 px-8 bg-sky-600 my-7 rounded-2xl text-white hover:text-sky-950 hover:scale-110 hover:bg-slate-200 duration-200">
+              <BsFillTelephoneFill className="inline-block mr-2" size={20} />
+              {t("contactCallButton")}
+            </button>
+          </div>
+        </section>
+        <p className="text-zinc-300 text-center py-3 border-t border-zinc-600">
+          {t("copyRight")}
+        </p>
+        <p className="text-zinc-300 text-center py-3 border-t border-zinc-600">
+          Created by Koer Labs
+        </p>
+      </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
