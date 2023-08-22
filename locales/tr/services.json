@@ -8,42 +8,42 @@
   "services-items": [
     {
       "id": 201,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "Güvenlik Kamerası",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "securtiy-camera"
     },
     {
       "id": 202,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "Yangın Alarmı",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 203,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "Akıllı Ev Çözümleri",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 204,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "Ev Güvenliği",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 205,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "İş Yeri Güvenliği",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 206,
-      "icon": "",
+      "icon": "/icons/security-camera.png",
       "title": "Akıllı Alarm Sistemleri",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
