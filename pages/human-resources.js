@@ -47,7 +47,7 @@ function HumanResources() {
             <InviewAnimate
               bezier={bezier}
               translate="translateX(-300px)"
-              className="w-full"
+              className="w-full max-sm:py-10"
             >
               <HrContent />
             </InviewAnimate>

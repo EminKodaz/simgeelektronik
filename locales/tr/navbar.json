@@ -4,7 +4,7 @@
     {
       "id": 1,
       "title": "Anasayfa",
-      "link": "tr"
+      "link": "/"
     },
     {
       "id": 2,
@@ -13,44 +13,44 @@
         {
           "id": 100,
           "title": "Hakkımızda",
-          "link": "about-us"
+          "link": "/about-us"
         },
         {
           "id": 101,
           "title": "Sertifikalarımız",
-          "link": "certificates"
+          "link": "/certificates"
         },
         {
           "id": 102,
           "title": "Bayilik Başvurusu",
-          "link": "dealership"
+          "link": "/dealership"
         },
         {
           "id": 103,
           "title": "İnsan Kaynakları",
-          "link": "human-resources"
+          "link": "/human-resources"
         }
       ]
     },
     {
       "id": 3,
       "title": "Referanslarımız",
-      "link": "references"
+      "link": "/references"
     },
     {
       "id": 4,
       "title": "Hizmetlerimiz",
-      "link": "services"
+      "link": "/services"
     },
     {
       "id": 5,
       "title": "Blog",
-      "link": "blog"
+      "link": "/blog"
     },
     {
       "id": 7,
       "title": "İletişim",
-      "link": "contact"
+      "link": "/contact"
     }
   ]
 }

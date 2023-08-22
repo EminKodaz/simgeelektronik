@@ -24,7 +24,7 @@ function Contact() {
           translate="translateY(-300px)"
           className="w-full"
         >
-          <section className="mt-44">
+          <section className="md:mt-44">
             <h1 className="text-6xl text-darkred text-center">
               {t("contactHeader")}
             </h1>
