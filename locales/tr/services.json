@@ -1,6 +1,6 @@
 {
   "caption-1": "Hizmetlerimiz",
-  "main-desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+  "main-desc": "1994'te kurulan grubumuz, başlangıçta elektronik cihaz yetkili servisliği, uydu sistemleri ve kapı konuşma sistemleri alanlarında faaliyet gösterdi. Ancak 2003'te teknolojinin gelişimine ayak uydurarak, Kablo TV ve İnternet Altyapısı sektörüne yönelerek ve Elektronik Güvenlik Sistemleri alanında da faaliyete geçerek yeniden yapılandı. Ankara'nın en büyük ve modern Alarm Haber Alma Merkezini kurarak, dünya çapında kaliteli ürünlerin Türkiye distribütörlüğünü üstlendi. Teknolojinin lideri olarak 1994'ten bu yana sektörde fark yaratıyoruz.",
   "caption-2": "Sizler İçin",
   "caption-3": "En İyi Hizmeti Sunuyoruz",
   "sub-desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
@@ -8,45 +8,38 @@
   "services-items": [
     {
       "id": 201,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/alarm.png",
       "title": "Hırsız Alarm Sistemleri",
       "desc": "Alarm Sistemi: Ev veya işyerlerinin hırsızlık, tehdit, gasp, yangın, sağlık sorunu gibi acil durumlarında otomatik olarak alarm haberalma merkezini, mal sahibini ve komşuları haberdar ederek yardım çağrısını tetikleyen etkili bir elektronik güvenlik çözümüdür. Anında tepki ve iletişim özellikleri ile alarm sistemi, güvenliğinizi en üst seviyeye çıkarmak için tasarlanmıştır.",
-      "slug": "securtiy-camera"
+      "slug": "hirsiz-alarm-sistemleri"
     },
     {
       "id": 202,
       "icon": "/icons/smoke-detector.png",
-      "title": "Yangın Alarmı",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-      "slug": "a"
+      "title": "Yangın Alarm Sistemleri",
+      "desc": "Yangın algılama sistemleri, binaların ve endüstriyel tesislerin yangına karşı korunmasında kritik bir rol oynar. Bu sistemler, yangını erken aşamada tespit edip bildirim sağlayarak hızlı müdahale imkanı sunar. Böylece can ve mal güvenliğini artırır. Yangın algılama sistemleri, yangının önceden tespiti ve yayılmasının engellenmesi açısından büyük önem taşır.",
+      "slug": "yangin-alarm-sistemleri"
     },
     {
       "id": 203,
       "icon": "/icons/home-automation.png",
-      "title": "Akıllı Ev Çözümleri",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-      "slug": "a"
+      "title": "Akıllı Ev Sistemleri",
+      "desc": "Akıllı ev sistemleri, günümüzün modern yaşam tarzını daha konforlu ve güvenli hale getiriyor. Evdeki ışıkları uzaktan kontrol edebilir, güvenlik sistemlerini yönetebilir, enerji verimliliğini artırabilirsiniz. Akıllı ev teknolojisi ile yaşamınızı daha rahat ve etkili bir şekilde yönetmek artık mümkün. Konfor ve güvenliğin bir arada olduğu akıllı ev sistemlerini keşfedin!",
+      "slug": "akilli-ev-sistemleri"
     },
     {
       "id": 204,
-      "icon": "/icons/smart-lock.png",
-      "title": "Ev Güvenliği",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-      "slug": "a"
-    },
-    {
-      "id": 205,
-      "icon": "/icons/workplace.png",
-      "title": "İş Yeri Güvenliği",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-      "slug": "a"
+      "icon": "/icons/cctv.png",
+      "title": "CCTV Kamera Sistemleri",
+      "desc": "CCTV kameralar, güvenlik önlemlerini üst seviyeye taşıyor. Ev, iş yeri veya herhangi bir alanı gözetim altında tutarak güvenliği artırıyor. Uzaktan izleme özelliği ile her an kontrol altındasınız. Gelişmiş teknolojisi sayesinde görüntü kalitesi yüksek ve keskin. Hem iç hem de dış mekanlarda etkili sonuçlar sunar.",
+      "slug": "cctv-kamera-sistemleri"
     },
     {
       "id": 206,
-      "icon": "/icons/alarm.png",
-      "title": "Akıllı Alarm Sistemleri",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-      "slug": "a"
+      "icon": "/icons/gate.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": "Geçiş kontrol sistemleri, alanlarınızı daha güvenli hale getirmenin anahtarıdır. Kapı, turnike ve kart okuyucu gibi bileşenleri içeren bu sistemler, yetkisiz erişimi engeller. Sadece yetkili kişilere giriş izni vererek güvenliği artırır. Personel ve ziyaretçi takibi ile alanlarınızı kontrol altında tutmanızı sağlar. Uzaktan izleme ve yönetim seçenekleri ile etkili bir güvenlik sağlar.",
+      "slug": "gecis-kontrol-sistemleri"
     }
   ]
 }
