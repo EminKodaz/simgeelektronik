@@ -9,41 +9,41 @@
     {
       "id": 201,
       "icon": "/icons/security-camera.png",
-      "title": "Güvenlik Kamerası",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+      "title": "Hırsız Alarm Sistemleri",
+      "desc": "Alarm Sistemi: Ev veya işyerlerinin hırsızlık, tehdit, gasp, yangın, sağlık sorunu gibi acil durumlarında otomatik olarak alarm haberalma merkezini, mal sahibini ve komşuları haberdar ederek yardım çağrısını tetikleyen etkili bir elektronik güvenlik çözümüdür. Anında tepki ve iletişim özellikleri ile alarm sistemi, güvenliğinizi en üst seviyeye çıkarmak için tasarlanmıştır.",
       "slug": "securtiy-camera"
     },
     {
       "id": 202,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/smoke-detector.png",
       "title": "Yangın Alarmı",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 203,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/home-automation.png",
       "title": "Akıllı Ev Çözümleri",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 204,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/smart-lock.png",
       "title": "Ev Güvenliği",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 205,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/workplace.png",
       "title": "İş Yeri Güvenliği",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
     },
     {
       "id": 206,
-      "icon": "/icons/security-camera.png",
+      "icon": "/icons/alarm.png",
       "title": "Akıllı Alarm Sistemleri",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
       "slug": "a"
