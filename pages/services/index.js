@@ -26,11 +26,11 @@ function Services() {
             <h1 className="text-6xl text-darkred text-center">
               {t("caption-1")}
             </h1>
-            <div className="flex mt-5 justify-center">
+            {/* <div className="flex mt-5 justify-center">
               <div className="w-7 h-7 bg-darkred rounded-full "></div>
               <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>
               <div className="w-7 h-7 bg-darkred rounded-full ml-3"></div>
-            </div>
+            </div> */}
             <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
               {t("main-desc")}
             </p>

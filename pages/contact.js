@@ -16,7 +16,7 @@ function Contact() {
   }, [t]);
 
   return (
-    <main className="flex flex-col m-auto min-h-screen text-center">
+    <main className="flex flex-col m-auto min-h-screen text-center overflow-hidden">
       <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
       <div className="z-10 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
         <InviewAnimate
@@ -28,11 +28,11 @@ function Contact() {
             <h1 className="text-6xl text-darkred text-center">
               {t("contactHeader")}
             </h1>
-            <div className="flex mt-5 justify-center">
+            {/* <div className="flex mt-5 justify-center">
               <div className="w-7 h-7 bg-darkred rounded-full "></div>
               <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>
               <div className="w-7 h-7 bg-darkred rounded-full ml-3"></div>
-            </div>
+            </div> */}
             <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
               {t("contactDescription")}
             </p>
