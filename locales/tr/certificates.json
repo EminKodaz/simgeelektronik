@@ -1,0 +1,40 @@
+{
+  "allCertficates": [
+    {
+      "name": "Alarm Merkezi Kurma ve İzleme",
+      "url": "/certificates/alarm-merkezi-kurma-ve-izleme.jpg"
+    },
+    {
+      "name": "Garanti Belgesi",
+      "url": "/certificates/garanti-belgesi.jpg"
+    },
+    {
+      "name": "TSE Hizmet Yeterlilik Belgesi",
+      "url": "/certificates/hizmet-yeterlilik.jpg"
+    },
+    {
+      "name": "İSO 9001 Belgesi",
+      "url": "/certificates/iso-9001.jpg"
+    },
+    {
+      "name": "İSO 27001 Belgesi",
+      "url": "/certificates/iso-27001.jpg"
+    },
+    {
+      "name": "Kalibrasyon Belgesi",
+      "url": "/certificates/kalibrasyon.jpg"
+    },
+    {
+      "name": "Ohsas 18001 Belgesi",
+      "url": "/certificates/ohsas-18001.jpg"
+    },
+    {
+      "name": "Satış sonrası hizmet yeterlilik Belgesi",
+      "url": "/certificates/satis-sonrasi-hizmet-yeterlilik.jpg"
+    },
+    {
+      "name": "Satış sonrası hizmet yeterlilik 2 Belgesi",
+      "url": "/certificates/satis-sonrasi-hizmet-yeterlilik2.jpg"
+    }
+  ]
+}
