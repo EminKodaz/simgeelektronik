@@ -14,7 +14,7 @@ function Certificates() {
 
   return (
     <main className="flex flex-col min-h-screen min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
-      <div className="my-44 m-auto items-center grid grid-cols-3 gap-4">
+      <div className="my-44 m-auto items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         {certificates &&
           certificates.map((certificate, index) => {
             return (
