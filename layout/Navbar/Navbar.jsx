@@ -6,7 +6,6 @@ import MobileMenuItems from "./MobileMenuItems";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
-import { MdReport } from "react-icons/md";
 import TopBanner from "./TopBanner";
 
 const poppins = Poppins({
@@ -23,13 +22,15 @@ function Navbar() {
     >
       <TopBanner />
       <div className="flex border-darkred border-b max-lg:border-b-0 pb-5 pt-3 justify-between min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
+      <Link href="/">
         <Image
           src="/images/logo.png"
           className="w-32"
-          width={2611}
-          height={609}
+          width={1600}
+          height={886}
           alt="simgeelektronik"
         />
+       </Link> 
         <MenuItems />
         <div className="max-lg:hidden flex items-center w-[10%]">
           <SocialIcons />

@@ -2,11 +2,6 @@
   "header": "marhaba",
   "menuItems": [
     {
-      "id": 1,
-      "title": "Anasayfa",
-      "link": "/"
-    },
-    {
       "id": 2,
       "title": "Kurumsal",
       "submenu": [
