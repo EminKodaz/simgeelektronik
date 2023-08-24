@@ -20,6 +20,7 @@ function SwiperSlider({
     <Swiper
       className="my-5 pl-40 h-72 flex justify-center items-center"
       slidesPerView={slidesPerView}
+      spaceBetween={30}
       modules={[Autoplay]}
       loop={loop}
       speed={speed}
@@ -27,6 +28,31 @@ function SwiperSlider({
         delay: delay,
         pauseOnMouseEnter: true,
         reverseDirection: reverseDirection,
+      }}
+      breakpoints={{
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 150,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 180,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
       }}
     >
       {data.map((item) => {
