@@ -43,19 +43,19 @@ function References() {
             className="w-full"
           >
             <section className="mt-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
-              <h1 className="text-6xl text-darkred text-center">
+              <h1 className="md:text-6xl text-3xl text-darkred text-center">
                 {t("referencesHeader")}
               </h1>
               <div className="flex mt-5 items-center justify-center">
                 <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
                 <div className="w-4 h-4 bg-darkred rounded-full "></div>
               </div>
-              <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
+              <p className="px-20 max-lg:px-0 max-lg:text-left text-center md:text-xl text-lg mt-5 font-semibold text-zinc-600">
                 {t("referencesDescription")}
               </p>
             </section>
           </InviewAnimate>
-          <div className="my-20">
+          <div className="md:my-20">
             <InviewAnimate
               bezier={bezier}
               translate="translateY(300px)"
