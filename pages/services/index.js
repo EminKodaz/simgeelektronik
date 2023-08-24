@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 import ServicesCard from "@/components/ServicesCard";
 import InviewAnimate from "@/components/Animation/InViewAnimate";
+import Head from "next/head";
 
 const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
@@ -15,6 +16,15 @@ function Services() {
 
   return (
     <>
+      <Head>
+        <title>{t("headtitle:services-t")}</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="author" content=""></meta>
+        <meta name="publisher" content=""></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <main className=" flex flex-col relative">
         <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
         <InviewAnimate
@@ -26,11 +36,10 @@ function Services() {
             <h1 className="text-6xl text-darkred text-center">
               {t("caption-1")}
             </h1>
-            {/* <div className="flex mt-5 justify-center">
-              <div className="w-7 h-7 bg-darkred rounded-full "></div>
-              <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>
-              <div className="w-7 h-7 bg-darkred rounded-full ml-3"></div>
-            </div> */}
+            <div className="flex mt-5 items-center justify-center">
+              <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
+              <div className="w-4 h-4 bg-darkred rounded-full "></div>
+            </div>
             <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
               {t("main-desc")}
             </p>

@@ -7,8 +7,6 @@ import "swiper/css/pagination";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 
-
-
 function BannerNReferences() {
   const { t } = useTranslation("home");
 
@@ -19,6 +17,10 @@ function BannerNReferences() {
           <h2 className="text-6xl font-bold mb-5 text-zinc-800">
             {t("banner-ref-head")}
           </h2>
+          <div className="flex mt-6 mb-6 items-center ">
+            <div className="w-32 h-3 bg-lightred rounded-full mr-3"></div>
+            <div className="w-5 h-5 bg-darkred rounded-full "></div>
+          </div>
           <p className="text-lg font-medium text-zinc-700">
             {t("banner-ref-p")}
           </p>
@@ -30,11 +32,6 @@ function BannerNReferences() {
             {t("banner-ref-head-3")}
           </h3>
           <p>{t("banner-ref-p-3")}</p>
-          <div className="flex justify-center mt-5">
-            <div className="w-10 h-10 bg-darkred rounded-full "></div>
-            <div className="w-10 h-10 bg-lightred rounded-full ml-3"></div>
-            <div className="w-10 h-10 bg-darkred rounded-full ml-3"></div>
-          </div>
         </article>
         <div className="p-5">
           <Image

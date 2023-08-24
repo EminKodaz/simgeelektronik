@@ -22,15 +22,15 @@ function Navbar() {
     >
       <TopBanner />
       <div className="flex border-darkred border-b max-lg:border-b-0 pb-5 pt-3 justify-between min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
-      <Link href="/">
-        <Image
-          src="/images/logo.png"
-          className="w-32"
-          width={1600}
-          height={886}
-          alt="simgeelektronik"
-        />
-       </Link> 
+        <Link href="/">
+          <Image
+            src="/images/logo.png"
+            className="w-28"
+            width={1600}
+            height={886}
+            alt="simgeelektronik"
+          />
+        </Link>
         <MenuItems />
         <div className="max-lg:hidden flex items-center w-[10%]">
           <SocialIcons />

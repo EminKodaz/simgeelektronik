@@ -1,5 +1,6 @@
 import InviewAnimate from "@/components/Animation/InViewAnimate";
 import useTranslation from "next-translate/useTranslation";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
@@ -10,6 +11,15 @@ function AboutUs() {
 
   return (
     <>
+      <Head>
+        <title>{t("headtitle:about-us-t")}</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="author" content=""></meta>
+        <meta name="publisher" content=""></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <main className="flex flex-col ">
         <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
         <InviewAnimate
@@ -21,11 +31,10 @@ function AboutUs() {
             <h1 className="text-6xl text-darkred text-center">
               {t("caption")}
             </h1>
-            {/* <div className="flex mt-5 justify-center">
-              <div className="w-7 h-7 bg-darkred rounded-full "></div>
-              <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>
-              <div className="w-7 h-7 bg-darkred rounded-full ml-3"></div>
-            </div> */}
+            <div className="flex mt-5 items-center justify-center">
+              <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
+              <div className="w-4 h-4 bg-darkred rounded-full "></div>
+            </div>
             <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
               {t("main-desc")}
             </p>
@@ -38,11 +47,11 @@ function AboutUs() {
         >
           <section className="grid grid-cols-2 max-lg:grid-cols-1 mt-12 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-5 m-auto mb-24 rounded-2xl overflow-hidden group">
             <div className="bg-[url('/images/aboutside.jpg')] max-lg:hidden bg-cover bg-no-repeat w-full relative">
-              <div className="bg-[#7a181883] w-full h-full  absolute duration-500 -bottom-1/2 transofrm group-hover:-translate-y-1/2 flex flex-col justify-end">
-                <div className="flex   justify-center w-full items-center  h-1/2 rotate-90 group-hover:rotate-0 duration-300">
-                  <div className="w-7 h-7 bg-[#ffffff91] group-hover:bg-[#ff5555c5] rounded-full group-hover:scale-150 duration-300"></div>
-                  <div className="w-7 h-7 bg-[#ff5555c5] group-hover:bg-[#ffffff91]  rounded-full group-hover:scale-150 ml-3 group-hover:ml-12 duration-300"></div>
-                  <div className="w-7 h-7 bg-[#ffffff91] group-hover:bg-[#ff5555c5] rounded-full group-hover:scale-150 ml-3 group-hover:ml-12 duration-300"></div>
+              <div className="bg-[#7a18183b] w-full h-full  absolute duration-500 -bottom-1/2 transofrm group-hover:-translate-y-1/2 flex flex-col justify-end">
+                <div className="flex   justify-center w-full items-center  h-1/2   duration-300">
+                  <div className="w-24 h-24 relative bg-[#ffffff98] group-hover:rotate-45 rounded-lg duration-500">
+                    <div className="w-24 h-24 top-2 left-2 absolute bg-[#1d0303de]  rounded-lg duration-500"></div>
+                  </div>
                 </div>
                 <div className="h-1/2 mt-5 flex justify-center items-start">
                   <Image

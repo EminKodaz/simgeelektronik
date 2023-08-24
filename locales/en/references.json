@@ -1,42 +1,126 @@
 {
-    "references-1": [
-        {
-            "id": 303,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 304,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 305,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        }
-    ],
-    "references-2": [
-        {
-            "id": 306,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 307,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        },
-        {
-            "id": 308,
-            "url": "/cumhur.png",
-            "title": "Cumhurbaşkanlığı",
-            "desc":"Alarm Hizmeti Vırt zırt"
-        }
-    ]
+  "referencesHeader": "Referanslarımız",
+  "referencesDescription": "Birbirinden güzel projelerle bize destek olan referanslarımızı aşağıda görebilirsiniz.",
+  "references-1": [
+    {
+      "id": 303,
+      "url": "/ak.png",
+      "title": "Ak Parti",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 304,
+      "url": "/ankara-emniyet.png",
+      "title": "Ankara Emniyet Müdürlüğü",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 305,
+      "url": "/cb.png",
+      "title": "Cumhurbaşkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 306,
+      "url": "/deniz.png",
+      "title": "Deniz Kuvvetleri Komutanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 307,
+      "url": "/egm.png",
+      "title": "Emniyet Genel Müdürlüğü",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ],
+  "references-2": [
+    {
+      "id": 308,
+      "url": "/halkbank.png",
+      "title": "Halkbank",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 309,
+      "url": "/hava-kuvvetleri-komutanligi.png",
+      "title": "Hava Kuvvetleri Komutanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 310,
+      "url": "/istihbarat.png",
+      "title": "İstihbarat Daire Başkanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 311,
+      "url": "/kara.png",
+      "title": "Kara Kuvvetleri Komutanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 312,
+      "url": "/kecioren-belediyesi.png",
+      "title": "Keçiören Belediyesi",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ],
+  "references-3": [
+    {
+      "id": 313,
+      "url": "/ktb.png",
+      "title": "Kültür ve Turizm Bakanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 314,
+      "url": "/maliye.png",
+      "title": "Maliye Bakanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 315,
+      "url": "/meb.png",
+      "title": "Milli Eğitim Bakanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 316,
+      "url": "/merkezb.png",
+      "title": "Merkez Bankası",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 317,
+      "url": "/tbmm.png",
+      "title": "TBMM",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ],
+  "references-4": [
+    {
+      "id": 318,
+      "url": "/ulastirma.png",
+      "title": "Ulaştırma Bakanlığı",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 319,
+      "url": "/yargitay.png",
+      "title": "Yargıtay",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 320,
+      "url": "/ziraat.png",
+      "title": "Ziraat Bankası",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    },
+    {
+      "id": 321,
+      "url": "/yargitay.png",
+      "title": "Yargıtay",
+      "desc": "Alarm Hizmeti Vırt zırt"
+    }
+  ]
 }

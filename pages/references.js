@@ -1,108 +1,135 @@
 import InviewAnimate from "@/components/Animation/InViewAnimate";
 import SwiperSlider from "@/components/References/Swiper";
 import useTranslation from "next-translate/useTranslation";
-import React from "react";
+import Head from "next/head";
+import React, { useState, useEffect } from "react";
 
 const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
 function References() {
   const { t } = useTranslation("references");
+  const [reference1, setReference1] = useState([]);
+  const [reference2, setReference2] = useState([]);
+  const [reference3, setReference3] = useState([]);
+  const [reference4, setReference4] = useState([]);
+  // const [reference5, setReference5] = useState([]);
+
+  useEffect(() => {
+    setReference1(t("references-1", {}, { returnObjects: true }));
+    setReference2(t("references-2", {}, { returnObjects: true }));
+    setReference3(t("references-3", {}, { returnObjects: true }));
+    setReference4(t("references-4", {}, { returnObjects: true }));
+    // setReference5(t("references-5", {}, { returnObjects: true }));
+    console.log(reference1);
+  }, [t]);
 
   return (
-    <main className="flex flex-col min-h-screen min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
-      <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
-      <div className="z-10">
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(-300px)"
-          className="w-full"
-        >
-          <section className="mt-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
-            <h1 className="text-6xl text-darkred text-center">
-              {t("referencesHeader")}
-            </h1>
-            {/* <div className="flex mt-5 justify-center">
-              <div className="w-7 h-7 bg-darkred rounded-full "></div>
-              <div className="w-7 h-7 bg-lightred rounded-full ml-3"></div>
-              <div className="w-7 h-7 bg-darkred rounded-full ml-3"></div>
-            </div> */}
-            <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
-              {t("referencesDescription")}
-            </p>
-          </section>
-        </InviewAnimate>
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(300px)"
-          className="w-full"
-        >
-          <SwiperSlider
-            delay={2000}
-            loop={true}
-            reverseDirection={false}
-            slidesPerView={3}
-            speed={1000}
-            data={"data"}
-          />
-        </InviewAnimate>
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(300px)"
-          className="w-full"
-        >
-          <SwiperSlider
-            delay={1000}
-            loop={true}
-            reverseDirection={true}
-            slidesPerView={4}
-            speed={2000}
-            data={"data"}
-          />
-        </InviewAnimate>
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(300px)"
-          className="w-full"
-        >
-          <SwiperSlider
-            delay={1500}
-            loop={true}
-            reverseDirection={false}
-            slidesPerView={2}
-            speed={1500}
-            data={"data"}
-          />
-        </InviewAnimate>
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(300px)"
-          className="w-full"
-        >
-          <SwiperSlider
-            delay={3000}
-            loop={true}
-            reverseDirection={true}
-            slidesPerView={3}
-            speed={3000}
-            data={"data"}
-          />
-        </InviewAnimate>
-        <InviewAnimate
-          bezier={bezier}
-          translate="translateY(300px)"
-          className="w-full"
-        >
-          <SwiperSlider
-            delay={2000}
-            loop={true}
-            reverseDirection={false}
-            slidesPerView={3}
-            speed={1000}
-            data={"data"}
-          />
-        </InviewAnimate>
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>{t("headtitle:references-t")}</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="author" content=""></meta>
+        <meta name="publisher" content=""></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="flex flex-col min-h-screen min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
+        <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
+        <div className="z-10">
+          <InviewAnimate
+            bezier={bezier}
+            translate="translateY(-300px)"
+            className="w-full"
+          >
+            <section className="mt-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
+              <h1 className="text-6xl text-darkred text-center">
+                {t("referencesHeader")}
+              </h1>
+              <div className="flex mt-5 items-center justify-center">
+                <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
+                <div className="w-4 h-4 bg-darkred rounded-full "></div>
+              </div>
+              <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
+                {t("referencesDescription")}
+              </p>
+            </section>
+          </InviewAnimate>
+          <div className="my-20">
+            <InviewAnimate
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <SwiperSlider
+                delay={1000}
+                loop={true}
+                reverseDirection={false}
+                slidesPerView={3}
+                speed={2000}
+                data={reference1}
+              />
+            </InviewAnimate>
+            <InviewAnimate
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <SwiperSlider
+                delay={1000}
+                loop={true}
+                reverseDirection={true}
+                slidesPerView={3}
+                speed={2000}
+                data={reference2}
+              />
+            </InviewAnimate>
+            <InviewAnimate
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <SwiperSlider
+                delay={1000}
+                loop={true}
+                reverseDirection={false}
+                slidesPerView={3}
+                speed={2000}
+                data={reference3}
+              />
+            </InviewAnimate>
+            <InviewAnimate
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <SwiperSlider
+                delay={1000}
+                loop={true}
+                reverseDirection={true}
+                slidesPerView={3}
+                speed={2000}
+                data={reference4}
+              />
+            </InviewAnimate>
+            {/* <InviewAnimate
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <SwiperSlider
+                delay={1000}
+                loop={true}
+                reverseDirection={false}
+                slidesPerView={3}
+                speed={2000}
+                data={reference1}
+              />
+            </InviewAnimate> */}
+          </div>
+        </div>
+      </main>
+    </>
   );
 }
 

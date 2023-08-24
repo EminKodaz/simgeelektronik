@@ -1,5 +1,11 @@
 {
-  "header": "marhaba",
+  "slogan": "Bu Alarmı Gördüğünüz Her Yerde Biz Varız",
+  "password-ac": "Şifre Talebi",
+  "alarm-report": "Alarm Raporları",
+  "exploration-form": "Ücretsiz Keşif Formu",
+  "exp-t": "Yada Bize Ulaşın",
+  "exp-t-2": "Hemen Gelelim",
+  "header": "hello",
   "menuItems": [
     {
       "id": 2,
@@ -34,7 +40,7 @@
     },
     {
       "id": 4,
-      "title": "Hizmetlerimiz",
+      "title": "Ürün ve Hizmetlerimiz",
       "link": "/services"
     },
     {
@@ -49,4 +55,3 @@
     }
   ]
 }
-

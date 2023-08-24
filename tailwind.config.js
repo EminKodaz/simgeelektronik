@@ -16,7 +16,12 @@ module.exports = {
       colors:{
         "darkred":"#5f1515",
         "lightred": "#9b3333",
-        "lightred-2": "#df27279d"
+        "lightred-2": "#df27279d",
+        "lightrans": "#860f0fa4",
+        "darktrans" : "#440505e7"
+      },
+      borderRadius:{
+        "4xl": "2.7rem"
       }
     },
   },

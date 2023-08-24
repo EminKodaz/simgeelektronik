@@ -28,18 +28,18 @@ function ContactInfos() {
       <h1 className="text-2xl font-bold text-center text-white">
         {t("contact:contactInfo")}
       </h1>
-      <div className="flex sm:flex-row md:flex-col lg:flex-row flex-col gap-6 w-full text-center">
+      <div className="flex sm:flex-row md:flex-col lg:flex-row flex-col gap-6 w-full text-center text-xl">
         <button
-          className={`hover:bg-red-200 hover:text-zinc-700 w-full sm:w-3/3 min-h-full px-4 py-2 rounded-lg border duration-200 ${
-            contactTab == 1 && "bg-red-200 text-zinc-700"
+          className={`hover:bg-white hover:text-zinc-700  w-full sm:w-3/3 min-h-full px-4 py-2 rounded-lg border duration-200 ${
+            contactTab == 1 && "bg-white text-zinc-700"
           }`}
           onClick={() => handleContactTab(1)}
         >
           {contactOne.name}
         </button>
         <button
-          className={`hover:bg-red-200 hover:text-zinc-700 w-full sm:w-3/3 px-4 py-2 rounded-lg border duration-200 ${
-            contactTab == 2 && "bg-red-200 text-zinc-700"
+          className={`hover:bg-white hover:text-zinc-700 w-full sm:w-3/3 px-4 py-2 rounded-lg border duration-200 ${
+            contactTab == 2 && "bg-white text-zinc-700"
           }`}
           onClick={() => handleContactTab(2)}
         >

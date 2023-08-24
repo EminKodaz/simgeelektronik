@@ -30,7 +30,7 @@ function BlogCard({
       />
       <div className="p-3">
         <h2 className="text-xl font-bold text-zinc-800 mt-1">{title}</h2>
-        <p className="mt-2 text-lg text-zinc-600">{subCaption}</p>
+        <p className="mt-2 text-lg text-zinc-600 line-clamp-3">{subCaption}</p>
         <div className="flex justify-between mt-3">
           <author className="text-zinc-500">{author}</author>
           <date className="text-zinc-500">{date}</date>

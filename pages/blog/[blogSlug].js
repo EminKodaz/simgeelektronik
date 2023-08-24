@@ -31,7 +31,7 @@ function BlogDetail() {
 
   return (
     <>
-      <Head>{filteredBlog && <title>{filteredBlog[0].title}</title>}</Head>
+      <Head>{filteredBlog && <title>{t("headtitle:blog-t")} | {filteredBlog[0].title}</title>}</Head>
       <main className="min-h-screen flex flex-col">
         <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
 
