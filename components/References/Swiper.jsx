@@ -65,8 +65,8 @@ function SwiperSlider({
             <Image
               src={item.url}
               alt={item.title}
-              width={300}
-              height={300}
+              layout={"fill"}
+              objectFit={"contain"}
               className="p-4 m-auto max-h-full flex flex-row justify-center flex-wrap content-center "
             />
           </SwiperSlide>
