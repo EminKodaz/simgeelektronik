@@ -42,7 +42,7 @@ function BannerNReferences() {
           />
         </div>
       </div>
-      <div className="w-full  bg-lightred h-64 flex items-baseline absolute -bottom-32 z-0">
+      <div className="w-full h-64 flex items-baseline absolute -bottom-32 z-0 bg-[url('/images/sliderFoto.jpg')] bg-cover bg-no-repeat">
         <div className="w-[75%] max-lg:w-[95%] m-auto ">
           <Swiper
             modules={[Keyboard, Autoplay, Pagination]}
