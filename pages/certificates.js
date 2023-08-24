@@ -1,5 +1,5 @@
 import InviewAnimate from "@/components/Animation/InViewAnimate";
-import CertificateCard from "@/components/Certificates/CertificateCard";
+import CertificateCard from "@/components/Certificates/CertificateCard2";
 import useTranslation from "next-translate/useTranslation";
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
