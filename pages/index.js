@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col relative overflow-hidden">
-        <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
+        <div className="bg-[url('/images/homebg.jpg')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
         <Header />
         <SubHeader />
         <BannerNReferences />
