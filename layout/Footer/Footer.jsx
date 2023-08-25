@@ -10,7 +10,7 @@ function Footer() {
   const { t } = useTranslation("footer");
 
   return (
-    <footer className="min-h-[24rem] bg-[url('/footerImg.jpg')] bg-cover  flex flex-col z-40 relative">
+    <footer className="min-h-[24rem] bg-[url('/images/footerImg.jpg')] bg-cover  flex flex-col z-40 relative">
       <div className="bg-[#5e23239a] backdrop-blur-[2px]">
         <section className="min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%] grid grid-cols-3 max-lg:grid-cols-1 max-lg:gap-10 py-14">
           <div className="flex flex-col items-start max-lg:items-center pr-10 gap-5">
