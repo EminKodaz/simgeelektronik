@@ -7,13 +7,13 @@
   "project-done": "Teslim Edilen Proje",
   "exploration-link": "Ücretsiz Keşif Formu",
   "innovate": "Yenilikçilik",
-  "innovate-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "innovate-p": "Her müşterinin ihtiyaçlarına özel yenilikçi çözümler üretiyoruz. ",
   "high-quality": "Yüksek Kalite",
-  "high-quality-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "high-quality-p": "En yüksek kaliteyi uygun maliyetle size sunmanın gururunu yaşıyoruz. ",
   "best-product": "Ürün Kalitesi",
-  "best-product-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "best-product-p": "Ürünlerimizde mükemmel işçilik ve güvenilirlik bir arada geliyor. ",
   "top-services": "En İyi Hizmet",
-  "top-services-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+  "top-services-p": "Profesyonel ekibimizle size en hızlı ve etkili şekilde destek sağlıyoruz. ",
   "banner-ref-head": "İşiniz ve eviniz için güvenlik çözümleri",
   "banner-ref-p": "Gelişmiş güvenlik çözümleri ile işiniz ve eviniz her zaman güvende. Kameralar, izleme sistemleri ve akıllı kilitlerle huzuru yakalayın. ",
   "banner-ref-head-2": "7/24 Destek",
@@ -21,7 +21,7 @@
   "banner-ref-head-3": "2 yıl garanti",
   "banner-ref-p-3": "Ürünlerimiz 2 yıl garantilidir.",
   "working-process": "Çalışma Sürecimiz",
-  "working-process-p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+  "working-process-p": "Çalışma sürecimizi buradan inceleyebilir. Sorularınızı bize ulaşarak iletebilirsiniz.",
   "exploration-t": "Keşif",
   "exploration-p": "Ücretsiz bir şekilde evinizi veya işyerinizi inceliyor size en uygun çözümü sunuyoruz. ",
   "research-t": "Teklif",
@@ -35,7 +35,7 @@
       "content": "Simge Elektronik, köklü bir geçmişe sahip ve sektördeki geniş deneyimi ile öne çıkan bir şirkettir. Kurulduğumuz günden itibaren farklı alanlarda faaliyet göstererek kendimizi kanıtladık. Özellikle Kablo TV, İnternet Altyapısı ve Elektronik Güvenlik Sistemleri gibi alanlarda liderliğimizi sağlamlaştırdık. Müşteri odaklı yaklaşımımız, kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır."
     },
     {
-      "title": "Kaç Yıl Garanti Veriyorsunuz?",
+      "title": "Kaç yıl garanti veriyorsunuz?",
       "content": "Ürünlerimiz 2 yıl garantilidir."
     },
     {

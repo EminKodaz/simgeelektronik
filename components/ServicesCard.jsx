@@ -7,10 +7,10 @@ function ServicesCard({ id, title, icon, desc, url, info }) {
     <div className="p-3">
       {icon && (
         <Image
-          className="w-16 m-auto"
+          className="w-53 m-auto"
           src={icon}
-          width={300}
-          height={300}
+          width={1080}
+          height={1080}
           alt={title}
         />
       )}

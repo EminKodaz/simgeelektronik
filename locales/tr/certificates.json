@@ -1,6 +1,6 @@
 {
   "caption":"Sertifikalarımız",
-  "main-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum",
+  "main-desc": "",
   "allCertficates": [
     {
       "name": "Alarm Merkezi Kurma ve İzleme",
@@ -31,11 +31,11 @@
       "url": "/certificates/ohsas-18001.jpg"
     },
     {
-      "name": "Satış sonrası hizmet yeterlilik Belgesi",
+      "name": "Satış Sonrası Hizmet Yeterlilik Belgesi",
       "url": "/certificates/satis-sonrasi-hizmet-yeterlilik.jpg"
     },
     {
-      "name": "Satış sonrası hizmet yeterlilik Belgesi",
+      "name": "Satış Sonrası Hizmet Yeterlilik Belgesi",
       "url": "/certificates/satis-sonrasi-hizmet-yeterlilik2.jpg"
     }
   ]

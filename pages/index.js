@@ -21,10 +21,10 @@ export default function Home() {
     <>
       <Head>
         <title>{t("headtitle:home-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Teknolojinin gücünü güvenlikle buluşturan şirketimiz, alarm sistemleri, kontrollü geçiş sistemleri ve akıllı ev çözümleri ile ev ve işyeri güvenliğini en üst düzeye taşıyor. Yenilikçi yaklaşımımız, yüksek kalitemiz ve üstün hizmet anlayışımızla, sizlere güvenli bir yaşam alanı sunuyoruz. İleri teknoloji ile güçlendirilmiş çözümlerimizle, ev güvenliğini artırmak ve işyeri korumasını optimize etmek artık çok daha kolay. Siz de güvenliğiniz için adım atın!" />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

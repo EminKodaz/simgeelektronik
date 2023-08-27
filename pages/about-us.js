@@ -13,10 +13,10 @@ function AboutUs() {
     <>
       <Head>
         <title>{t("headtitle:about-us-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="1994 yılından bu yana elektronik güvenlik alanında öncü olan şirketimiz, başta alarm sistemleri, kontrollü geçiş sistemleri ve akıllı ev çözümleri olmak üzere geniş bir ürün yelpazesi sunmaktadır. Yenilikçilik ve yüksek kalite anlayışımızla, müşterilerimize en iyi hizmeti sunmayı amaçlıyoruz. Sektördeki deneyimimiz ve uzman kadromuzla, sizlere güvenliğinizi en üst düzeyde sağlayacak çözümler sunuyoruz. Siz de güvende hissetmek için bize katılın!" />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
