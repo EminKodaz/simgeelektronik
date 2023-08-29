@@ -18,41 +18,40 @@ function ReferencesCard() {
       {referencesItems &&
         referencesItems.map((item) => {
           return (
-            <div key={item.id}>
-              <InviewAnimate
-                bezier={bezier}
-                translate="translateY(300px)"
-                className="w-full"
-              >
-                <div className="w-full lg:h-48 min-h-fit grid lg:grid-cols-3 gap-14 rounded-lg border border-stone-300 p-5">
-                  <Image
-                    src={item.url}
-                    alt={item.title}
-                    width={1000}
-                    height={1000}
-                    className="lg:w-3/4 sm:w-1/4 md:w-1/3 aspect-auto object-cover  m-auto lg:col-span-1"
-                  />
-                  <div className="flex flex-col lg:col-span-2">
-                    <div className=" text-black mb-5 text-base font-light leading-normal">
-                      {item.title}
-                    </div>
-                    <div className="justify-start items-start inline-flex">
-                      <span className="text-black text-base font-bold leading-normal">
-                        İşveren :{" "}
-                      </span>
-                      <span className="text-black text-base font-light leading-normal">
-                        {item.employer}
-                      </span>
-                    </div>
-                    <div className="justify-start items-start inline-flex">
-                      <div className="text-black text-base font-light leading-normal">
-                        {item.description}
-                      </div>
+            <InviewAnimate
+              key={item.id}
+              bezier={bezier}
+              translate="translateY(300px)"
+              className="w-full"
+            >
+              <div className="w-full lg:h-48 min-h-fit grid lg:grid-cols-3 gap-14 rounded-lg border border-stone-300 p-5">
+                <Image
+                  src={item.url}
+                  alt={item.title}
+                  width={1000}
+                  height={1000}
+                  className="lg:w-3/4 sm:w-1/4 md:w-1/3 aspect-auto object-cover  m-auto lg:col-span-1"
+                />
+                <div className="flex flex-col lg:col-span-2">
+                  <div className=" text-black mb-5 text-base font-light leading-normal">
+                    {item.title}
+                  </div>
+                  <div className="justify-start items-start inline-flex">
+                    <span className="text-black text-base font-bold leading-normal">
+                      İşveren :{" "}
+                    </span>
+                    <span className="text-black text-base font-light leading-normal">
+                      {item.employer}
+                    </span>
+                  </div>
+                  <div className="justify-start items-start inline-flex">
+                    <div className="text-black text-base font-light leading-normal">
+                      {item.description}
                     </div>
                   </div>
                 </div>
-              </InviewAnimate>
-            </div>
+              </div>
+            </InviewAnimate>
           );
         })}
     </div>

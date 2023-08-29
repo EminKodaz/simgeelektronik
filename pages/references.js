@@ -41,7 +41,7 @@ function References() {
               </p>
             </section>
           </InviewAnimate>
-          <div className="md:my-20">
+          <div className="md:my-20 my-10">
             <InviewAnimate
               bezier={bezier}
               translate="translateY(300px)"
