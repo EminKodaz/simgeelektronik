@@ -29,7 +29,7 @@ function HumanResources() {
             className="w-full"
           >
             <section className="">
-              <h1 className="text-6xl text-darkred text-center">
+              <h1 className="md:text-6xl text-3xl text-darkred text-center">
                 {t("hrHeader")}
               </h1>
               <div className="flex mt-5 items-center justify-center">

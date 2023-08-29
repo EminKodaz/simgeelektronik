@@ -13,7 +13,10 @@ function AboutUs() {
     <>
       <Head>
         <title>{t("headtitle:about-us-t")}</title>
-        <meta name="description" content="1994 yılından bu yana elektronik güvenlik alanında öncü olan şirketimiz, başta alarm sistemleri, kontrollü geçiş sistemleri ve akıllı ev çözümleri olmak üzere geniş bir ürün yelpazesi sunmaktadır. Yenilikçilik ve yüksek kalite anlayışımızla, müşterilerimize en iyi hizmeti sunmayı amaçlıyoruz. Sektördeki deneyimimiz ve uzman kadromuzla, sizlere güvenliğinizi en üst düzeyde sağlayacak çözümler sunuyoruz. Siz de güvende hissetmek için bize katılın!" />
+        <meta
+          name="description"
+          content="1994 yılından bu yana elektronik güvenlik alanında öncü olan şirketimiz, başta alarm sistemleri, kontrollü geçiş sistemleri ve akıllı ev çözümleri olmak üzere geniş bir ürün yelpazesi sunmaktadır. Yenilikçilik ve yüksek kalite anlayışımızla, müşterilerimize en iyi hizmeti sunmayı amaçlıyoruz. Sektördeki deneyimimiz ve uzman kadromuzla, sizlere güvenliğinizi en üst düzeyde sağlayacak çözümler sunuyoruz. Siz de güvende hissetmek için bize katılın!"
+        />
         <meta name="robots" content="index, follow"></meta>
         <meta name="author" content="KoerLabs"></meta>
         <meta name="publisher" content="SimgeGroup"></meta>
@@ -28,7 +31,7 @@ function AboutUs() {
           className="z-10"
         >
           <section className="mt-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
-            <h1 className="text-6xl text-darkred text-center">
+            <h1 className="md:text-6xl text-3xl text-darkred text-center">
               {t("caption")}
             </h1>
             <div className="flex mt-5 items-center justify-center">

@@ -36,7 +36,7 @@ function Contact() {
             className="w-full"
           >
             <section className="md:mt-44">
-              <h1 className="text-6xl text-darkred text-center">
+              <h1 className="md:text-6xl text-3xl text-darkred text-center">
                 {t("contactHeader")}
               </h1>
               <div className="flex mt-5 items-center justify-center">

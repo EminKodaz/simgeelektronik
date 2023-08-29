@@ -1,27 +1,13 @@
 import InviewAnimate from "@/components/Animation/InViewAnimate";
-import SwiperSlider from "@/components/References/Swiper";
+import ReferencesCard from "@/components/References/ReferencesCard";
 import useTranslation from "next-translate/useTranslation";
 import Head from "next/head";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
 function References() {
   const { t } = useTranslation("references");
-  const [reference1, setReference1] = useState([]);
-  const [reference2, setReference2] = useState([]);
-  const [reference3, setReference3] = useState([]);
-  const [reference4, setReference4] = useState([]);
-  // const [reference5, setReference5] = useState([]);
-
-  useEffect(() => {
-    setReference1(t("references-1", {}, { returnObjects: true }));
-    setReference2(t("references-2", {}, { returnObjects: true }));
-    setReference3(t("references-3", {}, { returnObjects: true }));
-    setReference4(t("references-4", {}, { returnObjects: true }));
-    // setReference5(t("references-5", {}, { returnObjects: true }));
-    console.log(reference1);
-  }, [t]);
 
   return (
     <>
@@ -61,71 +47,8 @@ function References() {
               translate="translateY(300px)"
               className="w-full"
             >
-              <SwiperSlider
-                delay={1000}
-                loop={true}
-                reverseDirection={false}
-                slidesPerView={3}
-                speed={2000}
-                data={reference1}
-              />
+              <ReferencesCard />
             </InviewAnimate>
-            <InviewAnimate
-              bezier={bezier}
-              translate="translateY(300px)"
-              className="w-full"
-            >
-              <SwiperSlider
-                delay={1000}
-                loop={true}
-                reverseDirection={true}
-                slidesPerView={3}
-                speed={2000}
-                data={reference2}
-              />
-            </InviewAnimate>
-            <InviewAnimate
-              bezier={bezier}
-              translate="translateY(300px)"
-              className="w-full"
-            >
-              <SwiperSlider
-                delay={1000}
-                loop={true}
-                reverseDirection={false}
-                slidesPerView={3}
-                speed={2000}
-                data={reference3}
-              />
-            </InviewAnimate>
-            <InviewAnimate
-              bezier={bezier}
-              translate="translateY(300px)"
-              className="w-full"
-            >
-              <SwiperSlider
-                delay={1000}
-                loop={true}
-                reverseDirection={true}
-                slidesPerView={3}
-                speed={2000}
-                data={reference4}
-              />
-            </InviewAnimate>
-            {/* <InviewAnimate
-              bezier={bezier}
-              translate="translateY(300px)"
-              className="w-full"
-            >
-              <SwiperSlider
-                delay={1000}
-                loop={true}
-                reverseDirection={false}
-                slidesPerView={3}
-                speed={2000}
-                data={reference1}
-              />
-            </InviewAnimate> */}
           </div>
         </div>
       </main>

@@ -1,156 +1,167 @@
 {
   "referencesHeader": "Referanslarımız",
   "referencesDescription": "Birbirinden güzel projelerle bize destek olan referanslarımızı aşağıda görebilirsiniz.",
-  "references-1": [
+  "references": [
     {
-      "id": 303,
+      "id": 301,
       "url": "/references/turk-telekom.png",
       "title": "Türk Telekom",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
+    },
+    {
+      "id": 302,
+      "url": "/references/ankara-emniyet.png",
+      "title": "Ankara Emniyet Müdürlüğü",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
+    },
+    {
+      "id": 303,
+      "url": "/references/cb.png",
+      "title": "Cumhurbaşkanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 304,
-      "url": "/references/ankara-emniyet.png",
-      "title": "Ankara Emniyet Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/deniz.png",
+      "title": "Deniz Kuvvetleri Komutanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 305,
-      "url": "/references/cb.png",
-      "title": "Cumhurbaşkanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/egm.png",
+      "title": "Emniyet Genel Müdürlüğü",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 306,
-      "url": "/references/deniz.png",
-      "title": "Deniz Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    },
-    {
-      "id": 307,
-      "url": "/references/egm.png",
-      "title": "Emniyet Genel Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    },
-    {
-      "id": 307,
       "url": "/references/arcelik.png",
       "title": "Arçelik",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    }
-  ],
-  "references-2": [
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
+    },
     {
-      "id": 308,
+      "id": 307,
       "url": "/references/halkbank.png",
       "title": "Halkbank",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
+    },
+    {
+      "id": 308,
+      "url": "/references/hava-kuvvetleri-komutanligi.png",
+      "title": "Hava Kuvvetleri Komutanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 309,
-      "url": "/references/hava-kuvvetleri-komutanligi.png",
-      "title": "Hava Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/istihbarat.png",
+      "title": "İstihbarat Daire Başkanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 310,
-      "url": "/references/istihbarat.png",
-      "title": "İstihbarat Daire Başkanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/kara.png",
+      "title": "Kara Kuvvetleri Komutanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 311,
-      "url": "/references/kara.png",
-      "title": "Kara Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    },
-    {
-      "id": 312,
       "url": "/references/kecioren-belediyesi.png",
       "title": "Keçiören Belediyesi",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 312,
       "url": "/references/dominos.png",
       "title": "Domimo's Pizza",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    }
-  ],
-  "references-3": [
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
+    },
     {
       "id": 313,
       "url": "/references/ktb.png",
       "title": "Kültür ve Turizm Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 314,
       "url": "/references/maliye.png",
       "title": "Maliye Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 315,
       "url": "/references/merkezb.png",
       "title": "Merkez Bankası",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 316,
       "url": "/references/tbmm.png",
       "title": "TBMM",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 317,
       "url": "/references/meb.png",
       "title": "Milli Eğitim Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
-      "id": 317,
+      "id": 318,
       "url": "/references/nissan.png",
       "title": "Nissan",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    }
-  ],
-  "references-4": [
-    {
-      "id": 318,
-      "url": "/references/ulastirma.png",
-      "title": "Ulaştırma Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 319,
-      "url": "/references/yargitay.png",
-      "title": "Yargıtay",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/ulastirma.png",
+      "title": "Ulaştırma Bakanlığı",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 320,
-      "url": "/references/ziraat.png",
-      "title": "Ziraat Bankası",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/yargitay.png",
+      "title": "Yargıtay",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 321,
-      "url": "/references/yargitay.png",
-      "title": "Yargıtay",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/ziraat.png",
+      "title": "Ziraat Bankası",
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 322,
       "url": "/references/egm.png",
       "title": "Emniyet Genel Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     },
     {
       "id": 323,
       "url": "/references/orta-dogu-teknik-üni.png",
       "title": "Orta Doğu Teknik Üniversitesi",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "SIEMENS",
+      "description": "Alarm Hizmeti Bla bla bla"
     }
   ]
 }
