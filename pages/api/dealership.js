@@ -4,18 +4,18 @@ require("dotenv").config();
 export default async function handler(req, res) {
   if (req.method === "POST") {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    const { fullName, email, phoneNumber, message } = req.body;
-    const messageTemplate = `
+    const { fullName, email, companyName, phoneNumber } = req.body;
+    const message = `
     Name: ${fullName}\r\n
     Email: ${email}\r\n
+    Company: ${companyName}\r\n
     Phone: ${phoneNumber}\r\n
-    Message: ${message}\r\n
     `;
     const msg = {
       to: "krgzahmetsalih@gmail.com",
       from: "sendgridsender01@gmail.com",
-      subject: "İş Başvurusu",
-      text: messageTemplate,
+      subject: "Bayilik Başvurusu",
+      text: message,
       html: `
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
       <html data-editor-version="2" class="sg-campaigns" xmlns="http://www.w3.org/1999/xhtml">
@@ -309,7 +309,7 @@ export default async function handler(req, res) {
                                                                 <div
                                                                 style="display: flex; flex-direction: column; gap: 20px; padding: 20px 20px 20px 20px;">
                                                                     <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; height: fit-content;">
-                                                                      <div style="font-family: inherit; text-align: left">${messageTemplate.replace(
+                                                                      <div style="font-family: inherit; text-align: left">${message.replace(
                                                                         /\r\n/g,
                                                                         "<br />"
                                                                       )}</div>

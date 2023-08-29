@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -12,10 +12,6 @@ function SwiperSlider({
   reverseDirection,
   data,
 }) {
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
-
   return (
     <Swiper
       className="my-5 md:pl-40 h-72 flex justify-center items-center"

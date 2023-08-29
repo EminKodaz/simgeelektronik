@@ -1,9 +1,8 @@
 import React from "react";
 import InviewAnimate from "@/components/Animation/InViewAnimate";
 import useTranslation from "next-translate/useTranslation";
-import DealershipForm from "@/components/Dealership/DealershipForm";
 import DealershipContent from "@/components/Dealership/DealershipContent";
-import DealershipForm2 from "@/components/Dealership/DealershipForm2";
+import DealershipForm from "@/components/Dealership/DealershipForm";
 import Head from "next/head";
 import { MdLogin } from "react-icons/md";
 
@@ -58,8 +57,7 @@ function DealerShip() {
                 translate="translateX(300px)"
                 className="w-full"
               >
-                {/* <DealershipForm /> */}
-                <DealershipForm2 />
+                <DealershipForm />
               </InviewAnimate>
               <InviewAnimate
                 bezier={bezier}
