@@ -15,7 +15,8 @@
       "blog",
       "certificates",
       "headtitle",
-      "products"
+      "products",
+      "passwordDemand"
     ]
   }
 }
