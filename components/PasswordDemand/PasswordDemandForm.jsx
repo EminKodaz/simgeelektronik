@@ -1,18 +1,18 @@
 import useTranslation from "next-translate/useTranslation";
 import React, { useState } from "react";
 
-function ContactForm() {
-  const { t } = useTranslation("contact");
+function PasswordDemandForm() {
+  const { t } = useTranslation("passwordDemand");
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
-    message: "",
+    aboneNo: "",
   });
 
   const [errors, setErrors] = useState({
     fullName: "",
     email: "",
-    message: "",
+    aboneNo: "",
   });
 
   const handleChange = (e) => {
@@ -25,15 +25,15 @@ function ContactForm() {
     const newErrors = {};
     if (!formData.fullName) newErrors.fullName = "Ad-Soyad alanı zorunludur.";
     if (!formData.email) newErrors.email = "Email alanı zorunludur.";
-    if (!formData.message) newErrors.message = "Mesaj alanı zorunludur.";
+    if (!formData.aboneNo) newErrors.aboneNo = "Abone No alanı zorunludur.";
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
     } else {
-      // console.log("Form submitted:", formData);
+      console.log("Form submitted:", formData);
       try {
         console.log(formData);
-        const response = await fetch("/api/contact", {
+        const response = await fetch("/api/passwordDemand", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -50,7 +50,7 @@ function ContactForm() {
       setFormData({
         fullName: "",
         email: "",
-        message: "",
+        aboneNo: "",
       });
       setErrors({});
     }
@@ -80,6 +80,20 @@ function ContactForm() {
         </div>
         <div className="w-full flex flex-col items-start">
           <input
+            type="aboneNo"
+            id="aboneNo"
+            name="aboneNo"
+            value={formData.aboneNo}
+            placeholder={t("aboneNoLabel")}
+            onChange={handleChange}
+            className={`p-3 indent-2 w-full rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
+              errors.aboneNo && "border-red-500"
+            }`}
+          />
+          {errors.aboneNo && <p className="text-red-500">{errors.aboneNo}</p>}
+        </div>
+        <div className="w-full flex flex-col items-start">
+          <input
             type="email"
             id="email"
             name="email"
@@ -92,20 +106,6 @@ function ContactForm() {
           />
           {errors.email && <p className="text-red-500">{errors.email}</p>}
         </div>
-        <div className="w-full flex flex-col items-start">
-          <textarea
-            rows={8}
-            className={`p-3 indent-2 w-full max-h-52 rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
-              errors.message && "border-red-500"
-            }`}
-            name="message"
-            value={formData.message}
-            as="textarea"
-            placeholder={t("messageLabel")}
-            onChange={(e) => handleChange(e)}
-          ></textarea>
-          {errors.message && <p className="text-red-500">{errors.message}</p>}
-        </div>
         <button
           type="submit"
           className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
@@ -117,4 +117,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default PasswordDemandForm;
