@@ -5,7 +5,7 @@ import Link from "next/link";
 import i18nConfig from "../../i18n.json";
 import { BsChevronDown } from "react-icons/bs";
 
-function LangItems({isMobile}) {
+function LangItems({ isMobile }) {
   const { t, lang } = useTranslation("navbar");
   const [isVisible, setIsVisible] = useState(false);
 
@@ -19,7 +19,9 @@ function LangItems({isMobile}) {
     <div className="relative ml-5">
       <button
         onClick={handleButtonClick}
-        className={`${isMobile ? "text-lg" :""} flex items-center py-1 justify-center px-2 text-sm  duration-100  border border-zinc-400 rounded-md`}
+        className={`${
+          isMobile ? "text-lg" : ""
+        } flex items-center py-1 justify-center px-2 text-sm  duration-100  border border-zinc-400 rounded-md`}
       >
         {lang.toUpperCase()}
         <BsChevronDown
@@ -38,7 +40,9 @@ function LangItems({isMobile}) {
           opacity: isVisible ? 1 : 0,
           height: isVisible ? "auto" : 0,
         }}
-        className={`${isMobile ? "text-lg" : ""} absolute flex flex-col top-[2.2rem] backdrop-blur-lg border border-zinc-300  rounded-md w-16  bg-white`}
+        className={`${
+          isMobile ? "text-lg" : ""
+        } absolute flex flex-col top-[2.2rem] backdrop-blur-lg border border-zinc-300  rounded-md w-16  bg-white`}
       >
         {locales &&
           locales.map((lng) => {

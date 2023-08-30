@@ -1,5 +1,5 @@
 import React from "react";
-import { Keyboard, Autoplay, Pagination } from "swiper/modules";
+import { Keyboard, Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,7 +12,7 @@ function BannerNReferences() {
 
   return (
     <div className="mb-48 mt-16 relative">
-      <div className="grid grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-xl bg-white p-10 z-10 relative">
+      <div className="grid grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-4xl bg-white p-10 z-10 relative">
         <article>
           <h2 className="text-6xl font-bold mb-5 text-zinc-800">
             {t("banner-ref-head")}
@@ -42,23 +42,109 @@ function BannerNReferences() {
           />
         </div>
       </div>
-      <div className="w-full h-64 flex items-baseline absolute -bottom-32 z-0 bg-[url('/images/sliderFoto.jpg')] bg-cover bg-no-repeat">
-        <div className="w-[75%] max-lg:w-[95%] m-auto ">
+      <div className="w-full h-64 flex items-baseline absolute -bottom-44 z-0 bg-[url('/images/refslidebg.png')] bg-cover bg-no-repeat">
+        <div className="w-[75%]  max-lg:w-[95%] m-auto ">
           <Swiper
-            modules={[Keyboard, Autoplay, Pagination]}
-            spaceBetween={50}
-            slidesPerView={3}
-            className="mt-28  w-full text-center text-white text-xl"
+            modules={[Autoplay, Navigation]}
+            spaceBetween={10}
+            slidesPerView={5}
+            speed={1000}
+            className="mt-28 flex items-center"
             loop={true}
             autoplay={{
-              delay: 3500,
-              disableOnInteraction: false,
+              delay: 1000,
             }}
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/arcelik.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/ak.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/cb.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/dominos.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/halkbank.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/meb.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/ktb.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/deniz.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/maliye.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                src="/references/merkezb.png"
+                width={300}
+                className="aspect-3 w-1/2 object-contain"
+                height={300}
+                alt="arcelik"
+              />
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

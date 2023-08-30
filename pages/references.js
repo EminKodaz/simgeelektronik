@@ -21,7 +21,7 @@ function References() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col min-h-screen min-[2000px]:w-[60%] max-lg:w-[95%] w-[75%] m-auto max-[1300px]:w-[95%]">
-        <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
+      <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[1200px] absolute top-0 left-0 z-0"></div>
         <div className="z-10">
           <InviewAnimate
             bezier={bezier}

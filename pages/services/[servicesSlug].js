@@ -3,6 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 import ServicesCard from "@/components/ServicesCard";
 import InviewAnimate from "@/components/Animation/InViewAnimate";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 
@@ -10,16 +11,33 @@ const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
 function Services() {
   const [servicesItems, setServicesItems] = useState([]);
+  const router = useRouter();
+  const [servicesHead, setServicesHead] = useState("");
   const { t } = useTranslation("services");
 
   useEffect(() => {
     setServicesItems(t("services-items", {}, { returnObjects: true }));
-  }, [t]);
+    switch (router.query.servicesSlug) {
+      case "kurumsal-cozumler":
+        setServicesHead(t("corporate-head"));
+        break;
+      case "ev-cozumleri":
+        setServicesHead(t("home-head"));
+        break;
+      case "is-yeri-cozumleri":
+        setServicesHead(t("workplace-head"));
+        break;
+      default:
+        break;
+    }
+  }, [router.query, t]);
 
   return (
     <>
       <Head>
-        <title>{t("headtitle:services-t")}</title>
+        <title>
+          {t("headtitle:services-t")} || {servicesHead && servicesHead}
+        </title>
         <meta name="description" content="" />
         <meta name="robots" content="index, follow"></meta>
         <meta name="author" content=""></meta>
@@ -52,9 +70,11 @@ function Services() {
           translate="translateY(-300px)"
           className="z-10"
         >
-          <article className="max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:gap-x-5 max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] py-10 m-auto">
-            <h2 className="text-4xl text-lightred text-center font-semibold max-lg:mb-10">
-              {t("caption-2")}
+          <article className=" max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:gap-x-5 max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] py-10 m-auto">
+            <h2 className="text-4xl text-lightred font-semibold max-lg:mb-10 text-center">
+              <span className="text-darkred font-bold">
+                {servicesHead ? servicesHead : t("caption-3")}
+              </span>
             </h2>
           </article>
         </InviewAnimate>
@@ -63,7 +83,7 @@ function Services() {
           translate="translateY(300px)"
           className="z-10"
         >
-          <section className=" grid grid-cols-3 gap-x-5 gap-y-10 max-lg:grid-cols-1 max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] m-auto mb-36">
+          <section className=" grid grid-cols-3  gap-x-5 gap-y-10 max-lg:grid-cols-1 max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] m-auto mb-36">
             {servicesItems.map((item) => {
               return (
                 <ServicesCard

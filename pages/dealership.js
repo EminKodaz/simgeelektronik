@@ -22,7 +22,7 @@ function DealerShip() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col m-auto min-h-screen text-center">
-        <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[700px] absolute top-0 left-0 z-0"></div>
+        <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[1200px] absolute top-0 left-0 z-0"></div>
         <div className="z-10 my-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
           <InviewAnimate
             bezier={bezier}

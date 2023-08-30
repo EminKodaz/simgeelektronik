@@ -1,12 +1,85 @@
-import React from "react";
-import Counter from "./Counter";
+import React, { useCallback, useRef, useState } from "react";
 import useTranslation from "next-translate/useTranslation";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import Image from "next/image";
+import HeaderRightSide from "./HeaderRightSide";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 function HeaderLeftSide() {
   const { t } = useTranslation("home");
+
+  const sliderRef = useRef(null);
+
+  const handlePrev = useCallback(() => {
+    if (!sliderRef.current) return;
+    sliderRef.current.swiper.slidePrev();
+  }, []);
+
+  const handleNext = useCallback(() => {
+    if (!sliderRef.current) return;
+    sliderRef.current.swiper.slideNext();
+  }, []);
+
+  const carouselItems = t("carouselItems", {}, { returnObjects: true });
+
   return (
-    <div className="max-lg:mb-10">
-      <h1 className="text-5xl max-[1300px]:text-4xl font-bold mb-5 text-darkred">
+    <div className="max-lg:mb-0 relative col-span-3">
+      <Swiper
+        modules={[Autoplay, Navigation, Pagination]}
+        loop={true}
+        speed={500}
+        pagination={true}
+        ref={sliderRef}
+        autoplay={{
+          delay: 3000,
+          pauseOnMouseEnter: true,
+        }}
+        className="rounded-l-4xl max-lg:rounded-2xl"
+      >
+        {carouselItems &&
+          carouselItems.map((item) => {
+            return (
+              <SwiperSlide key={item.id}>
+                <div className="absolute top-1/2 transform -translate-y-1/2 left-10">
+                  <h1 className=" text-5xl  text-white font-bold">
+                    {item.title}
+                  </h1>
+                  <p className="text-xl mt-5 text-white  w-[65%] max-lg:w-full">
+                    {item.desc}
+                  </p>
+                </div>
+                <Image
+                  src={item.image}
+                  alt="ev"
+                  className="w-full"
+                  width={1079}
+                  height={719}
+                />
+              </SwiperSlide>
+            );
+          })}
+
+        <button
+          className="absolute transform  bottom-6 right-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
+          onClick={handleNext}
+        >
+          <BsChevronRight size={44} />
+        </button>
+        <button
+          className="absolute transform  bottom-6 left-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
+          onClick={handlePrev}
+        >
+          <BsChevronLeft size={44} />
+        </button>
+      </Swiper>
+      <HeaderRightSide />
+      {/* <h1 className="text-5xl max-[1300px]:text-4xl font-bold mb-5 text-darkred">
         {t("slogan-part-1")}
       </h1>
       <h1 className="text-5xl max-[1300px]:text-4xl font-bold text-lightred">
@@ -38,7 +111,7 @@ function HeaderLeftSide() {
             {t("project-done")}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

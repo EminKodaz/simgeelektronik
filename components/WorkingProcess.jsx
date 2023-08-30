@@ -5,11 +5,13 @@ function WorkingProcess() {
   const { t } = useTranslation("home");
 
   return (
-    <section className="w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto  mb-16">
+    <section className="w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto  mt-16 mb-16">
       <h2 className="text-center text-3xl font-bold mb-3 text-lightred">
         {t("working-process")}
       </h2>
-      <p className="text-center mb-8">{t("working-process-p")}</p>
+      <p className="text-center mb-8 text-xl font-semibold text-zinc-700">
+        {t("working-process-p")}
+      </p>
       <div className="grid grid-cols-3 gap-5 max-lg:grid-cols-1">
         <article className="rounded-xl bg-[url('/images/mainpagekesif.png')] bg-cover relative group overflow-hidden h-60">
           <p className="w-full font-bold p-5 text-white flex justify-center items-center h-full absolute -top-full group-hover:top-0 duration-300 bg-[#6d23236e] ease-in-out">

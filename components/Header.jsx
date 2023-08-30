@@ -10,14 +10,14 @@ function Header() {
   const { t } = useTranslation("home");
 
   return (
-    <section className="z-10 mt-44 w-[75%] max-lg:mt-32 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto grid grid-cols-2 max-lg:grid-cols-1 gap-5">
-      <InviewAnimate bezier={bezier} translate="translateX(300px)">
+    <InviewAnimate bezier={bezier} translate="translateY(-300px)" className="">
+      <section className="z-10 mt-40 w-[75%] max-lg:mt-32 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto grid grid-cols-4 max-lg:grid-cols-1">
         <HeaderLeftSide />
-      </InviewAnimate>
-      <InviewAnimate bezier={bezier} translate="translateX(-300px) " className="h-full">
-        <HeaderRightSide />
-      </InviewAnimate>
-    </section>
+        <div className="rounded-r-4xl bg-[url('/images/header-right.jpg')] bg-cover w-full h-full  relative overflow-hidden max-lg:hidden">
+          <div className="absolute w-full h-full bg-[#68111177]   top-0"></div>
+        </div>
+      </section>
+    </InviewAnimate>
   );
 }
 

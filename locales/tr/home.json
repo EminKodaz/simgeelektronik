@@ -1,18 +1,32 @@
 {
-  "slogan-part-1": "Simge Group",
-  "slogan-part-2": "Güvenli ve Huzurlu Bir Yaşam İçin",
-  "article-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-  "experience": "Tecrübe",
-  "product": "Ürün",
-  "project-done": "Teslim Edilen Proje",
-  "exploration-link": "Ücretsiz Keşif Formu",
-  "innovate": "Yenilikçilik",
+  "carouselItems": [
+    {
+      "id": 801,
+      "title": "Hırsız Alarm",
+      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
+      "image": "/images/carousel2.jpg"
+    },
+    {
+      "id": 802,
+      "title": "Hırsız Alarm",
+      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
+      "image": "/images/carousel2.jpg"
+    },
+    {
+      "id": 803,
+      "title": "Hırsız Alarm",
+      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
+      "image": "/images/carousel2.jpg"
+    }
+  ],
+  "solutions-head": "Çözümlerimiz",
+  "innovate": "İşyeri Güvenlik Sistemleri",
   "innovate-p": "Her müşterinin ihtiyaçlarına özel yenilikçi çözümler üretiyoruz. ",
-  "high-quality": "Yüksek Kalite",
+  "high-quality": "Konut Güvenlik Sistemleri",
   "high-quality-p": "En yüksek kaliteyi uygun maliyetle size sunmanın gururunu yaşıyoruz. ",
-  "best-product": "Ürün Kalitesi",
+  "best-product": "Kurumsal Çözümler",
   "best-product-p": "Ürünlerimizde mükemmel işçilik ve güvenilirlik bir arada geliyor. ",
-  "top-services": "En İyi Hizmet",
+  "top-services": "Ürünlerimiz",
   "top-services-p": "Profesyonel ekibimizle size en hızlı ve etkili şekilde destek sağlıyoruz. ",
   "banner-ref-head": "İşiniz ve eviniz için güvenlik çözümleri",
   "banner-ref-p": "Gelişmiş güvenlik çözümleri ile işiniz ve eviniz her zaman güvende. Kameralar, izleme sistemleri ve akıllı kilitlerle huzuru yakalayın. ",

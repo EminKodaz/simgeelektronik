@@ -1,5 +1,6 @@
 {
   "slogan": "Bu Alarmı Gördüğünüz Her Yerde Biz Varız",
+  "user-process": "Kullanıcı İşlemleri",
   "password-ac": "Şifre Talebi",
   "alarm-report": "Alarm Raporları",
   "exploration-form": "Ücretsiz Keşif Formu",
@@ -41,7 +42,29 @@
     {
       "id": 4,
       "title": "Ürün ve Hizmetlerimiz",
-      "link": "/services"
+      "link": "/services",
+      "submenu": [
+        {
+          "id": 100,
+          "title": "İşyeri Güvenlik Sistemleri",
+          "link": "/services/is-yeri-cozumleri"
+        },
+        {
+          "id": 101,
+          "title": "Konut Güvenlik Sistemleri",
+          "link": "/services/ev-cozumleri"
+        },
+        {
+          "id": 102,
+          "title": "Kurumsal Çözümler",
+          "link": "//services/kurumsal-cozumler"
+        },
+        {
+          "id": 103,
+          "title": "Ürünlerimiz",
+          "link": "/products"
+        }
+      ]
     },
     {
       "id": 5,
