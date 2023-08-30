@@ -1,5 +1,134 @@
 {
-    "our-products":[
-        
-    ]
+  "caption": "Ürünlerimiz",
+  "main-desc": "lorem ipsum dolor ",
+  "prodMenuItems": [
+    {
+      "id": 1001,
+      "title": "Hırsız Alarm Sistemleri",
+      "setter": "thief"
+    },
+    {
+      "id": 1002,
+      "title": "CCTV Kamera Sistemleri",
+      "setter": "camera"
+    },
+    {
+      "id": 1003,
+      "title": "Geçiş Kontrol Sistemleri",
+      "setter": "transition"
+    },
+    {
+      "id": 1004,
+      "title": "Yangın Alarm Sistemleri",
+      "setter": "fire"
+    },
+    {
+      "id": 1005,
+      "title": "Akıllı Ev sistemleri",
+      "setter": "smartHouse"
+    }
+  ],
+
+  "thief": [
+    {
+      "id": 501,
+      "image": "/images/yangin-alarm.png",
+      "title": "Hırsız Alarm Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 503,
+      "image": "/images/yangin-alarm.png",
+      "title": "Hırsız Alarm Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 502,
+      "image": "/images/yangin-alarm.png",
+      "title": "Hırsız Alarm Sistemleri",
+      "desc": ""
+    }
+  ],
+
+  "camera": [
+    {
+      "id": 551,
+      "image": "/images/yangin-alarm.png",
+      "title": "Kamera Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 552,
+      "image": "/images/yangin-alarm.png",
+      "title": "Kamera Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 553,
+      "image": "/images/yangin-alarm.png",
+      "title": "Kamera Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 554,
+      "image": "/images/yangin-alarm.png",
+      "title": "Yangın Alarm Sistemleri",
+      "desc": ""
+    }
+  ],
+
+  "transition": [
+    {
+      "id": 601,
+      "image": "/images/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 603,
+      "image": "/images/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 604,
+      "image": "/images/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 605,
+      "image": "/images/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 606,
+      "image": "/images/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    }
+  ],
+
+  "fire": [
+    {
+      "id": 651,
+      "image": "/images/yangin-alarm.png",
+      "title": "Yangın Alarm Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 652,
+      "image": "/images/yangin-alarm.png",
+      "title": "Yangın Alarm Sistemleri",
+      "desc": ""
+    },
+    {
+      "id": 653,
+      "image": "/images/yangin-alarm.png",
+      "title": "Yangın Alarm Sistemleri",
+      "desc": ""
+    }
+  ],
+  "smartHouse": []
 }

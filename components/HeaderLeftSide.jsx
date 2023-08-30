@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,7 +13,7 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 function HeaderLeftSide() {
   const { t } = useTranslation("home");
-
+  const [carouselItems, setCarouselItems] = useState([]);
   const sliderRef = useRef(null);
 
   const handlePrev = useCallback(() => {
@@ -26,7 +26,9 @@ function HeaderLeftSide() {
     sliderRef.current.swiper.slideNext();
   }, []);
 
-  const carouselItems = t("carouselItems", {}, { returnObjects: true });
+  useEffect(() => {
+    setCarouselItems(t("carouselItems", {}, { returnObjects: true }));
+  }, [t]);
 
   return (
     <div className="max-lg:mb-0 relative col-span-3">

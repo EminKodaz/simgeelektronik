@@ -8,16 +8,12 @@ const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
 function Products() {
   const { t } = useTranslation("products");
+  const [prodMenuItems, setProdMenuItems] = useState([]);
   const [selectedMenu, setSelectedMenu] = useState("thief");
   const [products, setProducts] = useState();
 
-  const prodMenuItems = t(
-    "products:prodMenuItems",
-    {},
-    { returnObjects: true }
-  );
-
   useEffect(() => {
+    setProdMenuItems(t("products:prodMenuItems", {}, { returnObjects: true }));
     setProducts(t(`${selectedMenu}`, {}, { returnObjects: true }));
   }, [selectedMenu, t]);
 
