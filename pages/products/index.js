@@ -14,6 +14,9 @@ function Products() {
 
   useEffect(() => {
     setProdMenuItems(t("products:prodMenuItems", {}, { returnObjects: true }));
+  }, [t]);
+
+  useEffect(() => {
     setProducts(t(`${selectedMenu}`, {}, { returnObjects: true }));
   }, [selectedMenu, t]);
 

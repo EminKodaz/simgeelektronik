@@ -27,7 +27,7 @@ function HeaderLeftSide() {
   }, []);
 
   useEffect(() => {
-    setCarouselItems(t("carouselItems", {}, { returnObjects: true }));
+    setCarouselItems(t("home:carouselItems", {}, { returnObjects: true }));
   }, [t]);
 
   return (

@@ -9,24 +9,72 @@
   "header": "hello",
   "menuItems": [
     {
-      "id": 1,
-      "title": "Home",
-      "link": "en"
-    },
-    {
       "id": 2,
-      "title": "About-Us",
-      "link": "about-us"
+      "title": "Kurumsal",
+      "submenu": [
+        {
+          "id": 100,
+          "title": "Hakkımızda",
+          "link": "/about-us"
+        },
+        {
+          "id": 101,
+          "title": "Sertifikalarımız",
+          "link": "/certificates"
+        },
+        {
+          "id": 102,
+          "title": "Bayilik Başvurusu",
+          "link": "/dealership"
+        },
+        {
+          "id": 103,
+          "title": "İnsan Kaynakları",
+          "link": "/human-resources"
+        }
+      ]
     },
     {
       "id": 3,
-      "title": "Blog",
-      "link": "blog"
+      "title": "Referanslarımız",
+      "link": "/references"
     },
     {
       "id": 4,
-      "title": "Contact",
-      "link": "contact"
+      "title": "Ürün ve Hizmetlerimiz",
+      "link": "/services",
+      "submenu": [
+        {
+          "id": 100,
+          "title": "İşyeri Güvenlik Sistemleri",
+          "link": "/services/is-yeri-cozumleri"
+        },
+        {
+          "id": 101,
+          "title": "Konut Güvenlik Sistemleri",
+          "link": "/services/ev-cozumleri"
+        },
+        {
+          "id": 102,
+          "title": "Kurumsal Çözümler",
+          "link": "/services/kurumsal-cozumler"
+        },
+        {
+          "id": 103,
+          "title": "Ürünlerimiz",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Blog",
+      "link": "/blog"
+    },
+    {
+      "id": 7,
+      "title": "İletişim",
+      "link": "/contact"
     }
   ]
 }
