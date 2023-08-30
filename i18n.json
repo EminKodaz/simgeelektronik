@@ -14,7 +14,8 @@
       "dealership",
       "blog",
       "certificates",
-      "headtitle"
+      "headtitle",
+      "passwordDemand"
     ]
   }
 }

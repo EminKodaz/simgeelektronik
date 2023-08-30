@@ -138,7 +138,7 @@ const DealershipForm2 = () => {
           type="submit"
           className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
         >
-          Başvuru Gönder
+          {t("formButton")}
         </button>
       </form>
     </div>
