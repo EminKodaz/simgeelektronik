@@ -1,8 +1,11 @@
 import useTranslation from "next-translate/useTranslation";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
+import { AiOutlineLoading3Quarters, AiFillWarning } from "react-icons/ai";
 
 function ContactForm() {
   const { t } = useTranslation("contact");
+  const [status, setStatus] = useState("idle");
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -42,10 +45,10 @@ function ContactForm() {
         });
 
         const responseData = await response.json();
-
-        console.log("API yanıtı:", responseData);
+        setStatus(responseData.status === "Success" ? "success" : "failed");
+        // console.log("API yanıtı:", responseData);
       } catch (error) {
-        console.error("API isteği başarısız:", error);
+        // console.error("API isteği başarısız:", error);
       }
       setFormData({
         fullName: "",
@@ -55,6 +58,11 @@ function ContactForm() {
       setErrors({});
     }
   };
+  useEffect(() => {
+    setTimeout(() => {
+      setStatus("idle");
+    }, 2000);
+  }, [status === "success"]);
   return (
     <div className="min-w-full md:h-[40rem] min-h-fit md:w-1/2 md:p-10 p-3 mt-6 flex flex-col justify-center items-center  bg-[#FAFAFA] shadow-[0px_0px_61px_2px_#00000024] md:rounded-[2.5rem] rounded-2xl">
       <form
@@ -109,8 +117,21 @@ function ContactForm() {
         <button
           type="submit"
           className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
+          onClick={() => setStatus("pending")}
         >
-          {t("formButton")}
+          {status === "idle" ? (
+            <>
+              <BsFillSendFill className="mr-2" /> {t("formButton")}
+            </>
+          ) : status === "pending" ? (
+            <AiOutlineLoading3Quarters className="animate-spin" size={32} />
+          ) : status === "success" ? (
+            <BsSendCheckFill size={32} />
+          ) : status === "failed" ? (
+            <AiFillWarning size={32} />
+          ) : (
+            ""
+          )}
         </button>
       </form>
     </div>
