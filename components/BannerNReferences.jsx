@@ -12,8 +12,9 @@ function BannerNReferences() {
 
   return (
     <div className="mb-48 mt-16 relative">
-      <div className="grid grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-4xl bg-white p-10 z-10 relative">
-        <article>
+      <div className="grid overflow-hidden grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-4xl bg-white p-10 z-10 relative">
+        <div className="absolute w-60 h-60 bg-lightrans rounded-2xl rotate-45 z-10 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"></div>
+        <article className="z-20">
           <h2 className="text-6xl font-bold mb-5 text-zinc-800">
             {t("banner-ref-head")}
           </h2>
@@ -33,7 +34,7 @@ function BannerNReferences() {
           </h3>
           <p>{t("banner-ref-p-3")}</p>
         </article>
-        <div className="p-5">
+        <div className="p-5 z-20">
           <Image
             src="/images/alarmset2.jpg"
             width={800}
@@ -43,13 +44,16 @@ function BannerNReferences() {
         </div>
       </div>
       <div className="w-full h-64 flex items-baseline absolute -bottom-44 z-0 bg-[url('/images/refslidebg.png')] bg-cover bg-no-repeat">
-        <div className="w-[75%]  max-lg:w-[95%] m-auto ">
+        <div className="w-[75%]  max-lg:w-[95%] m-auto">
+          <h2 className="mt-20 text-2xl text-center pb-2 font-semibold text-lightred">
+            Bizi Tercih Eden Kurumlar
+          </h2>
           <Swiper
             modules={[Autoplay, Navigation]}
             spaceBetween={10}
             slidesPerView={5}
             speed={1000}
-            className="mt-28 flex items-center"
+            className=" flex items-center"
             loop={true}
             autoplay={{
               delay: 1000,
