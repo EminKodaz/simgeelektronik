@@ -1,7 +1,7 @@
 import useTranslation from "next-translate/useTranslation";
 import React, { useState, useEffect } from "react";
 import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
-import { AiOutlineLoading3Quarters, AiFillWarning } from "react-icons/ai";
+import { AiFillWarning } from "react-icons/ai";
 
 const DealershipForm2 = () => {
   const { t } = useTranslation("dealership");
@@ -145,14 +145,11 @@ const DealershipForm2 = () => {
         <button
           type="submit"
           className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
-          onClick={() => setStatus("pending")}
         >
           {status === "idle" ? (
             <>
               <BsFillSendFill className="mr-2" /> {t("formButton")}
             </>
-          ) : status === "pending" ? (
-            <AiOutlineLoading3Quarters className="animate-spin" size={32} />
           ) : status === "success" ? (
             <BsSendCheckFill size={32} />
           ) : status === "failed" ? (
