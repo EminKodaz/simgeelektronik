@@ -1,22 +1,42 @@
 {
-  "header": "Quick Menu",
-  "footerHeader": "Get connected with us on social networks:",
+  "footerDescription": "1994 yılından bugüne bu sireni gördüğünüz her mekanı biz koruyoruz.",
+  "quickMenuHeader": "Hızlı Menü",
+  "footerHeader": "Bizimle sosyal ağlarda bağlantı kurun:",
+  "workTimeHeader": "Çalışma Saatleri",
+  "workTime": "Pazartesi - Cuma: 08:00 - 17:00",
+  "workTimeWeekend": "Cumartesi - Pazar: Kapalı",
+  "contactHeader": "İletişim",
+  "contactCallButton": "Bizi Arayın",
+  "copyRight": "© 2023 Simge Group. Tüm hakları saklıdır.",
   "menuItems": [
     {
-      "id": 1,
-      "title": "Home"
+      "id": 71,
+      "title": "Anasayfa"
     },
     {
-      "id": 2,
-      "title": "About-Us"
+      "id": 72,
+      "title": "Hakkımızda",
+      "link": "/about-us"
     },
     {
-      "id": 3,
-      "title": "Blog"
+      "id": 73,
+      "title": "Referanslarımız",
+      "link": "/references"
     },
     {
-      "id": 4,
-      "title": "Contact"
+      "id": 74,
+      "title": "Hizmetlerimiz",
+      "link": "/services"
+    },
+    {
+      "id": 75,
+      "title": "Blog",
+      "link": "/blog"
+    },
+    {
+      "id": 76,
+      "title": "İletisim",
+      "link": "/contact"
     }
   ]
 }

@@ -8,7 +8,7 @@ function SocialIcons({isMobile}) {
       <li className="mr-2">
         <Link
           className="hover:text-pink-500 transition-all duration-200"
-          href=""
+          href="https://www.instagram.com/simgegroup/"
         >
           <BsInstagram size={isMobile ? 32 : 24} />
         </Link>
@@ -16,7 +16,7 @@ function SocialIcons({isMobile}) {
       <li className="">
         <Link
           className="hover:text-blue-500 transition-all duration-200"
-          href=""
+          href="https://www.facebook.com/simgegrup/"
         >
           <BsFacebook size={isMobile ? 32 : 24} />
         </Link>
@@ -24,7 +24,7 @@ function SocialIcons({isMobile}) {
       <li className="ml-2">
         <Link
           className="hover:text-emerald-500 transition-all duration-200"
-          href=""
+          href="https://wa.me/905064628885?"
         >
           <BsWhatsapp size={isMobile ? 32 : 24} />
         </Link>

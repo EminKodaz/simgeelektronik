@@ -10,28 +10,33 @@
   "copyRight": "© 2023 Simge Group. Tüm hakları saklıdır.",
   "menuItems": [
     {
-      "id": 1,
+      "id": 71,
       "title": "Anasayfa"
     },
     {
-      "id": 2,
-      "title": "Hakkımızda"
+      "id": 72,
+      "title": "Hakkımızda",
+      "link": "/about-us"
     },
     {
-      "id": 3,
-      "title": "Referanslarımız"
+      "id": 73,
+      "title": "Referanslarımız",
+      "link": "/references"
     },
     {
-      "id": 4,
-      "title": "Hizmetlerimiz"
+      "id": 74,
+      "title": "Hizmetlerimiz",
+      "link": "/services"
     },
     {
-      "id": 5,
-      "title": "Blog"
+      "id": 75,
+      "title": "Blog",
+      "link": "/blog"
     },
     {
-      "id": 6,
-      "title": "İletisim"
+      "id": 76,
+      "title": "İletisim",
+      "link": "/contact"
     }
   ]
 }
