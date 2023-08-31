@@ -2,21 +2,21 @@
   "carouselItems": [
     {
       "id": 801,
-      "title": "Hırsız Alarm",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "title": "Hırsız Alarm Sistemleri",
+      "desc": "Ev veya işyerlerinin hırsızlık, tehdit, gasp, yangın, sağlık sorunu gibi acil durumlarında otomatik olarak alarm haberalma merkezini, mal sahibini ve komşuları haberdar ederek yardım çağrısını tetikleyen etkili bir elektronik güvenlik çözümüdür. Anında tepki ve iletişim özellikleri ile alarm sistemi, güvenliğinizi en üst seviyeye çıkarmak için tasarlanmıştır.",
+      "image": "/images/carousel-1.webp"
     },
     {
       "id": 802,
-      "title": "Hırsız Alarm",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "title": "Yangın Alarm Sistemleri",
+      "desc": "Yangın algılama sistemleri, binaların ve endüstriyel tesislerin yangına karşı korunmasında kritik bir rol oynar. Bu sistemler, yangını erken aşamada tespit edip bildirim sağlayarak hızlı müdahale imkanı sunar. Böylece can ve mal güvenliğini artırır. Yangın algılama sistemleri, yangının önceden tespiti ve yayılmasının engellenmesi açısından büyük önem taşır.",
+      "image": "/images/carousel-2.webp"
     },
     {
       "id": 803,
-      "title": "Hırsız Alarm",
+      "title": "CCTV Kamera Sistemleri",
       "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "image": "/images/carousel-3.webp"
     }
   ],
   "solutions-head": "Çözümlerimiz",

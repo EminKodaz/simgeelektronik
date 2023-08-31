@@ -13,7 +13,7 @@ function WorkingProcess() {
         {t("working-process-p")}
       </p>
       <div className="grid grid-cols-3 gap-5 max-lg:grid-cols-1">
-        <article className="rounded-xl bg-[url('/images/mainpagekesif.png')] bg-cover relative group overflow-hidden h-80">
+        <article className="rounded-xl bg-[url('/images/mainpagekesif-min.webp')] bg-cover relative group overflow-hidden h-80">
           <p className="w-full font-bold p-5 text-white flex justify-center items-center h-full absolute -top-full group-hover:top-0 duration-300 bg-[#6d23236e] ease-in-out">
             {t("exploration-p")}
           </p>
@@ -21,7 +21,7 @@ function WorkingProcess() {
             {t("exploration-t")}
           </h4>
         </article>
-        <article className="rounded-xl bg-[url('/images/mainpageteklif.png')] bg-cover relative group overflow-hidden h-80">
+        <article className="rounded-xl bg-[url('/images/mainpageteklif-min.webp')] bg-cover relative group overflow-hidden h-80">
           <p className="w-full font-bold p-5 text-white flex justify-center items-center h-full absolute -top-full group-hover:top-0 duration-300 bg-[#6d23236e] ease-in-out">
             {t("research-p")}
           </p>
@@ -29,7 +29,7 @@ function WorkingProcess() {
             {t("research-t")}
           </h4>
         </article>
-        <article className="rounded-xl bg-[url('/images/mainpagekurulum.png')] bg-cover relative group overflow-hidden h-80">
+        <article className="rounded-xl bg-[url('/images/mainpagekurulum-min.webp')] bg-cover relative group overflow-hidden h-80">
           <p className="w-full font-bold p-5 text-white flex justify-center items-center h-full absolute -top-full group-hover:top-0 duration-300 bg-[#6d23236e] ease-in-out">
             {t("setup-p")}
           </p>
