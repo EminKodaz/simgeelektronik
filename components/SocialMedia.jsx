@@ -12,7 +12,7 @@ function SocialMedia() {
           </Link>
         </li>
         <li className="text-gray-200 hover:text-sky-600  ml-5">
-          <Link href="https://www.facebook.com/simgegrup/">
+          <Link href="https://www.facebook.com/simgegrup/" target="_blank">
             <BsFacebook className="max-md:w-10 max-md:h-10" size={30} />
           </Link>
         </li>
@@ -20,6 +20,7 @@ function SocialMedia() {
           <Link
             className="hover:text-pink-500 transition-all duration-200"
             href="https://www.instagram.com/simgegroup/"
+            target="_blank"
           >
             <BsInstagram className="max-md:w-10 max-md:h-10" size={30} />
           </Link>
