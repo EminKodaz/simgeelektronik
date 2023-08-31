@@ -46,7 +46,7 @@ function Certificates() {
             </p>
           </section>
         </InviewAnimate>
-        <div className="my-24 m-auto items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="max-lg:my-3 my-24 m-auto items-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           {certificates &&
             certificates.map((certificate, index) => {
               return (

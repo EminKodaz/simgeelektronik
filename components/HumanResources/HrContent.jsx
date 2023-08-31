@@ -10,8 +10,8 @@ function HrContent() {
   }, [t]);
 
   return (
-    <div className="text-white flex flex-col lg:gap-9 gap-2 pl-4">
-      <div className="text-center text-2xl">
+    <div className="text-white flex flex-col lg:gap-9 gap-2 md:pl-4">
+      <div className="text-center text-xl">
         {t("hrDescriptionDetailHeader")}
       </div>
       <div className="text-start text-lg">

@@ -10,7 +10,7 @@ function DealershipContent() {
   }, [t]);
 
   return (
-    <div className="text-white flex flex-col lg:gap-9 gap-2 pl-4">
+    <div className="text-white flex flex-col lg:gap-9 gap-2 pl-4 max-lg:pb-4">
       <div className="text-start md:text-lg text-md font-bold italic">
         {t("formContentDescription")}
       </div>

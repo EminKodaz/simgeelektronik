@@ -11,7 +11,7 @@ function QuickLinks() {
   }, [t]);
 
   return (
-    <div className="mx-auto">
+    <div className="lg:mx-auto pl-4">
       <h1 className="text-xl text-white font-bold mb-4">
         {t("footer:quickMenuHeader")}
       </h1>

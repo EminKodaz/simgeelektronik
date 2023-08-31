@@ -35,7 +35,7 @@ function Services() {
           className="z-10"
         >
           <section className="mt-44 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto">
-            <h1 className="text-6xl text-darkred text-center">
+            <h1 className="md:text-6xl text-3xl text-darkred text-center">
               {t("caption-1")}
             </h1>
             <div className="flex mt-5 items-center justify-center">

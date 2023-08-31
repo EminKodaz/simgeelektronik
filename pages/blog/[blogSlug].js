@@ -75,7 +75,7 @@ function BlogDetail() {
                 return (
                   <p
                     key={index}
-                    className="mt-6 font-semibold text-zinc-600 text-lg indent-3"
+                    className="mt-6 max-lg:text-justify font-semibold text-zinc-600 text-lg indent-3"
                   >
                     {item}
                   </p>
@@ -117,6 +117,17 @@ function BlogDetail() {
                       width: 768,
                       slidesPerView: 2,
                     },
+                    // when window width is >= 480px
+                    480: {
+                      slidesPerView: 1,
+                    },
+                    // when window width is >= 320px
+                    320: {
+                      slidesPerView: 1,
+                    },
+                    240: {
+                      slidesPerView: 1,
+                    },
                   }}
                   loop={true}
                   autoplay={{
@@ -140,14 +151,28 @@ function BlogDetail() {
                     );
                   })}
                 </Swiper>
+                <div className="lg:hidden absolute -bottom-5 left-1/2">
+                  <button
+                    className="absolute transform -mr-5 top-1/2 -translate-y-1/2 -right-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
+                    onClick={handleNext}
+                  >
+                    <BsChevronRight size={30} />
+                  </button>
+                  <button
+                    className="absolute transform  top-1/2 -translate-y-1/2 -left-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
+                    onClick={handlePrev}
+                  >
+                    <BsChevronLeft size={30} />
+                  </button>
+                </div>
                 <button
-                  className="absolute transform  top-1/2 -translate-y-1/2 -right-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
+                  className="max-lg:hidden absolute transform  top-1/2 -translate-y-1/2 -right-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
                   onClick={handleNext}
                 >
                   <BsChevronRight size={30} />
                 </button>
                 <button
-                  className="absolute transform  top-1/2 -translate-y-1/2 -left-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
+                  className="max-lg:hidden absolute transform  top-1/2 -translate-y-1/2 -left-12 border z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
                   onClick={handlePrev}
                 >
                   <BsChevronLeft size={30} />
