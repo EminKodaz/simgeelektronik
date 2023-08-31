@@ -10,7 +10,7 @@ function Layout({ children }) {
   const [isHomePage, setIsHomePage] = useState(null);
 
   useEffect(() => {
-    if (router.pathname === "/") {
+    if (router.pathname === "/" || router.pathname === "/quick-explorer") {
       setIsHomePage(true);
     } else {
       setIsHomePage(false);

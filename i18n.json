@@ -16,7 +16,8 @@
       "certificates",
       "headtitle",
       "products",
-      "passwordDemand"
+      "passwordDemand",
+      "quickExplorer"
     ]
   }
 }

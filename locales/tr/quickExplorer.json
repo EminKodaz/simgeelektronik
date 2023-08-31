@@ -1,0 +1,17 @@
+{
+  "quickExplorerHeader": "Ücretsiz Keşif Formu Girişi",
+  "quickExplorerDescription": "Elektronik güvenlik sektöründe öncü bir kuruluş olan SİMGE GROUP çalışanlarının bireysel ve profesyonel gelişimlerini tamamlamaları için her türlü fırsatı yaratır.",
+  "formTitle": "Ücretsiz Keşif Formu",
+  "formContentDescription": "Bayimiz başvurunuz için formu eksiksiz olarak doldurarak yazılı belgeleri bayibasvuru@simgeelektronik.com.tr adresine göndermeniz gerekmektedir.",
+  "formDescriptionDetailList": [
+    "Ticaret Sicil Gazetesi",
+    "Vergi Levhası",
+    "Yetkili İmza sirküleri",
+    "Yetkili Nüfüs Cüzdanı Fotokopisi"
+  ],
+  "formContentDescriptionAuthor": "Simge Group",
+  "nameLabel": "Ad-Soyad",
+  "emailLabel": "Email",
+  "phoneNumber": "Telefon Numarası Örn. 5554443322",
+  "formButton": "Keşif Formu Gönder"
+}

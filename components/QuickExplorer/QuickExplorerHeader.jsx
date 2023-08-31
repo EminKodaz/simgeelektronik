@@ -2,12 +2,12 @@ import Head from "next/head";
 import React from "react";
 import InviewAnimate from "../Animation/InViewAnimate";
 import { MdMail, MdPhone } from "react-icons/md";
-import PasswordDemandForm from "./PasswordDemandForm";
 import ContactInfos from "../Contact/ContactInfos";
+import QuickExplorerForm from "./QuickExplorerForm";
 
 const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 
-function PasswordDemandHeader() {
+function QuickExplorerHeader() {
   return (
     <div className="min-h-fit mb-32">
       <div className="w-full mt-6 flex flex-col justify-center items-center m-auto">
@@ -30,7 +30,7 @@ function PasswordDemandHeader() {
               translate="translateX(300px)"
               className="w-full"
             >
-              <PasswordDemandForm />
+              <QuickExplorerForm />
             </InviewAnimate>
             <InviewAnimate
               bezier={bezier}
@@ -47,4 +47,4 @@ function PasswordDemandHeader() {
   );
 }
 
-export default PasswordDemandHeader;
+export default QuickExplorerHeader;

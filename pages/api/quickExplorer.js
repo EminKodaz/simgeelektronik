@@ -4,17 +4,16 @@ require("dotenv").config();
 export default async function handler(req, res) {
   if (req.method === "POST") {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-    const { fullName, email, companyName, phoneNumber } = req.body;
+    const { fullName, email, phoneNumber } = req.body;
     const message = `
     Name: ${fullName}\r\n
     Email: ${email}\r\n
-    Company: ${companyName}\r\n
     Phone: ${phoneNumber}\r\n
     `;
     const msg = {
       to: "krgzahmetsalih@gmail.com",
       from: "sendgridsender01@gmail.com",
-      subject: "Bayilik Başvurusu",
+      subject: "Hızlı Keşif Formu Başvurusu",
       text: message,
       html: `
       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

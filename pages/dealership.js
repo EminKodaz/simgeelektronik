@@ -47,7 +47,7 @@ function DealerShip() {
             translate="translateY(300px)"
             className="w-full"
           >
-            <article className="w-full h-full md:h-[36rem] md:px-8 md:py-4 px-3 gap-2 mt-14 flex flex-col md:flex-row justify-between items-center md:rounded-[2.5rem] rounded-2xl bg-lightred relative">
+            <article className="w-full h-full md:h-[36rem] md:px-8 md:py-4 px-3 gap-2 mt-14 flex flex-col md:flex-row justify-between items-center md:rounded-[2.5rem] rounded-2xl bg-darkred relative">
               <MdLogin
                 className="absolute z-10 right-24 bottom-16 text-[#ffffff7e] max-lg:hidden"
                 size={140}

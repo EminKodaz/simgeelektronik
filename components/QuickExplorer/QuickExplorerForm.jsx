@@ -1,7 +1,7 @@
 import useTranslation from "next-translate/useTranslation";
 import React, { useState } from "react";
 
-function HeaderRightSide() {
+function QuickExplorerForm() {
   const { t } = useTranslation("quickExplorer");
   const [formData, setFormData] = useState({
     fullName: "",
@@ -59,9 +59,9 @@ function HeaderRightSide() {
     }
   };
   return (
-    <div className="w-2/4 bg-[#ffffffc9] rounded-4xl shadow-xl backdrop-blur-sm p-8 h-fit pb-16 absolute top-1/2 transform -translate-y-1/2 max-lg:hidden max-[1300px]:-right-60 -right-80 z-20">
+    <div className="min-w-full md:h-[40rem] min-h-fit md:w-1/2 md:p-10 p-3 mt-6 flex flex-col justify-center items-center  bg-[#FAFAFA] shadow-[0px_0px_61px_2px_#00000024] md:rounded-[2.5rem] rounded-2xl">
       <form
-        className="w-full gap-3 max-md:w-full m-auto flex font-medium text-black justify-start items-start flex-col h-full"
+        className="w-full gap-3 max-md:w-full m-auto flex font-medium text-black justify-start items-start flex-col"
         onSubmit={handleSubmit}
       >
         <h1 className="text-2xl font-bold mb-5 text-center text-[#023047]">
@@ -123,4 +123,4 @@ function HeaderRightSide() {
   );
 }
 
-export default HeaderRightSide;
+export default QuickExplorerForm;
