@@ -51,19 +51,47 @@ function BannerNReferences() {
           <Swiper
             modules={[Autoplay, Navigation]}
             spaceBetween={10}
-            slidesPerView={5}
             speed={1000}
-            className=" flex items-center"
+            className="flex flex-row justify-center flex-wrap content-center"
+            style={{ display: "flex" }}
             loop={true}
             autoplay={{
               delay: 1000,
+            }}
+            breakpoints={{
+              // when window width is >= 480px
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+              },
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+              },
+              240: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+              },
             }}
           >
             <SwiperSlide>
               <Image
                 src="/references/arcelik.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -71,8 +99,8 @@ function BannerNReferences() {
             <SwiperSlide>
               <Image
                 src="/references/ak.png"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
                 height={300}
                 alt="arcelik"
               />
@@ -80,8 +108,8 @@ function BannerNReferences() {
             <SwiperSlide>
               <Image
                 src="/references/cb.png"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
                 height={300}
                 alt="arcelik"
               />
@@ -90,7 +118,7 @@ function BannerNReferences() {
               <Image
                 src="/references/dominos.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -99,7 +127,7 @@ function BannerNReferences() {
               <Image
                 src="/references/halkbank.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -108,7 +136,7 @@ function BannerNReferences() {
               <Image
                 src="/references/meb.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -117,7 +145,7 @@ function BannerNReferences() {
               <Image
                 src="/references/ktb.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -126,7 +154,7 @@ function BannerNReferences() {
               <Image
                 src="/references/deniz.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -135,7 +163,7 @@ function BannerNReferences() {
               <Image
                 src="/references/maliye.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -144,7 +172,7 @@ function BannerNReferences() {
               <Image
                 src="/references/merkezb.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain"
+                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
