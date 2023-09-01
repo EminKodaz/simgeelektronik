@@ -77,7 +77,7 @@ export default async function handler(req, res) {
                       <th class="tg-wman"><img
                               src="http://cdn.mcauto-images-production.sendgrid.net/829b41fc3c90d163/1ab2fa51-40dc-435c-9423-ffb9c345ef8a/1600x886.png"
                               alt="Simge Group Logo" width="100" height="55"></th>
-                      <th class="tg-asdj">İletişim Formu</th>
+                      <th class="tg-asdj">Bayilik Başvurusu</th>
                   </tr>
               </thead>
               <tbody>
