@@ -10,7 +10,7 @@ const bezier = "all 0.5s cubic-bezier(.26,.72,.2,1.31) 0.3s";
 function QuickExplorerHeader() {
   return (
     <div className="min-h-fit mb-32">
-      <div className="w-full mt-6 flex flex-col justify-center items-center m-auto">
+      <div className="w-full max-lg:mt-0 flex flex-col justify-center items-center m-auto">
         <InviewAnimate
           bezier={bezier}
           translate="translateY(300px)"

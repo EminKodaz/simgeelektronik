@@ -12,7 +12,7 @@ function BlogList() {
   }, [t]);
 
   return (
-    <section className="grid grid-cols-3 max-lg:grid-cols-1 z-10 mt-16 gap-14 w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto mb-24">
+    <section className="grid grid-cols-3 max-lg:grid-cols-1 z-10 max-lg:mt-8 mt-16 gap-14 w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto mb-24">
       {blogItems &&
         blogItems.map((item, index) => {
           return (

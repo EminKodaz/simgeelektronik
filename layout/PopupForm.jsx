@@ -7,7 +7,7 @@ function PopupForm() {
   const { t } = useTranslation("navbar");
 
   return (
-    <div className="fixed bottom-5  shadow-2xl right-5 z-50 flex flex-col items-center justify-center rounded-xl bg-[#ffffff81]  p-1">
+    <div className="fixed bottom-3  shadow-2xl right-3 z-50 flex flex-col items-center justify-center rounded-xl bg-[#ffffff81]  p-1">
       <Link
         href="/quick-explorer"
         className="text-base p-2 px-5  bg-sky-600 hover:bg-sky-500 hover:text-zinc-900 rounded-xl  text-white duration-200"

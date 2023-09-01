@@ -70,7 +70,7 @@ function Services() {
           translate="translateY(-300px)"
           className="z-10"
         >
-          <article className=" max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:gap-x-5 max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] py-10 m-auto">
+          <article className=" max-lg:mt-5 mt-12 min-[2000px]:w-[60%] max-[1300px]:gap-x-5 max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] py-10 max-lg:pt-10 max-lg:py-0 m-auto">
             <h2 className="text-4xl text-lightred font-semibold max-lg:mb-10 text-center">
               <span className="text-darkred font-bold">
                 {servicesHead ? servicesHead : t("caption-3")}

@@ -36,7 +36,7 @@ function QuickExplorer() {
                 <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
                 <div className="w-4 h-4 bg-darkred rounded-full "></div>
               </div>
-              <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
+              <p className="px-20 max-lg:px-0  text-center text-xl mt-5 font-semibold text-zinc-600">
                 {t("quickExplorerDescription")}
               </p>
             </section>
