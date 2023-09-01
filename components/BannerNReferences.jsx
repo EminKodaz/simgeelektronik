@@ -15,7 +15,7 @@ function BannerNReferences() {
       <div className="grid overflow-hidden grid-cols-2 max-lg:grid-cols-1 spreadShadow w-[75%] min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] m-auto rounded-4xl bg-white p-10 z-10 relative">
         <div className="absolute w-60 h-60 bg-lightrans rounded-2xl rotate-45 z-10 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2"></div>
         <article className="z-20">
-          <h2 className="text-6xl font-bold mb-5 text-zinc-800">
+          <h2 className="text-6xl max-[1300px]:text-5xl font-bold mb-5 text-zinc-800">
             {t("banner-ref-head")}
           </h2>
           <div className="flex mt-6 mb-6 items-center ">
@@ -67,11 +67,15 @@ function BannerNReferences() {
               },
               768: {
                 slidesPerView: 3,
-                spaceBetween: 40,
+                spaceBetween: 10,
               },
-              1024: {
+              1300: {
                 slidesPerView: 4,
-                spaceBetween: 50,
+                spaceBetween: 20,
+              },
+              1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
               },
               480: {
                 slidesPerView: 2,
