@@ -7,6 +7,7 @@ import WorkingProcess from "@/components/WorkingProcess";
 import Faq from "@/components/Faq";
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
+import MobileForm from "@/components/MobileForm";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -34,6 +35,7 @@ export default function Home() {
       <main className="flex flex-col relative overflow-hidden">
         <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[1200px] absolute top-0 left-0 z-0"></div>
         <Header />
+        <MobileForm />
         <SubHeader />
         <BannerNReferences />
         <WorkingProcess />

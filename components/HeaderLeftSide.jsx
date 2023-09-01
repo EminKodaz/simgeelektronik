@@ -48,11 +48,11 @@ function HeaderLeftSide() {
           carouselItems.map((item) => {
             return (
               <SwiperSlide key={item.id}>
-                <div className="absolute top-1/2 transform -translate-y-1/2 left-10">
-                  <h1 className=" text-5xl  text-white font-bold">
+                <div className="absolute top-1/2 transform -translate-y-1/2 left-10 max-lg:w-[80%]">
+                  <h1 className=" text-5xl max-lg:text-3xl text-white font-bold">
                     {item.title}
                   </h1>
-                  <p className="text-xl mt-5 text-white  w-[65%] max-lg:w-full">
+                  <p className="text-xl max-lg:text-sm mt-5 max-lg:mt-3 text-white max-lg:hidden w-[65%] max-lg:w-full">
                     {item.desc}
                   </p>
                 </div>
@@ -68,13 +68,13 @@ function HeaderLeftSide() {
           })}
 
         <button
-          className="absolute transform  bottom-6 right-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
+          className="absolute transform max-lg:hidden bottom-6 right-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
           onClick={handleNext}
         >
           <BsChevronRight size={44} />
         </button>
         <button
-          className="absolute transform  bottom-6 left-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
+          className="absolute transform max-lg:hidden  bottom-6 left-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
           onClick={handlePrev}
         >
           <BsChevronLeft size={44} />

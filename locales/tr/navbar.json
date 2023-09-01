@@ -31,6 +31,11 @@
           "id": 103,
           "title": "İnsan Kaynakları",
           "link": "/human-resources"
+        },
+        {
+          "id": 104,
+          "title": "Ödemeler",
+          "link": "/payments"
         }
       ]
     },

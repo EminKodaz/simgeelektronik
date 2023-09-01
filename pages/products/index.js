@@ -40,7 +40,7 @@ function Products() {
               <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
               <div className="w-4 h-4 bg-darkred rounded-full "></div>
             </div>
-            <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
+            <p className="px-20 max-lg:px-0  text-center text-xl mt-5 font-semibold text-zinc-600 ">
               {t("main-desc")}
             </p>
           </section>
@@ -50,9 +50,9 @@ function Products() {
           translate="translateX(-300px)"
           className="z-10"
         >
-          <div className="grid grid-cols-4 relative z-30 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-32 m-auto mb-24 gap-7 mt-12">
-            <div className="col-span-1">
-              <ul className="border p-3 pb-10 bg-[#ffffff9a] rounded-3xl">
+          <div className="grid grid-cols-4 relative z-30 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-8 m-auto mb-24 max-lg:gap-2 gap-7 mt-12">
+            <div className="col-span-1 max-lg:col-span-4 ">
+              <ul className="border p-3 pb-10 max-lg:pb-3 bg-[#ffffff9a] rounded-3xl">
                 {prodMenuItems &&
                   prodMenuItems.map((item) => {
                     return (
@@ -61,7 +61,7 @@ function Products() {
                           selectedMenu === item.setter
                             ? "border-lightred"
                             : "border-transparent"
-                        } py-1 border-b-2  m-2 text-lg font-semibold cursor-pointer`}
+                        } py-1 border-b-2  m-2 text-lg font-semibold cursor-pointer max-lg:text-center`}
                         key={item.id}
                         onClick={() => setSelectedMenu(item.setter)}
                       >
@@ -71,7 +71,7 @@ function Products() {
                   })}
               </ul>
             </div>
-            <ul className="grid grid-cols-4 col-span-3 border p-5 gap-3 rounded-3xl bg-[#ffffffa9] duration-300 min-h-[36rem]">
+            <ul className="grid grid-cols-4 max-lg:grid-cols-2 col-span-3 max-lg:col-span-4 border p-5 gap-3 rounded-3xl bg-[#ffffffa9] duration-300 ">
               {products &&
                 products.map((item) => {
                   return (

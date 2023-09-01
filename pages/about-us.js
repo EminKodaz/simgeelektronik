@@ -38,7 +38,7 @@ function AboutUs() {
               <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
               <div className="w-4 h-4 bg-darkred rounded-full "></div>
             </div>
-            <p className="px-20 max-lg:px-0 max-lg:text-left text-center text-xl mt-5 font-semibold text-zinc-600">
+            <p className="px-20 max-lg:px-0 max-lg:text-center text-center text-xl mt-5 font-semibold text-zinc-600">
               {t("main-desc")}
             </p>
           </section>
@@ -67,7 +67,7 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <article className=" text-zinc-100 px-10 max-lg:px-7 max-lg:pt-10 max-lg:pb-10 pt-32 pb-32 bg-[#5f1515e7]">
+            <article className=" text-zinc-100 px-10 max-lg:px-7 max-lg:pt-10 max-lg:pb-10 pt-32 pb-32 bg-[#5f1515e7] max-lg:text-justify">
               <h2 className="text-4xl font-bold">{t("caption")}</h2>
               <p className="mt-3 text-lg font-medium">{t("aboutus-p")}</p>
             </article>
