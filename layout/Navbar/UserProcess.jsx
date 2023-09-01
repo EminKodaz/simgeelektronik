@@ -49,6 +49,7 @@ function UserProcess({ isMobile }) {
         <Link
           className="mb-3 flex items-center hover:text-red-600 font-light rounded-lg"
           href="/password-demand"
+          onClick={handleButtonClick}
         >
           <MdQuestionMark className="text-red-600 mr-1" />
           {t("password-ac")}
@@ -57,6 +58,7 @@ function UserProcess({ isMobile }) {
           className=" flex items-center  hover:text-red-600 font-light rounded-lg"
           href="http://88.250.21.119:180/Login.aspx"
           target="_blank"
+          onClick={handleButtonClick}
         >
           <MdReport className="text-red-600 mr-1" />
           {t("alarm-report")}
