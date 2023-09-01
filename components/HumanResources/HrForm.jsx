@@ -6,6 +6,7 @@ import { AiFillWarning } from "react-icons/ai";
 function HrForm() {
   const { t } = useTranslation("humanResources");
   const [status, setStatus] = useState("idle");
+  const [count, setCount] = useState(0);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -23,6 +24,7 @@ function HrForm() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
+    setCount(e.target.value.length);
   };
 
   const handleSubmit = async (e) => {
@@ -134,10 +136,20 @@ function HrForm() {
             name="message"
             value={formData.message}
             as="textarea"
+            maxLength={250}
             placeholder={t("messageLabel")}
             onChange={(e) => handleChange(e)}
           ></textarea>
-          {errors.message && <p className="text-red-500">{errors.message}</p>}
+          <div className="flex w-full">
+            {errors.message && (
+              <p className="text-red-500 w-full items-start">
+                {errors.message}
+              </p>
+            )}
+            <p className="text-right w-full items-end text-[#677791]">
+              {count}/250
+            </p>
+          </div>
         </div>
         <button
           type="submit"
