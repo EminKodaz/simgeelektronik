@@ -31,7 +31,7 @@ function HeaderLeftSide() {
   }, [t]);
 
   return (
-    <div className="max-lg:mb-0 relative col-span-3">
+    <div className="max-lg:mb-0 relative col-span-3 shadow-xl rounded-l-4xl">
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
         loop={true}

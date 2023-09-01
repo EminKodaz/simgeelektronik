@@ -122,7 +122,7 @@ function HeaderRightSide() {
         </div>
         <button
           type="submit"
-          className="bg-sky-600 w-full rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 p-2 px-4 cursor-pointer"
+          className="bg-sky-600 w-full max-[1300px]:py-1  max-[1300px]:rounded-md max-[1300px]:text-base  rounded-xl hover:bg-sky-400 hover:text-zinc-800 flex items-center justify-center font-bold text-white duration-100 py-2 px-4 cursor-pointer"
         >
           {status === "idle" ? (
             <>
