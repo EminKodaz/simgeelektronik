@@ -40,6 +40,7 @@ function BannerNReferences() {
             width={800}
             height={702}
             alt="alarmset"
+            className="rounded-xl"
           />
         </div>
       </div>
