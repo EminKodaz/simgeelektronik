@@ -2,5 +2,9 @@
   "caption": "Hesap Bilgileri",
   "head-1": "TL HESAP BİLGİLERİ",
   "head-2": "USD HESAP BİLGİLERİ",
-  "head-3": "EURO HESAP BİLGİLERİ"
+  "head-3": "EURO HESAP BİLGİLERİ",
+  "th-1": "Banka",
+  "th-2": "Şube",
+  "th-3": "Hesap Numarası",
+  "th-4": "Şube Kodu"
 }

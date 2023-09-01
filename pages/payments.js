@@ -45,10 +45,10 @@ function Payments() {
           <table className=" w-full">
             <thead className="text-left border-b">
               <tr className="border">
-                <th>Banka</th>
-                <th>Şube</th>
-                <th>Şube Kodu</th>
-                <th>Hesap Numarası</th>
+                <th>{t("payments:th-1")}</th>
+                <th>{t("payments:th-2")}</th>
+                <th>{t("payments:th-4")}</th>
+                <th>{t("payments:th-3")}</th>
                 <th>IBAN</th>
               </tr>
             </thead>
@@ -84,10 +84,10 @@ function Payments() {
           <table className=" w-full">
             <thead className="text-left border-b">
               <tr className="border">
-                <th>Banka</th>
-                <th>Şube</th>
-                <th>Şube Kodu</th>
-                <th>Hesap Numarası</th>
+                <th>{t("payments:th-1")}</th>
+                <th>{t("payments:th-2")}</th>
+                <th>{t("payments:th-4")}</th>
+                <th>{t("payments:th-3")}</th>
                 <th>IBAN</th>
               </tr>
             </thead>
@@ -116,10 +116,10 @@ function Payments() {
           <table className=" w-full">
             <thead className="text-left border-b">
               <tr className="border">
-                <th>Banka</th>
-                <th>Şube</th>
-                <th>Şube Kodu</th>
-                <th>Hesap Numarası</th>
+                <th>{t("payments:th-1")}</th>
+                <th>{t("payments:th-2")}</th>
+                <th>{t("payments:th-4")}</th>
+                <th>{t("payments:th-3")}</th>
                 <th>IBAN</th>
               </tr>
             </thead>
