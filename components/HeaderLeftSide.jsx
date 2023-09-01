@@ -60,8 +60,8 @@ function HeaderLeftSide() {
                   src={item.image}
                   alt="ev"
                   className="w-full"
-                  width={1079}
-                  height={719}
+                  width={1024}
+                  height={512}
                 />
               </SwiperSlide>
             );

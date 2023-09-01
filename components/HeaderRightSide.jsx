@@ -67,12 +67,12 @@ function HeaderRightSide() {
     }, 2000);
   }, [status === "success"]);
   return (
-    <div className="w-2/4 bg-[#ffffffc9] rounded-4xl shadow-xl backdrop-blur-sm p-8 h-fit pb-16 absolute top-1/2 transform -translate-y-1/2 max-lg:hidden max-[1300px]:-right-60 -right-80 z-20">
+    <div className="w-2/4 max-[1300px]:w-[37%]  bg-[#ffffffc9] rounded-4xl shadow-xl backdrop-blur-sm p-8 h-fit pb-16 absolute top-1/2 transform -translate-y-1/2 max-lg:hidden max-[1300px]:-right-60 -right-80 z-20">
       <form
         className="w-full gap-3 max-md:w-full m-auto flex font-medium text-black justify-start items-start flex-col h-full"
         onSubmit={handleSubmit}
       >
-        <h1 className="text-2xl font-bold mb-5 text-center text-[#023047]">
+        <h1 className="text-2xl max-[1300px]:text-lg max-[1300px]:mb-3 font-bold mb-5 text-center text-[#023047]">
           {t("formTitle")}
         </h1>
         <div className="w-full flex flex-col items-start">
@@ -83,7 +83,7 @@ function HeaderRightSide() {
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
-            className={`p-3 indent-2 w-full rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
+            className={`p-3 max-[1300px]:p-1 indent-2 w-full max-[1300px]:text-sm max-[1300px]:rounded-md rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
               errors.fullName && "border-red-500"
             }`}
           />
@@ -97,7 +97,7 @@ function HeaderRightSide() {
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}
-            className={`p-3 indent-2 w-full rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
+            className={`p-3 max-[1300px]:p-1 indent-2 w-full max-[1300px]:text-sm  max-[1300px]:rounded-md rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
               errors.email && "border-red-500"
             }`}
           />
@@ -112,7 +112,7 @@ function HeaderRightSide() {
             value={formData.phoneNumber}
             placeholder={t("phoneNumber")}
             onChange={handleChange}
-            className={`p-3 indent-2 w-full rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
+            className={`p-3 max-[1300px]:p-1 indent-2 w-full max-[1300px]:text-sm max-[1300px]:rounded-md rounded-xl focus-within:outline-none border border-[#677791] focus-within:border-[#677791] ${
               errors.phoneNumber && "border-red-500"
             }`}
           />

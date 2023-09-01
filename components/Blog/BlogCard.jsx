@@ -25,8 +25,8 @@ function BlogCard({
         className={isSlide ? "rounded-md" : ""}
         src={image}
         alt={title}
-        width={2203}
-        height={2238}
+        width={1024}
+        height={512}
       />
       <div className="p-3">
         <h2 className="text-xl font-bold text-zinc-800 mt-1">{title}</h2>
