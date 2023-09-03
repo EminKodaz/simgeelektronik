@@ -11,6 +11,12 @@
   "emailPlaceholder": "Please enter your email address",
   "messagePlaceholder": "Please enter your message",
   "locationsHeader": "Our Locations",
+  "kvkk": "I accept the KVKK clarification text.",
+  "kvkkLink": "Click here to read the text.",
+  "fullNameError": "Name-Surname field is required.",
+  "emailError": "Email field is required.",
+  "messageError": "Message field is required.",
+  "kvkkError": "You must accept the KVKK clarification text.",
   "locationOne": {
     "name": "Headquarters",
     "address": "Ziyabey Cad. No:36 Balgat - Ankara",

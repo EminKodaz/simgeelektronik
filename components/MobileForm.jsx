@@ -2,10 +2,12 @@ import useTranslation from "next-translate/useTranslation";
 import React, { useState, useEffect } from "react";
 import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
 import { AiFillWarning } from "react-icons/ai";
+import Link from "next/link";
 
 function MobileForm() {
   const { t } = useTranslation("quickExplorer");
   const [status, setStatus] = useState("idle");
+  const [kvkkAccepted, setKvkkAccepted] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -16,6 +18,7 @@ function MobileForm() {
     fullName: "",
     email: "",
     phoneNumber: "",
+    kvkk: "",
   });
 
   const handleChange = (e) => {
@@ -23,15 +26,20 @@ function MobileForm() {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
+  const handleKvkkChange = (e) => {
+    setKvkkAccepted(e.target.checked);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};
-    if (!formData.fullName) newErrors.fullName = "Ad-Soyad alanı zorunludur.";
-    if (!formData.email) newErrors.email = "Email alanı zorunludur.";
+    if (!formData.fullName) newErrors.fullName = `${t("fullNameError")}`;
+    if (!formData.email) newErrors.email = `${t("emailError")}`;
     if (!formData.phoneNumber)
-      newErrors.phoneNumber = "Telefon Numarası alanı zorunludur.";
+      newErrors.phoneNumber = `${t("phoneNumberError")}`;
     if (formData.phoneNumber && !/^\d{10}$/.test(formData.phoneNumber))
-      newErrors.phoneNumber = "Geçerli bir Türkiye telefon numarası giriniz.";
+      newErrors.phoneNumber = `${t("phoneNumberError2")}`;
+    if (!kvkkAccepted) newErrors.kvkk = `${t("kvkkError")}`;
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -59,6 +67,7 @@ function MobileForm() {
         phoneNumber: "",
       });
       setErrors({});
+      setKvkkAccepted(false);
     }
   };
   useEffect(() => {
@@ -119,6 +128,20 @@ function MobileForm() {
           {errors.phoneNumber && (
             <p className="text-red-500">{errors.phoneNumber}</p>
           )}
+        </div>
+        <div className="mb-4 text-sm text-start">
+          <label className="block mb-1 font-semibold">
+            <input
+              type="checkbox"
+              onChange={handleKvkkChange}
+              checked={kvkkAccepted}
+            />{" "}
+            {t("kvkk")}{" "}
+            <Link href="/kvkk" className="underline text-blue-400">
+              {t("kvkkLink")}
+            </Link>{" "}
+          </label>
+          {errors.kvkk && <p className="text-red-500">{errors.kvkk}</p>}
         </div>
         <button
           type="submit"

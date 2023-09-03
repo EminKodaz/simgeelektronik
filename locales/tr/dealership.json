@@ -14,5 +14,13 @@
   "emailLabel": "Email",
   "companyName": "Firma Adı",
   "phoneNumber": "Telefon Numarası Örn. 5554443322",
-  "formButton": "Gönder"
+  "formButton": "Gönder",
+  "kvkk": "KVKK aydınlatma metnini kabul ediyorum.",
+  "kvkkLink": "Metni okumak için tıklayın.",
+  "fullNameError": "Ad-Soyad alanı zorunludur.",
+  "emailError": "Email alanı zorunludur.",
+  "companyError": "Firma Adı alanı zorunludur.",
+  "phoneNumberError": "Telefon Numarası alanı zorunludur.",
+  "phoneNumberError2": "Geçerli bir Türkiye telefon numarası giriniz.",
+  "kvkkError": "KVKK aydınlatma metnini kabul etmelisiniz."
 }
