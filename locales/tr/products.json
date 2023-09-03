@@ -116,32 +116,53 @@
   "transition": [
     {
       "id": 601,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
+      "image": "/products/bariyer.png",
+      "title": "Bariyer",
       "desc": ""
     },
     {
       "id": 602,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
+      "image": "/products/mantar.png",
+      "title": "Mantar Bariyer",
       "desc": ""
     },
     {
       "id": 603,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
+      "image": "/products/kollu-turnike.png",
+      "title": "Kollu Turnike",
       "desc": ""
     },
     {
       "id": 604,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
+      "image": "/products/swing-gate.png",
+      "title": "Swing Gate",
+      "desc": ""
+    },
+    
+    {
+      "id": 609,
+      "image": "/products/vip-turnike.png",
+      "title": "Vip Turnike",
       "desc": ""
     },
     {
       "id": 605,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
+      "image": "/products/parmak-izi.png",
+      "title": "Parmak İzi Okuyucu",
+      "desc": ""
+    }
+    ,
+    {
+      "id": 606,
+      "image": "/products/kart-okuyucu.png",
+      "title": "Kart Okuyucu",
+      "desc": ""
+    }
+    ,
+    {
+      "id": 607,
+      "image": "/products/yuz-tanima.png",
+      "title": "Yüz Tanıma Cihazı",
       "desc": ""
     }
   ],

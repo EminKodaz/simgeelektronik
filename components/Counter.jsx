@@ -14,7 +14,7 @@ const Counter = ({ maxCount }) => {
             return prevCount;
           }
         });
-      }, 20); // Her projeyi 50 milisaniye aralıklarla ekleyeceğiz.
+      }, 5); // Her projeyi 50 milisaniye aralıklarla ekleyeceğiz.
 
       return () => {
         clearInterval(interval);

@@ -11,11 +11,11 @@ function Information() {
         <h2 className="text-2xl font-bold">{t("info-head-1")}</h2>
       </div>
       <div className="border py-5 ">
-        <Counter maxCount={50} />
+        <Counter maxCount={500} />
         <h2 className="text-2xl font-bold">{t("info-head-2")}</h2>
       </div>
       <div className="border py-5 rounded-r-3xl max-lg:rounded-b-3xl max-lg:rounded-tr-none">
-        <Counter maxCount={100} />
+        <Counter maxCount={1000}/>
         <h2 className="text-2xl font-bold">{t("info-head-3")}</h2>
       </div>
     </div>
