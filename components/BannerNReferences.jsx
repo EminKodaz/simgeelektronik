@@ -45,7 +45,7 @@ function BannerNReferences() {
         </div>
       </div>
       <div className="w-full h-64 flex items-baseline absolute -bottom-44 z-0 bg-[url('/images/refslidebg.png')] bg-cover bg-no-repeat">
-        <div className="w-[75%]  max-lg:w-[95%] m-auto">
+        <div className="w-[75%] max-[1300px]:w-[95%] max-lg:w-[95%] m-auto">
           <h2 className="mt-20 text-2xl text-center pb-2 font-semibold text-lightred">
           {t("our-partners")}
           </h2>
@@ -96,7 +96,7 @@ function BannerNReferences() {
               <Image
                 src="/references/arcelik.png"
                 width={300}
-                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
+                className="aspect-3 w-1/3 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 height={300}
                 alt="arcelik"
               />
@@ -104,7 +104,7 @@ function BannerNReferences() {
             <SwiperSlide>
               <Image
                 src="/references/ak.png"
-                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
+                className="aspect-3 w-1/3 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 width={300}
                 height={300}
                 alt="arcelik"
@@ -113,7 +113,7 @@ function BannerNReferences() {
             <SwiperSlide>
               <Image
                 src="/references/cb.png"
-                className="aspect-3 w-1/2 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
+                className="aspect-3 w-1/3 object-contain md:p-4 m-auto max-h-full flex flex-row content-center"
                 width={300}
                 height={300}
                 alt="arcelik"

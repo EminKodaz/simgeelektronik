@@ -47,13 +47,13 @@
       "submenu": [
         {
           "id": 100,
-          "title": "İşyeri Güvenlik Sistemleri",
-          "link": "/services/is-yeri-cozumleri"
+          "title": "Ev Güvenliği",
+          "link": "/services/ev-cozumleri"
         },
         {
           "id": 101,
-          "title": "Konut Güvenlik Sistemleri",
-          "link": "/services/ev-cozumleri"
+          "title": "İş Yeri Güvenliği",
+          "link": "/services/is-yeri-cozumleri"
         },
         {
           "id": 102,
