@@ -81,6 +81,7 @@ function QuickExplorerForm() {
             type="text"
             id="fullName"
             name="fullName"
+            maxLength={30}
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
@@ -95,6 +96,7 @@ function QuickExplorerForm() {
             type="email"
             id="email"
             name="email"
+            maxLength={40}
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}
@@ -110,6 +112,7 @@ function QuickExplorerForm() {
             id="phoneNumber"
             name="phoneNumber"
             pattern="\d{10}"
+            maxLength={12}
             value={formData.phoneNumber}
             placeholder={t("phoneNumber")}
             onChange={handleChange}

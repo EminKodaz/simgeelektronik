@@ -6,7 +6,6 @@ import { AiFillWarning } from "react-icons/ai";
 function ContactForm() {
   const { t } = useTranslation("contact");
   const [status, setStatus] = useState("idle");
-  const [count, setCount] = useState(0);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -22,7 +21,6 @@ function ContactForm() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
-    setCount(e.target.value.length);
   };
 
   const handleSubmit = async (e) => {
@@ -79,6 +77,7 @@ function ContactForm() {
             type="text"
             id="fullName"
             name="fullName"
+            maxLength={30}
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
@@ -93,6 +92,7 @@ function ContactForm() {
             type="email"
             id="email"
             name="email"
+            maxLength={40}
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}
@@ -115,16 +115,7 @@ function ContactForm() {
             placeholder={t("messageLabel")}
             onChange={(e) => handleChange(e)}
           ></textarea>
-          <div className="flex w-full">
-            {errors.message && (
-              <p className="text-red-500 w-full items-start">
-                {errors.message}
-              </p>
-            )}
-            <p className="text-right w-full items-end text-[#677791]">
-              {count}/250
-            </p>
-          </div>
+          {errors.message && <p className="text-red-500">{errors.message}</p>}
         </div>
         <button
           type="submit"

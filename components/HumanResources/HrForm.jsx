@@ -6,7 +6,6 @@ import { AiFillWarning } from "react-icons/ai";
 function HrForm() {
   const { t } = useTranslation("humanResources");
   const [status, setStatus] = useState("idle");
-  const [count, setCount] = useState(0);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -24,7 +23,6 @@ function HrForm() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
-    setCount(e.target.value.length);
   };
 
   const handleSubmit = async (e) => {
@@ -87,6 +85,7 @@ function HrForm() {
             type="text"
             id="fullName"
             name="fullName"
+            maxLength={30}
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
@@ -101,6 +100,7 @@ function HrForm() {
             type="email"
             id="email"
             name="email"
+            maxLength={40}
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}
@@ -116,6 +116,7 @@ function HrForm() {
             id="phoneNumber"
             name="phoneNumber"
             pattern="\d{10}"
+            maxLength={12}
             value={formData.phoneNumber}
             placeholder={t("phoneNumber")}
             onChange={handleChange}
@@ -140,16 +141,7 @@ function HrForm() {
             placeholder={t("messageLabel")}
             onChange={(e) => handleChange(e)}
           ></textarea>
-          <div className="flex w-full">
-            {errors.message && (
-              <p className="text-red-500 w-full items-start">
-                {errors.message}
-              </p>
-            )}
-            <p className="text-right w-full items-end text-[#677791]">
-              {count}/250
-            </p>
-          </div>
+          {errors.message && <p className="text-red-500">{errors.message}</p>}
         </div>
         <button
           type="submit"

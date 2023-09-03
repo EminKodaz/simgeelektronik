@@ -13,6 +13,6 @@
   "nameLabel": "Name-Surname",
   "emailLabel": "Email",
   "companyName": "Company Name",
-  "phoneNumber": "555-444-33-22",
+  "phoneNumber": "Phone Number (e.g., 5554443322)",
   "formButton": "Submit"
 }
