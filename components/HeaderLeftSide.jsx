@@ -48,8 +48,8 @@ function HeaderLeftSide() {
           carouselItems.map((item) => {
             return (
               <SwiperSlide key={item.id}>
-                <div className="absolute top-1/2 transform -translate-y-1/2 left-10 max-lg:w-[80%]">
-                  <h1 className=" text-5xl max-lg:text-3xl text-white font-bold">
+                <div className="absolute top-1/2 transform -translate-y-1/2 left-10 z-20 max-lg:w-[80%] p-5 rounded-xl bg-[#00000096]">
+                  <h1 className=" text-5xl max-lg:text-3xl text-white font-bold ">
                     {item.title}
                   </h1>
                   <p className="text-xl max-lg:text-sm mt-5 max-lg:mt-3 text-white max-lg:hidden w-[65%] max-lg:w-full">
