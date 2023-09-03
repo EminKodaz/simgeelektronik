@@ -54,25 +54,32 @@ function Payments() {
             </thead>
             <tbody className="p">
               <tr className="border">
-                <td>Banka Adı 1</td>
-                <td>Şube Adı 1</td>
-                <td>Şube Kodu 1</td>
-                <td>Hesap Numarası 1</td>
-                <td>IBAN 1</td>
+                <td>Vakıfbank</td>
+                <td>Balgat</td>
+                <td>S00402</td>
+                <td>581708</td>
+                <td>TR27 0001 5001 5800 7298 5817 08</td>
               </tr>
               <tr className="border">
-                <td>Banka Adı 2</td>
-                <td>Şube Adı 2</td>
-                <td>Şube Kodu 2</td>
-                <td>Hesap Numarası 2</td>
-                <td>IBAN 2</td>
+                <td>Garanti</td>
+                <td>Çetin Emeç</td>
+                <td>461</td>
+                <td>6299299</td>
+                <td>TR94 0006 2000 4610 0006 2992 99</td>
               </tr>
               <tr className="border">
-                <td>Banka Adı 3</td>
-                <td>Şube Adı 3</td>
-                <td>Şube Kodu 3</td>
-                <td>Hesap Numarası 3</td>
-                <td>IBAN 3</td>
+                <td>Ziraat Bankası</td>
+                <td>Balgat</td>
+                <td>1395</td>
+                <td>66236478-5005</td>
+                <td>TR46 0001 0013 9566 2364 7850 05</td>
+              </tr>
+              <tr className="border">
+                <td>İş Bankası</td>
+                <td>Balgat</td>
+                <td>4284</td>
+                <td>421993</td>
+                <td>TR68 0006 4000 0014 2840 4219 93</td>
               </tr>
             </tbody>
           </table>
@@ -93,18 +100,18 @@ function Payments() {
             </thead>
             <tbody className="p">
               <tr className="border">
-                <td>Banka Adı 1</td>
-                <td>Şube Adı 1</td>
-                <td>Şube Kodu 1</td>
-                <td>Hesap Numarası 1</td>
-                <td>IBAN 1</td>
+                <td>Garanti</td>
+                <td>Çetin Emeç</td>
+                <td>461</td>
+                <td>9098332</td>
+                <td>TR67 0006 2000 4610 0009 0983 32</td>
               </tr>
               <tr className="border">
-                <td>Banka Adı 2</td>
-                <td>Şube Adı 2</td>
-                <td>Şube Kodu 2</td>
-                <td>Hesap Numarası 2</td>
-                <td>IBAN 2</td>
+                <td>İş Bankası</td>
+                <td>Balgat</td>
+                <td>4284</td>
+                <td>184126</td>
+                <td>TR69 0006 4000 0024 2840 1841 26</td>
               </tr>
             </tbody>
           </table>
@@ -125,11 +132,11 @@ function Payments() {
             </thead>
             <tbody className="p">
               <tr className="border">
-                <td>Banka Adı 1</td>
-                <td>Şube Adı 1</td>
-                <td>Şube Kodu 1</td>
-                <td>Hesap Numarası 1</td>
-                <td>IBAN 1</td>
+                <td>İş Bankası</td>
+                <td>Balgat</td>
+                <td>4284</td>
+                <td>184112</td>
+                <td>TR59 0006 4000 0024 2840 1841 12</td>
               </tr>
             </tbody>
           </table>
