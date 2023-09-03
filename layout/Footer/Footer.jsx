@@ -34,12 +34,12 @@ function Footer() {
               {t("contactCallButton")} +90 (312) 287 17 40
             </button>
             <address className="text-white mt-5">
-              <h5 className="text-lg font-bold">Genel Müdürlük</h5>
+              <h5 className="text-lg font-bold">{t("headquarters")}</h5>
               <p>Ziyabey Cad. No:36 Balgat - Ankara</p>
             </address>
             <address className="text-white mt-5">
-              <h5 className="text-lg font-bold">Akdeniz Bölge Müdürlüğü</h5>
-              <p>A. Türkeş Bulvarı No: 281 / A Seyhan - ADANA</p>
+              <h5 className="text-lg font-bold">{t("med")}</h5>
+              <p>Alparslan Türkeş Bulvarı No: 281 / Seyhan - ADANA</p>
             </address>
           </div>
         </section>

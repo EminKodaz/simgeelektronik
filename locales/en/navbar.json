@@ -1,5 +1,5 @@
 {
-  "slogan": "This Alarm Is Everywhere You See Us",
+  "slogan": "Since 1994, we have been protecting every place where you see this alarm.",
   "user-process": "User Processes",
   "password-ac": "Password Request",
   "alarm-report": "Alarm Reports",
@@ -47,17 +47,17 @@
         {
           "id": 100,
           "title": "Workplace Security Systems",
-          "link": "/services/workplace-solutions"
+          "link": "/services/is-yeri-cozumleri"
         },
         {
           "id": 101,
           "title": "Residential Security Systems",
-          "link": "/services/home-solutions"
+          "link": "/services/ev-cozumleri"
         },
         {
           "id": 102,
           "title": "Corporate Solutions",
-          "link": "/services/corporate-solutions"
+          "link": "/services/kurumsal-cozumler"
         },
         {
           "id": 103,

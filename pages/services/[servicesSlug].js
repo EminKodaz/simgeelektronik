@@ -102,7 +102,7 @@ function Services() {
                 href="/products"
                 className=" flex w-full justify-center items-center border bg-sky-700 text-white py-5 rounded-xl text-xl font-bold hover:bg-sky-600 duration-300"
               >
-                Ürünlerimize Göz Atın{" "}
+                {t("look-at")}
                 <MdOutlineSubdirectoryArrowRight
                   size={24}
                   className="ml-3 mt-1"

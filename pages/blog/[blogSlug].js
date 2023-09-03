@@ -95,7 +95,7 @@ function BlogDetail() {
           {interestedBlogs && (
             <>
               <h3 className="mb-7 text-3xl font-semibold text-darkred">
-                İlginizi Çekebilecek Diğer İçerikler
+              {t("sub-ilgi")}
               </h3>
               <div className="relative w-full">
                 <Swiper

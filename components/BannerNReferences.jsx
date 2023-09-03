@@ -47,7 +47,7 @@ function BannerNReferences() {
       <div className="w-full h-64 flex items-baseline absolute -bottom-44 z-0 bg-[url('/images/refslidebg.png')] bg-cover bg-no-repeat">
         <div className="w-[75%]  max-lg:w-[95%] m-auto">
           <h2 className="mt-20 text-2xl text-center pb-2 font-semibold text-lightred">
-            Bizi Tercih Eden Kurumlar
+          {t("our-partners")}
           </h2>
           <Swiper
             modules={[Autoplay, Navigation]}

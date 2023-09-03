@@ -21,11 +21,6 @@
       "id": 1004,
       "title": "Yangın Alarm Sistemleri",
       "setter": "fire"
-    },
-    {
-      "id": 1005,
-      "title": "Akıllı Ev sistemleri",
-      "setter": "smartHouse"
     }
   ],
 
@@ -129,6 +124,5 @@
       "title": "Yangın Alarm Sistemleri",
       "desc": ""
     }
-  ],
-  "smartHouse": []
+  ]
 }
