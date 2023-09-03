@@ -5,6 +5,7 @@ import SocialMedia from "@/components/SocialMedia";
 import WorkingHours from "./WorkingHours";
 import QuickLinks from "./QuickLinks";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import Link from "next/link";
 
 function Footer() {
   const { t } = useTranslation("footer");
@@ -35,11 +36,25 @@ function Footer() {
             </button>
             <address className="text-white mt-5">
               <h5 className="text-lg font-bold">{t("headquarters")}</h5>
-              <p>Ziyabey Cad. No:36 Balgat - Ankara</p>
+
+              <Link
+                href="https://goo.gl/maps/upFZHKmDSK3n7V778"
+                target="_blank"
+              >
+                <p className="underline">Ziyabey Cad. No:36 Balgat - Ankara</p>
+              </Link>
             </address>
             <address className="text-white mt-5">
               <h5 className="text-lg font-bold">{t("med")}</h5>
-              <p>Alparslan Türkeş Bulvarı No: 281 / Seyhan - ADANA</p>
+
+              <Link
+                href=" https://goo.gl/maps/ZX7RZ74kq9YAuH2P8"
+                target="_blank"
+              >
+                <p className="underline">
+                  Alparslan Türkeş Bulvarı No: 281 / Seyhan - ADANA
+                </p>
+              </Link>
             </address>
           </div>
         </section>

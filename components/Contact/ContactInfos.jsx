@@ -90,9 +90,8 @@ function ContactInfos() {
           <h1>Mail Adresleri</h1>
         </div>
         <div className="flex flex-col justify-start items-start md:pl-[2.7rem]">
-          <p>info@simgeelektronik.com.tr</p>{" "}
+          <p>info@simgeelektronik.com.tr</p>
           <p>muhasebe@simgeelektronik.com.tr</p>
-          <p>bayibasvuru@simgeelektronik.com.tr</p>{" "}
           <p>ahm@simgeelektronik.com.tr</p>
         </div>
       </div>
