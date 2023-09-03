@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import useTranslation from "next-translate/useTranslation";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -13,10 +13,26 @@ function LangItems({ isMobile }) {
     setIsVisible(!isVisible);
   };
 
+  const langMenuRef = useRef(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (langMenuRef.current && !langMenuRef.current.contains(event.target)) {
+        setIsVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
   const { locales } = i18nConfig;
 
   return (
-    <div className="relative ml-5">
+    <div className="relative ml-5" ref={langMenuRef}>
       <button
         onClick={handleButtonClick}
         className={`${

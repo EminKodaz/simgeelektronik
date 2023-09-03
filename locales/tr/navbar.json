@@ -3,6 +3,7 @@
   "user-process": "Kullanıcı İşlemleri",
   "password-ac": "Şifre Talebi",
   "alarm-report": "Alarm Raporları",
+  "payments": "Ödemeler",
   "exploration-form": "Ücretsiz Keşif Formu",
   "exp-t": "Yada Bize Ulaşın",
   "exp-t-2": "Hemen Gelelim",
@@ -31,11 +32,6 @@
           "id": 103,
           "title": "İnsan Kaynakları",
           "link": "/human-resources"
-        },
-        {
-          "id": 104,
-          "title": "Ödemeler",
-          "link": "/payments"
         }
       ]
     },

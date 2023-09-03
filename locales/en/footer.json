@@ -13,7 +13,8 @@
   "menuItems": [
     {
       "id": 71,
-      "title": "Home"
+      "title": "Home",
+      "link": "/"
     },
     {
       "id": 72,

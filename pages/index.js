@@ -8,6 +8,8 @@ import Faq from "@/components/Faq";
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import MobileForm from "@/components/MobileForm";
+import Counter from "@/components/Counter";
+import Information from "@/components/Information";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -37,6 +39,7 @@ export default function Home() {
         <Header />
         <MobileForm />
         <SubHeader />
+        <Information />
         <BannerNReferences />
         <WorkingProcess />
         <Faq />

@@ -22,7 +22,7 @@ const Counter = ({ maxCount }) => {
     }
   }, [projectCount, maxCount]);
 
-  return <p className="text-5xl text-lightred mb-3 font-bold">{projectCount}</p>;
+  return <p className="text-5xl text-lightred mb-3 font-bold ">{projectCount}</p>;
 };
 
 export default Counter;

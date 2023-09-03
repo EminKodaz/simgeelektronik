@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import useTranslation from "next-translate/useTranslation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import i18nConfig from "../../i18n.json";
 import { BsChevronDown } from "react-icons/bs";
-import { MdPerson, MdQuestionMark, MdReport } from "react-icons/md";
+import { MdPayment, MdPerson, MdQuestionMark, MdReport } from "react-icons/md";
 
 function UserProcess({ isMobile }) {
   const { t } = useTranslation("navbar");
@@ -14,8 +14,27 @@ function UserProcess({ isMobile }) {
     setIsVisible(!isVisible);
   };
 
+  const userProcessRef = useRef(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (
+        userProcessRef.current &&
+        !userProcessRef.current.contains(event.target)
+      ) {
+        setIsVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
   return (
-    <div className={`${isMobile && "mb-2"} relative ml-5`}>
+    <div className={`${isMobile && "mb-2"} relative ml-5`} ref={userProcessRef}>
       <button
         onClick={handleButtonClick}
         className={`${
@@ -47,7 +66,7 @@ function UserProcess({ isMobile }) {
         } absolute flex flex-col top-[2.2rem] backdrop-blur-base border z-40 border-zinc-300  rounded-md w-full  p-3 bg-white`}
       >
         <Link
-          className="mb-3 flex items-center hover:text-red-600 font-light rounded-lg"
+          className="mb-3 max-lg:mb-1 flex items-center hover:text-red-600 font-light rounded-lg"
           href="/password-demand"
           onClick={handleButtonClick}
         >
@@ -62,6 +81,15 @@ function UserProcess({ isMobile }) {
         >
           <MdReport className="text-red-600 mr-1" />
           {t("alarm-report")}
+        </Link>
+        <Link
+          className=" flex items-center mt-3 max-lg:mt-1 hover:text-red-600 font-light rounded-lg"
+          href="/ödemeler"
+          target="_blank"
+          onClick={handleButtonClick}
+        >
+          <MdPayment className="text-red-600 mr-1" />
+          {t("payments")}
         </Link>
       </motion.div>
     </div>
