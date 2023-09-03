@@ -2,7 +2,7 @@
   "dealershipHeader": "Dealer Login",
   "dealershipDescription": "SİMGE GROUP, a pioneer in the electronic security sector, creates every opportunity for its employees to complete their individual and professional development.",
   "formTitle": "Dealer Registration Form",
-  "formContentDescription": "To apply to become a dealer, you need to fill out the form completely and send the required documents to bayibasvuru@simgeelektronik.com.tr.",
+  "formContentDescription": "To apply to become a dealer, you need to fill out the form completely and send the required documents to info@simgeelektronik.com.tr.",
   "formDescriptionDetailList": [
     "Trade Registry Gazette",
     "Tax Certificate",
@@ -14,5 +14,13 @@
   "emailLabel": "Email",
   "companyName": "Company Name",
   "phoneNumber": "Phone Number (e.g., 5554443322)",
-  "formButton": "Submit"
+  "formButton": "Submit",
+  "kvkk": "I accept the KVKK clarification text.",
+  "kvkkLink": "Click here to read the text.",
+  "fullNameError": "Name-Surname field is required.",
+  "emailError": "Email field is required.",
+  "companyError": "Company Name field is required.",
+  "phoneNumberError": "Phone Number field is required.",
+  "phoneNumberError2": "Enter a valid Turkish phone number.",
+  "kvkkError": "You must accept the KVKK clarification text."
 }

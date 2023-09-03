@@ -2,10 +2,12 @@ import useTranslation from "next-translate/useTranslation";
 import React, { useState, useEffect } from "react";
 import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
 import { AiFillWarning } from "react-icons/ai";
+import Link from "next/link";
 
 function HrForm() {
   const { t } = useTranslation("humanResources");
   const [status, setStatus] = useState("idle");
+  const [kvkkAccepted, setKvkkAccepted] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -18,6 +20,7 @@ function HrForm() {
     email: "",
     phoneNumber: "",
     message: "",
+    kvkk: "",
   });
 
   const handleChange = (e) => {
@@ -25,16 +28,21 @@ function HrForm() {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
+  const handleKvkkChange = (e) => {
+    setKvkkAccepted(e.target.checked);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};
-    if (!formData.fullName) newErrors.fullName = "Ad-Soyad alanı zorunludur.";
-    if (!formData.email) newErrors.email = "Email alanı zorunludur.";
+    if (!formData.fullName) newErrors.fullName = `${t("fullNameError")}`;
+    if (!formData.email) newErrors.email = `${t("emailError")}`;
     if (!formData.phoneNumber)
-      newErrors.phoneNumber = "Telefon Numarası alanı zorunludur.";
+      newErrors.phoneNumber = `${t("phoneNumberError")}`;
     if (formData.phoneNumber && !/^\d{10}$/.test(formData.phoneNumber))
-      newErrors.phoneNumber = "Geçerli bir Türkiye telefon numarası giriniz.";
-    if (!formData.message) newErrors.message = "Mesaj alanı zorunludur.";
+      newErrors.phoneNumber = `${t("phoneNumberError2")}`;
+    if (!formData.message) newErrors.message = `${t("messageError")}`;
+    if (!kvkkAccepted) newErrors.kvkk = `${t("kvkkError")}`;
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -64,6 +72,7 @@ function HrForm() {
         message: "",
       });
       setErrors({});
+      setKvkkAccepted(false);
     }
   };
   useEffect(() => {
@@ -72,7 +81,7 @@ function HrForm() {
     }, 2000);
   }, [status === "success"]);
   return (
-    <div className="min-w-full md:h-[40rem] min-h-fit md:w-1/2 md:p-10 p-3 mt-6 flex flex-col justify-center items-center  bg-[#FAFAFA] shadow-[0px_0px_61px_2px_#00000024] md:rounded-[2.5rem] rounded-2xl">
+    <div className="min-w-full min-h-fit md:w-1/2 md:p-10 p-3 mt-6 flex flex-col justify-center items-center  bg-[#FAFAFA] shadow-[0px_0px_61px_2px_#00000024] md:rounded-[2.5rem] rounded-2xl">
       <form
         className="w-full gap-3 max-md:w-full m-auto flex font-medium text-black justify-start items-start flex-col"
         onSubmit={handleSubmit}
@@ -142,6 +151,20 @@ function HrForm() {
             onChange={(e) => handleChange(e)}
           ></textarea>
           {errors.message && <p className="text-red-500">{errors.message}</p>}
+        </div>
+        <div className="mb-4 text-sm text-start">
+          <label className="block mb-1 font-semibold">
+            <input
+              type="checkbox"
+              onChange={handleKvkkChange}
+              checked={kvkkAccepted}
+            />{" "}
+            {t("kvkk")}{" "}
+            <Link href="/kvkk" className="underline text-blue-400">
+              {t("kvkkLink")}
+            </Link>{" "}
+          </label>
+          {errors.kvkk && <p className="text-red-500">{errors.kvkk}</p>}
         </div>
         <button
           type="submit"

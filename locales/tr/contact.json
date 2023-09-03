@@ -11,6 +11,12 @@
   "emailPlaceholder": "Lütfen email adresinizi giriniz",
   "messagePlaceholder": "Lütfen mesajınızı giriniz",
   "locationsHeader": "Lokasyonlarımız",
+  "kvkk": "KVKK aydınlatma metnini kabul ediyorum.",
+  "kvkkLink": "Metni okumak için tıklayın.",
+  "fullNameError": "Ad-Soyad alanı zorunludur.",
+  "emailError": "Email alanı zorunludur.",
+  "messageError": "Mesaj alanı zorunludur.",
+  "kvkkError": "KVKK aydınlatma metnini kabul etmelisiniz.",
   "locationOne": {
     "name": "Genel Müdürlük",
     "address": "Ziyabey Cad. No:36 Balgat - Ankara",
