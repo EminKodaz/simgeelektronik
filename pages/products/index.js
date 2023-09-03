@@ -87,7 +87,7 @@ function Products() {
                       translate="translateY(-50px)"
                       className="z-10"
                     >
-                      <li className="">
+                      <li className="text-center font-semibold">
                         <Image
                           src={item.image}
                           alt={item.title}
