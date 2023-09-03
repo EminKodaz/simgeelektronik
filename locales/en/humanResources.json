@@ -21,12 +21,12 @@
   "selectCvLabel": "Please Upload Your CV:",
   "phoneNumber": "Phone Number (e.g., 5554443322)",
   "formButton": "Send",
-  "kvkk": "I accept the KVKK clarification text.",
+  "kvkk": "I accept the PDPL clarification text.",
   "kvkkLink": "Click here to read the text.",
   "fullNameError": "Name-Surname field is required.",
   "emailError": "Email field is required.",
   "messageError": "Message field is required.",
   "phoneNumberError": "Phone Number field is required.",
   "phoneNumberError2": "Enter a valid Turkish phone number.",
-  "kvkkError": "You must accept the KVKK clarification text."
+  "kvkkError": "You must accept the PDPL clarification text."
 }
