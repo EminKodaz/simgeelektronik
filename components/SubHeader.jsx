@@ -24,7 +24,7 @@ function SubHeader() {
           <h3 className="text-center mb-3 text-2xl font-medium">
             {t("innovate")}
           </h3>
-          <p>{t("innovate-p")}</p>
+          <p className="text-center">{t("innovate-p")}</p>
         </Link>
         <Link
           href="/services/ev-cozumleri"
@@ -34,7 +34,7 @@ function SubHeader() {
           <h3 className="text-center mb-3 text-2xl font-medium">
             {t("high-quality")}
           </h3>
-          <p>{t("high-quality-p")}</p>
+          <p className="text-center">{t("high-quality-p")}</p>
         </Link>
         <Link
           href="/services/kurumsal-cozumler"
@@ -44,7 +44,7 @@ function SubHeader() {
           <h3 className="text-center mb-3 text-2xl font-medium">
             {t("best-product")}
           </h3>
-          <p>{t("best-product-p")}</p>
+          <p className="text-center">{t("best-product-p")}</p>
         </Link>
         <Link
           href="/products"
@@ -54,7 +54,7 @@ function SubHeader() {
           <h3 className="text-center mb-3 text-2xl font-medium">
             {t("top-services")}
           </h3>
-          <p>{t("top-services-p")}</p>
+          <p className="text-center">{t("top-services-p")}</p>
         </Link>
       </section>
     </InviewAnimate>
