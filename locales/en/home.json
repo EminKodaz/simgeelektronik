@@ -2,59 +2,59 @@
   "carouselItems": [
     {
       "id": 801,
-      "title": "Hırsız Alarm",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "title": "Burglar Alarm Systems",
+      "desc": "An effective electronic security solution that automatically triggers the alarm monitoring center, property owner, and neighbors in cases of emergencies such as burglary, threats, robbery, fire, or health issues in homes or businesses. With instant response and communication features, the alarm system is designed to maximize your security.",
+      "image": "/images/carousel-1.webp"
     },
     {
       "id": 802,
-      "title": "Hırsız Alarm",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "title": "Fire Alarm Systems",
+      "desc": "Fire detection systems play a critical role in protecting buildings and industrial facilities from fires. These systems detect and provide notifications of fires at an early stage, enabling rapid intervention. They enhance both life and property safety by preventing the spread of fires. Fire detection systems are of great importance in early fire detection and prevention.",
+      "image": "/images/carousel-2.webp"
     },
     {
       "id": 803,
-      "title": "Hırsız Alarm",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel2.jpg"
+      "title": "CCTV Camera Systems",
+      "desc": "We maintain our leading position in the industry with our commitment to quality products and services. Our vision, which values our employees and aims for continuous improvement, is one of the factors that make us a preferred choice. Simge Electronics is known for adding value to our customers and ensuring the highest level of security.",
+      "image": "/images/carousel-3.webp"
     }
   ],
-  "solutions-head": "Çözümlerimiz",
-  "innovate": "İşyeri Güvenlik Sistemleri",
-  "innovate-p": "Her müşterinin ihtiyaçlarına özel yenilikçi çözümler üretiyoruz. ",
-  "high-quality": "Konut Güvenlik Sistemleri",
-  "high-quality-p": "En yüksek kaliteyi uygun maliyetle size sunmanın gururunu yaşıyoruz. ",
-  "best-product": "Kurumsal Çözümler",
-  "best-product-p": "Ürünlerimizde mükemmel işçilik ve güvenilirlik bir arada geliyor. ",
-  "top-services": "Ürünlerimiz",
-  "top-services-p": "Profesyonel ekibimizle size en hızlı ve etkili şekilde destek sağlıyoruz. ",
-  "banner-ref-head": "İşiniz ve eviniz için güvenlik çözümleri",
-  "banner-ref-p": "Gelişmiş güvenlik çözümleri ile işiniz ve eviniz her zaman güvende. Kameralar, izleme sistemleri ve akıllı kilitlerle huzuru yakalayın. ",
-  "banner-ref-head-2": "7/24 Destek",
-  "banner-ref-p-2": "Her saat ve her dakika yanınızdayız.",
-  "banner-ref-head-3": "2 yıl garanti",
-  "banner-ref-p-3": "Ürünlerimiz 2 yıl garantilidir.",
-  "working-process": "Çalışma Sürecimiz",
-  "working-process-p": "Çalışma sürecimizi buradan inceleyebilir. Sorularınızı bize ulaşarak iletebilirsiniz.",
-  "exploration-t": "Keşif",
-  "exploration-p": "Ücretsiz bir şekilde evinizi veya işyerinizi inceliyor size en uygun çözümü sunuyoruz. ",
-  "research-t": "Teklif",
-  "research-p": "İhtiyaçlarınıza uygun olarak hazırladığımız teklifimizi sizlere sunuyoruz. ",
-  "setup-t": "Kurulum",
-  "setup-p": "Onay alındıktan hemen sonra, deneyimli ekibimiz kurulum sürecine hızla başlıyor. ",
-  "faq-title": "Sıkça Sorulan Sorular",
+  "solutions-head": "Our Solutions",
+  "innovate": "Business Security Systems",
+  "innovate-p": "We produce innovative solutions tailored to the needs of every customer.",
+  "high-quality": "Residential Security Systems",
+  "high-quality-p": "We take pride in offering the highest quality at affordable prices.",
+  "best-product": "Corporate Solutions",
+  "best-product-p": "Our products combine excellent workmanship and reliability.",
+  "top-services": "Our Products",
+  "top-services-p": "With our professional team, we provide you with the fastest and most effective support.",
+  "banner-ref-head": "Security Solutions for Your Business and Home",
+  "banner-ref-p": "With advanced security solutions, your business and home are always safe. Achieve peace of mind with cameras, monitoring systems, and smart locks.",
+  "banner-ref-head-2": "24/7 Support",
+  "banner-ref-p-2": "We are here for you every hour and every minute.",
+  "banner-ref-head-3": "2-Year Warranty",
+  "banner-ref-p-3": "Our products come with a 2-year warranty.",
+  "working-process": "Our Working Process",
+  "working-process-p": "You can review our working process here. Feel free to contact us with your questions.",
+  "exploration-t": "Exploration",
+  "exploration-p": "We inspect your home or business for free and offer you the most suitable solution.",
+  "research-t": "Proposal",
+  "research-p": "We present our offer prepared according to your needs.",
+  "setup-t": "Installation",
+  "setup-p": "After receiving approval, our experienced team quickly begins the installation process.",
+  "faq-title": "Frequently Asked Questions",
   "faq": [
     {
-      "title": "Neden Simge Group?",
-      "content": "Simge Elektronik, köklü bir geçmişe sahip ve sektördeki geniş deneyimi ile öne çıkan bir şirkettir. Kurulduğumuz günden itibaren farklı alanlarda faaliyet göstererek kendimizi kanıtladık. Özellikle Kablo TV, İnternet Altyapısı ve Elektronik Güvenlik Sistemleri gibi alanlarda liderliğimizi sağlamlaştırdık. Müşteri odaklı yaklaşımımız, kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır."
+      "title": "Why Simge Group?",
+      "content": "Simge Electronics is a company with a rich history and extensive experience in the industry. Since our establishment, we have proven ourselves in various fields. We have solidified our leadership in areas such as Cable TV, Internet Infrastructure, and Electronic Security Systems. Our customer-focused approach, commitment to quality products and services, and our vision for continuous improvement are just a few of the elements that make us a preferred choice. Simge Electronics is known for adding value to our customers and ensuring the highest level of security."
     },
     {
-      "title": "Kaç yıl garanti veriyorsunuz?",
-      "content": "Ürünlerimiz 2 yıl garantilidir."
+      "title": "How many years of warranty do you offer?",
+      "content": "Our products come with a 2-year warranty."
     },
     {
-      "title": "Kurulum ne kadar sürüyor?",
-      "content": "Keşif çalışması ve kurulum süresi ortalama mekanlar için 1 haftadır."
+      "title": "How long does the installation process take?",
+      "content": "The exploration and installation process takes approximately 1 week for average-sized locations."
     }
   ]
 }

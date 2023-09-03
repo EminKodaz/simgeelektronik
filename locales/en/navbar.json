@@ -1,67 +1,67 @@
 {
-  "slogan": "Bu Alarmı Gördüğünüz Her Yerde Biz Varız",
-  "user-process": "Kullanıcı İşlemleri",
-  "password-ac": "Şifre Talebi",
-  "alarm-report": "Alarm Raporları",
-  "exploration-form": "Ücretsiz Keşif Formu",
-  "exp-t": "Yada Bize Ulaşın",
-  "exp-t-2": "Hemen Gelelim",
-  "header": "hello",
+  "slogan": "This Alarm Is Everywhere You See Us",
+  "user-process": "User Processes",
+  "password-ac": "Password Request",
+  "alarm-report": "Alarm Reports",
+  "exploration-form": "Free Exploration Form",
+  "exp-t": "Or Contact Us",
+  "exp-t-2": "We'll Come Right Away",
+  "header": "Hello",
   "menuItems": [
     {
       "id": 2,
-      "title": "Kurumsal",
+      "title": "Corporate",
       "submenu": [
         {
           "id": 100,
-          "title": "Hakkımızda",
+          "title": "About Us",
           "link": "/about-us"
         },
         {
           "id": 101,
-          "title": "Sertifikalarımız",
+          "title": "Our Certificates",
           "link": "/certificates"
         },
         {
           "id": 102,
-          "title": "Bayilik Başvurusu",
+          "title": "Dealership Application",
           "link": "/dealership"
         },
         {
           "id": 103,
-          "title": "İnsan Kaynakları",
+          "title": "Human Resources",
           "link": "/human-resources"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Referanslarımız",
+      "title": "Our References",
       "link": "/references"
     },
     {
       "id": 4,
-      "title": "Ürün ve Hizmetlerimiz",
+      "title": "Products and Services",
       "link": "/services",
       "submenu": [
         {
           "id": 100,
-          "title": "İşyeri Güvenlik Sistemleri",
-          "link": "/services/is-yeri-cozumleri"
+          "title": "Workplace Security Systems",
+          "link": "/services/workplace-solutions"
         },
         {
           "id": 101,
-          "title": "Konut Güvenlik Sistemleri",
-          "link": "/services/ev-cozumleri"
+          "title": "Residential Security Systems",
+          "link": "/services/home-solutions"
         },
         {
           "id": 102,
-          "title": "Kurumsal Çözümler",
-          "link": "/services/kurumsal-cozumler"
+          "title": "Corporate Solutions",
+          "link": "/services/corporate-solutions"
         },
         {
           "id": 103,
-          "title": "Ürünlerimiz",
+          "title": "Our Products",
           "link": "/products"
         }
       ]
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "title": "İletişim",
+      "title": "Contact",
       "link": "/contact"
     }
   ]

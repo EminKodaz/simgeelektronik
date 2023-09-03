@@ -1,153 +1,167 @@
 {
-  "referencesHeader": "Referanslarımız",
-  "referencesDescription": "Birbirinden güzel projelerle bize destek olan referanslarımızı aşağıda görebilirsiniz.",
+  "referencesHeader": "Our References",
+  "referencesDescription": "You can see our references who supported us with beautiful projects below.",
   "references": [
     {
       "id": 301,
       "url": "/references/turk-telekom.png",
       "title": "Türk Telekom",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "Türk Telekom",
+      "description": "Burglar Alarm System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 302,
       "url": "/references/ankara-emniyet.png",
-      "title": "Ankara Emniyet Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Ankara Police Department",
+      "employer": "SECURITY BRANCH DIRECTORATE",
+      "description": "Burglar Alarm System and CCTV Camera System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 303,
       "url": "/references/cb.png",
-      "title": "Cumhurbaşkanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Presidency",
+      "employer": "SIEMENS",
+      "description": "Project, Maintenance, Repair, Network, and Internet Services"
     },
     {
       "id": 304,
       "url": "/references/deniz.png",
-      "title": "Deniz Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Naval Forces Command",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 305,
       "url": "/references/egm.png",
-      "title": "Emniyet Genel Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "General Directorate of Security",
+      "employer": "TÜRK TELEKOM",
+      "description": "Project, Maintenance, Repair, Network, and Internet Services"
     },
     {
       "id": 306,
       "url": "/references/arcelik.png",
       "title": "Arçelik",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "ARÇELİK",
+      "description": "Burglar Alarm System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 307,
       "url": "/references/halkbank.png",
       "title": "Halkbank",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "Halkbank",
+      "description": "Alarm System Equipment Sales"
     },
     {
       "id": 308,
       "url": "/references/hava-kuvvetleri-komutanligi.png",
-      "title": "Hava Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Turkish Air Force Command",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 309,
       "url": "/references/istihbarat.png",
-      "title": "İstihbarat Daire Başkanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Turkish National Police Intelligence Department",
+      "employer": "Turkish National Police Intelligence Department",
+      "description": "Garage Door, Flood, and Burglar Alarm System Installation"
     },
     {
       "id": 310,
       "url": "/references/kara.png",
-      "title": "Kara Kuvvetleri Komutanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Turkish Land Forces Command",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 311,
       "url": "/references/kecioren-belediyesi.png",
-      "title": "Keçiören Belediyesi",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Keçiören Municipality",
+      "employer": "KEÇİÖREN MUNICIPALITY",
+      "description": "Burglar Alarm System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 312,
       "url": "/references/dominos.png",
-      "title": "Domimo's Pizza",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Domino's Pizza",
+      "employer": "Domino's Pizza",
+      "description": "Burglar Alarm System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 313,
       "url": "/references/ktb.png",
-      "title": "Kültür ve Turizm Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Ministry of Culture and Tourism",
+      "employer": "IZMIR TIRE MUSEUM DIRECTORATE",
+      "description": "Alarm Monitoring Center Services"
     },
     {
       "id": 314,
       "url": "/references/maliye.png",
-      "title": "Maliye Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Ministry of Treasury and Finance",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 315,
       "url": "/references/merkezb.png",
-      "title": "Merkez Bankası",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Central Bank of the Republic of Turkey",
+      "employer": "SOCIAL FACILITIES",
+      "description": "Burglar Alarm System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 316,
       "url": "/references/tbmm.png",
-      "title": "TBMM",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Grand National Assembly of Turkey",
+      "employer": "Grand National Assembly of Turkey",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 317,
       "url": "/references/meb.png",
-      "title": "Milli Eğitim Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Ministry of National Education",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 318,
       "url": "/references/nissan.png",
       "title": "Nissan",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "employer": "BAYKOÇLAR",
+      "description": "Burglar Alarm System and CCTV Camera System Installation, Alarm Monitoring Center Services"
     },
     {
       "id": 319,
       "url": "/references/ulastirma.png",
-      "title": "Ulaştırma Bakanlığı",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Ministry of Transport and Infrastructure",
+      "employer": "INTERACTIVE INC.",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 320,
       "url": "/references/yargitay.png",
-      "title": "Yargıtay",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "Court of Cassation",
+      "employer": "TÜRK TELEKOM",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 321,
       "url": "/references/ziraat.png",
-      "title": "Ziraat Bankası",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "T.C. Ziraat Bankası",
+      "employer": "T.C. Ziraat Bankası",
+      "description": "Head Office Buildings, Fire, Camera, and Access Control Systems"
     },
     {
       "id": 322,
-      "url": "/references/yargitay.png",
-      "title": "Yargıtay",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "url": "/references/egm.png",
+      "title": "General Directorate of Security",
+      "employer": "TÜRK TELEKOM",
+      "description": "Project - Infrastructure - Maintenance - Repair - Network and Internet Services"
     },
     {
       "id": 323,
-      "url": "/references/egm.png",
-      "title": "Emniyet Genel Müdürlüğü",
-      "desc": "Alarm Hizmeti Vırt zırt"
-    },
-    {
-      "id": 324,
       "url": "/references/orta-dogu-teknik-üni.png",
-      "title": "Orta Doğu Teknik Üniversitesi",
-      "desc": "Alarm Hizmeti Vırt zırt"
+      "title": "METU Department of Electrical and Electronics Engineering Robotics Lab",
+      "employer": "METU Department of Electrical and Electronics Engineering",
+      "description": "Card Access and Burglar Alarm System, Alarm Monitoring Center Services"
     }
-  ],
-  "references-2": [],
-  "references-3": [],
-  "references-4": []
+  ]
 }

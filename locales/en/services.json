@@ -1,21 +1,47 @@
 {
-  "caption-1": "What ",
-  "caption-2": "We Do ?",
+  "caption-1": "Our Services",
+  "main-desc": "Founded in 1994, our group initially operated in the fields of authorized service for electronic devices, satellite systems, and door communication systems. However, in 2003, keeping up with technological advancements, we restructured by entering the Cable TV and Internet Infrastructure sector and started operating in the Electronic Security Systems field. We established Ankara's largest and most modern Alarm Monitoring Center and undertook the Turkey distributorship of quality products worldwide. As a technology leader, we have been making a difference in the industry since 1994.",
+  "caption-2": "We Use the Highest Quality Products for You",
+  "home-head": "Home Solutions",
+  "corporate-head": "Corporate Solutions",
+  "workplace-head": "Workplace Solutions",
+  "sub-desc": "",
+  "information": "Get More Information or Offer",
   "services-items": [
     {
-      "id": 1,
-      "title": "Web Applications",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 201,
+      "icon": "/images/hirsiz-alarm.png",
+      "title": "Burglar Alarm Systems",
+      "desc": "Alarm System: An effective electronic security solution that automatically triggers the alarm monitoring center, property owner, and neighbors in case of emergencies such as burglary, threats, robbery, fire, or health issues at homes or workplaces. With instant response and communication features, the alarm system is designed to maximize your security.",
+      "slug": "/contact"
     },
     {
-      "id": 2,
-      "title": "Enterprise Web Solutions",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 202,
+      "icon": "/images/yangin-alarm.png",
+      "title": "Fire Alarm Systems",
+      "desc": "Fire detection systems play a critical role in the protection of buildings and industrial facilities against fires. These systems detect fires at an early stage and provide notification, enabling rapid intervention. They enhance both life and property safety. Fire detection systems are crucial for early fire detection and prevention of fire spread.",
+      "slug": "/contact"
     },
     {
-      "id": 3,
-      "title": "Different and Special Designs",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      "id": 203,
+      "icon": "/images/akilli-ev.png",
+      "title": "Smart Home Systems",
+      "desc": "Smart home systems make modern lifestyles more comfortable and secure. You can remotely control home lighting, manage security systems, and improve energy efficiency. Smart home technology allows you to manage your life more comfortably and effectively. Explore smart home systems where comfort and security come together!",
+      "slug": "/contact"
+    },
+    {
+      "id": 204,
+      "icon": "/images/cctv-camera.png",
+      "title": "CCTV Camera Systems",
+      "desc": "CCTV cameras elevate security measures. They enhance security by monitoring homes, businesses, or any area. With remote monitoring, you are in control at all times. High-quality and sharp image quality is delivered thanks to advanced technology. They provide effective results both indoors and outdoors.",
+      "slug": "/contact"
+    },
+    {
+      "id": 206,
+      "icon": "/images/gecis-kontrol.png",
+      "title": "Access Control Systems",
+      "desc": "Access control systems are the key to making your areas more secure. These systems, which include components such as doors, turnstiles, and card readers, prevent unauthorized access. By granting entry permission only to authorized individuals, they enhance security. They allow you to keep your areas under control with personnel and visitor tracking. They provide effective security with remote monitoring and management options.",
+      "slug": "/contact"
     }
   ]
 }

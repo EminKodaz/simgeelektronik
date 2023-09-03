@@ -1,6 +1,10 @@
 {
-  "caption": "Hesap Bilgileri",
-  "head-1": "TL HESAP BİLGİLERİ",
-  "head-2": "USD HESAP BİLGİLERİ",
-  "head-3": "EURO HESAP BİLGİLERİ"
+  "caption": "Account Information",
+  "head-1": "TL Account Information",
+  "head-2": "USD Account Information",
+  "head-3": "EURO Account Information",
+  "th-1": "Bank",
+  "th-2": "Branch",
+  "th-3": "Account Number",
+  "th-4": "Branch Code"
 }

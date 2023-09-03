@@ -1,31 +1,31 @@
 {
-  "footerDescription": "1994 yılından bugüne bu sireni gördüğünüz her mekanı biz koruyoruz.",
-  "quickMenuHeader": "Hızlı Menü",
-  "footerHeader": "Bizimle sosyal ağlarda bağlantı kurun:",
-  "workTimeHeader": "Çalışma Saatleri",
-  "workTime": "Pazartesi - Cuma: 08:00 - 17:00",
-  "workTimeWeekend": "Cumartesi - Pazar: Kapalı",
-  "contactHeader": "İletişim",
-  "contactCallButton": "Bizi Arayın",
-  "copyRight": "© 2023 Simge Group. Tüm hakları saklıdır.",
+  "footerDescription": "We have been protecting every place you see on this website since 1994.",
+  "quickMenuHeader": "Quick Menu",
+  "footerHeader": "Connect with us on social networks:",
+  "workTimeHeader": "Working Hours",
+  "workTime": "Monday - Friday: 08:00 AM - 05:00 PM",
+  "workTimeWeekend": "Saturday - Sunday: Closed",
+  "contactHeader": "Contact",
+  "contactCallButton": "Call Us",
+  "copyRight": "© 2023 Simge Group. All rights reserved.",
   "menuItems": [
     {
       "id": 71,
-      "title": "Anasayfa"
+      "title": "Home"
     },
     {
       "id": 72,
-      "title": "Hakkımızda",
+      "title": "About Us",
       "link": "/about-us"
     },
     {
       "id": 73,
-      "title": "Referanslarımız",
+      "title": "Our References",
       "link": "/references"
     },
     {
       "id": 74,
-      "title": "Hizmetlerimiz",
+      "title": "Our Services",
       "link": "/services"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "id": 76,
-      "title": "İletisim",
+      "title": "Contact Us",
       "link": "/contact"
     }
   ]

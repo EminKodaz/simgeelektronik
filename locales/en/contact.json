@@ -1,18 +1,18 @@
 {
-  "contactHeader": "İletişime geçin",
-  "contactDescription": "İletişime geçmek ister misiniz? Sizden haber almak isteriz. İşte bize nasıl ulaşabileceğiniz...",
-  "formTitle": "Bize Ulaşın",
-  "contactInfo": "İletişim Bilgileri",
-  "nameLabel": "İsim",
+  "contactHeader": "Contact Us",
+  "contactDescription": "Would you like to get in touch? We'd love to hear from you. Here's how you can reach us...",
+  "formTitle": "Contact Us",
+  "contactInfo": "Contact Information",
+  "nameLabel": "Name",
   "emailLabel": "Email",
-  "messageLabel": "Göndermek İstediğiniz Mesaj",
-  "formButton": "Gönder",
-  "namePlaceholder": "Lütfen isminizi giriniz",
-  "emailPlaceholder": "Lütfen email adresinizi giriniz",
-  "messagePlaceholder": "Lütfen mesajınızı giriniz",
-  "locationsHeader": "Lokasyonlarımız",
+  "messageLabel": "Message to Send",
+  "formButton": "Send",
+  "namePlaceholder": "Please enter your name",
+  "emailPlaceholder": "Please enter your email address",
+  "messagePlaceholder": "Please enter your message",
+  "locationsHeader": "Our Locations",
   "locationOne": {
-    "name": "Genel Müdürlük",
+    "name": "Headquarters",
     "address": "Ziyabey Cad. No:36 Balgat - Ankara",
     "phone": "+90 (312) 287 17 40 (PBX)",
     "mobilePhone": "+90 (532) 111 31 25",
@@ -20,8 +20,8 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1530.2062939322857!2d32.81715475661911!3d39.909782135973636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f4f4dad4907%3A0x8546b21b09ed772f!2sSimge%20Group!5e0!3m2!1str!2str!4v1692099785250!5m2!1str!2str"
   },
   "locationTwo": {
-    "name": "Akdeniz Bölge Müdürlüğü",
-    "address": "A. Türkeş Bulvarı No: 281 / A Seyhan - ADANA",
+    "name": "Mediterranean Regional Directorate",
+    "address": "Alparslan Türkeş Bulvarı No: 281 / A Seyhan - ADANA",
     "phone": "+90 (322) 226 41 41 (PBX)",
     "mobilePhone": "",
     "fax": "+90 (322) 226 26 96",
@@ -30,7 +30,7 @@
   "rules": [
     {
       "required": true,
-      "message": "Lütfen isminizi giriniz"
+      "message": "Please enter your name"
     }
   ]
 }

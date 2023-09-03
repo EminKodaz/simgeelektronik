@@ -1,40 +1,42 @@
 {
+  "caption":"Our Certificates",
+  "main-desc": "",
   "allCertficates": [
     {
-      "name": "Alarm Merkezi Kurma ve İzleme",
+      "name": "Alarm Center Installation and Monitoring",
       "url": "/certificates/alarm-merkezi-kurma-ve-izleme.jpg"
     },
     {
-      "name": "Garanti Belgesi",
+      "name": "Guarantee Certificate",
       "url": "/certificates/garanti-belgesi.jpg"
     },
     {
-      "name": "TSE Hizmet Yeterlilik Belgesi",
+      "name": "Service Competency Certificate",
       "url": "/certificates/hizmet-yeterlilik.jpg"
     },
     {
-      "name": "İSO 9001 Belgesi",
+      "name": "ISO 9001 Certificate",
       "url": "/certificates/iso-9001.jpg"
     },
     {
-      "name": "İSO 27001 Belgesi",
+      "name": "ISO 27001 Certificate",
       "url": "/certificates/iso-27001.jpg"
     },
     {
-      "name": "Kalibrasyon Belgesi",
+      "name": "Calibration Certificate",
       "url": "/certificates/kalibrasyon.jpg"
     },
     {
-      "name": "Ohsas 18001 Belgesi",
+      "name": "OHSAS 18001 Certificate",
       "url": "/certificates/ohsas-18001.jpg"
     },
     {
-      "name": "Satış sonrası hizmet yeterlilik Belgesi",
-      "url": "/certificates/satis-sonrasi-hizmette-yeterlilik.jpg"
+      "name": "After-Sales Service Competency Certificate",
+      "url": "/certificates/satis-sonrasi-hizmet-yeterlilik.jpg"
     },
     {
-      "name": "Satış sonrası hizmet yeterlilik 2 Belgesi",
-      "url": "/certificates/satis-sonrasi-hizmette-yeterlilik2.jpg"
+      "name": "After-Sales Service Competency Certificate",
+      "url": "/certificates/satis-sonrasi-hizmet-yeterlilik2.jpg"
     }
   ]
 }
