@@ -13,10 +13,10 @@ function PasswordDemand() {
     <>
       <Head>
         <title>{t("headtitle:contact-us-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Şifrenizi unuttuysanız şifre talep edebilir bizimle iletişime geçebilirsiniz." />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

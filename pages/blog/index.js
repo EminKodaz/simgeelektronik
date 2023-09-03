@@ -13,10 +13,10 @@ function Blog() {
     <>
       <Head>
         <title>{t("headtitle:blog-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="SİMGE GROUP Blog, alarm sistemleri, hırsız alarmı, güvenlik kamerası ve kasa kamerası gibi elektronik güvenlik çözümleri hakkında değerli bilgiler sunar. Ankara merkezli olarak faaliyet gösteren firmamız, uzman ekibi ve sektördeki deneyimiyle güvenlik ihtiyaçlarınıza çözüm sunuyor. Elektronik güvenlik konularında güncel haberler, püf noktaları ve ipuçlarını içeren blog yazılarımızı keşfedin." />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

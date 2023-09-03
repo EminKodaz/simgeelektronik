@@ -20,10 +20,10 @@ function Contact() {
     <>
       <Head>
         <title>{t("headtitle:contact-us-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content=" Elektronik güvenlik hizmetleri konusunda profesyonel destek almak, sorularınızı yanıtmak veya tekliflerimizi keşfetmek için iletişim sayfamızı ziyaret edin. Size yardımcı olmaktan memnuniyet duyarız." />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

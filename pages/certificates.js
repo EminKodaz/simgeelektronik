@@ -19,10 +19,10 @@ function Certificates() {
     <>
       <Head>
         <title>{t("headtitle:certificates-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="SİMGE GROUP olarak, elektronik güvenlik sektöründe kalite ve güveni temsil ediyoruz. Sektör lideri olarak aldığımız sertifikaları keşfedin ve işimize olan bağlılığımıza güvenin." />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

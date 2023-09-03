@@ -36,7 +36,7 @@ function BannerNReferences() {
         </article>
         <div className="p-5 z-20">
           <Image
-            src="/images/alarmset2.jpg"
+            src="/images/alarmset2.png"
             width={800}
             height={702}
             alt="alarmset"

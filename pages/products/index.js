@@ -24,6 +24,12 @@ function Products() {
     <>
       <Head>
         <title>{t("headtitle:products-t")}</title>
+        <meta name="description" content="Ankara Merkezli Simge Elektronik Güvenlik Şirketimiz CCTV Kameralar, Hırsız Alarm Sistemleri, Hareket Sensörleri, Ev ve Dükkan güvenliği için ürünler satmaktadır. Daha fazlası için ürünlerimizi inceleyin." />
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col relative overflow-hidden">
         <div className="bg-[url('/images/homebg.png')] bg-cover bg-no-repeat w-full h-[1200px] absolute top-0 left-0 z-0"></div>

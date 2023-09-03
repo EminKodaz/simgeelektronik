@@ -13,10 +13,10 @@ function References() {
     <>
       <Head>
         <title>{t("headtitle:references-t")}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="SİMGE GROUP'un müşteri referanslarına göz atın. Türk Telekom, Ankara Emniyet Müdürlüğü ve diğer müşterilerimizin başarı hikayelerini keşfedin. İşimizi ne kadar ciddiye aldığımızı görün." />
         <meta name="robots" content="index, follow"></meta>
-        <meta name="author" content=""></meta>
-        <meta name="publisher" content=""></meta>
+        <meta name="author" content="KoerLabs"></meta>
+        <meta name="publisher" content="SimgeGroup"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

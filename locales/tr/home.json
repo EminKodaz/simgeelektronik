@@ -3,20 +3,20 @@
     {
       "id": 801,
       "title": "Hırsız Alarm Sistemleri",
-      "desc": "Ev veya işyerlerinin hırsızlık, tehdit, gasp, yangın, sağlık sorunu gibi acil durumlarında otomatik olarak alarm haberalma merkezini, mal sahibini ve komşuları haberdar ederek yardım çağrısını tetikleyen etkili bir elektronik güvenlik çözümüdür. Anında tepki ve iletişim özellikleri ile alarm sistemi, güvenliğinizi en üst seviyeye çıkarmak için tasarlanmıştır.",
-      "image": "/images/carousel-1.webp"
+      "desc": "Ev veya işyerlerinin hırsızlık, tehdit, gasp, yangın, sağlık sorunu gibi acil durumlarında otomatik olarak alarm haberalma merkezini, mal sahibini ve komşuları haberdar ederek yardım çağrısını tetikleyen etkili bir elektronik güvenlik çözümüdür. Anında tepki ve iletişim özellikleri ile alarm sistemi, güvenliğinizi en üst seviyeye çıkarmak için Ankara merkezli şirketimiz tarafından tasarlanmıştır.",
+      "image": "/images/bg3.webp"
     },
     {
       "id": 802,
       "title": "Yangın Alarm Sistemleri",
-      "desc": "Yangın algılama sistemleri, binaların ve endüstriyel tesislerin yangına karşı korunmasında kritik bir rol oynar. Bu sistemler, yangını erken aşamada tespit edip bildirim sağlayarak hızlı müdahale imkanı sunar. Böylece can ve mal güvenliğini artırır. Yangın algılama sistemleri, yangının önceden tespiti ve yayılmasının engellenmesi açısından büyük önem taşır.",
-      "image": "/images/carousel-2.webp"
+      "desc": "Yangın algılama sistemleri, binaların, endüstriyel tesislerin ve dükkanların güvenliği ile yangına karşı korunmasında kritik bir rol oynar. Bu sistemler, yangını erken aşamada tespit edip bildirim sağlayarak hızlı müdahale imkanı sunar. Böylece can ve mal güvenliğini artırır. Yangın algılama sistemleri, yangının önceden tespiti ve yayılmasının engellenmesi açısından büyük önem taşır.",
+      "image": "/images/bg2.webp"
     },
     {
       "id": 803,
       "title": "CCTV Kamera Sistemleri",
-      "desc": "kaliteli ürün ve hizmet anlayışımız ile sektördeki öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
-      "image": "/images/carousel-3.webp"
+      "desc": "Kaliteli ürün ve hizmet anlayışımız ile Alarm ve Siren Sistemleri sektöründe öncü konumumuzu sürdürüyoruz. Aynı zamanda çalışanlarımıza verdiğimiz değer ve sürekli gelişimi hedefleyen vizyonumuz, bizi seçilebilir kılan unsurlardan sadece birkaçıdır. Simge Elektronik, müşterilerimize değer katma ve güvenliği en üst düzeyde sağlama konusundaki kararlılığımızla tanınır",
+      "image": "/images/bg1.webp"
     }
   ],
   "info-head-1": "Yıllık Tecrübe" ,
@@ -25,13 +25,13 @@
   "solutions-head": "Çözümlerimiz",
   "our-partners": "İş Ortaklarımız",
   "innovate": "İşyeri Güvenlik Sistemleri",
-  "innovate-p": "Her müşterinin ihtiyaçlarına özel yenilikçi çözümler üretiyoruz. ",
-  "high-quality": "Konut Güvenlik Sistemleri",
-  "high-quality-p": "En yüksek kaliteyi uygun maliyetle size sunmanın gururunu yaşıyoruz. ",
+  "innovate-p": "Dükkan ve işyerleriniz için alarm sistemleri gibi bir çok güvenlik hizmeti sunuyoruz. ",
+  "high-quality": "Ev Güvenlik Sistemleri",
+  "high-quality-p": "Evinizde güvenle uyuyabilmeniz için buradayız. ",
   "best-product": "Kurumsal Çözümler",
-  "best-product-p": "Ürünlerimizde mükemmel işçilik ve güvenilirlik bir arada geliyor. ",
+  "best-product-p": "Kurumsal Çözümler için büyük ölçekli çözümler sunuyoruz. ",
   "top-services": "Ürünlerimiz",
-  "top-services-p": "Profesyonel ekibimizle size en hızlı ve etkili şekilde destek sağlıyoruz. ",
+  "top-services-p": "Uygun ve kaliteli ürünler için katoloğumuza göz atın. ",
   "banner-ref-head": "İşiniz ve eviniz için güvenlik çözümleri",
   "banner-ref-p": "Gelişmiş güvenlik çözümleri ile işiniz ve eviniz her zaman güvende. Kameralar, izleme sistemleri ve akıllı kilitlerle huzuru yakalayın. ",
   "banner-ref-head-2": "7/24 Destek",
