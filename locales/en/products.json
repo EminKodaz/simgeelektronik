@@ -1,5 +1,5 @@
 {
-  "caption": "Products",
+  "caption": "Our Products",
   "main-desc": "Lorem ipsum dolor",
   "prodMenuItems": [
     {
@@ -23,105 +23,149 @@
       "setter": "fire"
     }
   ],
-
   "thief": [
     {
       "id": 501,
-      "image": "/images/burglar-alarm.png",
+      "image": "/images/cam-kirilma-sensor.png",
       "title": "Glass Break Sensor",
       "desc": ""
     },
     {
-      "id": 503,
-      "image": "/images/burglar-alarm.png",
-      "title": "Burglar Alarm Systems",
+      "id": 502,
+      "image": "/products/lcd-tus-takimi.png",
+      "title": "LCD Keypad",
       "desc": ""
     },
     {
-      "id": 502,
-      "image": "/images/burglar-alarm.png",
-      "title": "Burglar Alarm Systems",
+      "id": 503,
+      "image": "/products/led-tus-takimi.png",
+      "title": "LED Keypad",
+      "desc": ""
+    },
+    {
+      "id": 504,
+      "image": "/products/hareket-sensoru.png",
+      "title": "Motion Detector",
+      "desc": ""
+    },
+    {
+      "id": 505,
+      "image": "/products/darbe-dedektoru.jpg",
+      "title": "Impact Detector",
+      "desc": ""
+    },
+    {
+      "id": 506,
+      "image": "/products/uzaktan-kumanda.png",
+      "title": "Remote Control",
+      "desc": ""
+    },
+    {
+      "id": 507,
+      "image": "/products/acil-panik-butonu.png",
+      "title": "Emergency Panic Button",
+      "desc": ""
+    },
+    {
+      "id": 508,
+      "image": "/products/alarm-paneli.png",
+      "title": "Alarm Panel",
+      "desc": ""
+    },
+    {
+      "id": 509,
+      "image": "/products/dokunmatik.png",
+      "title": "Touch Keypad",
       "desc": ""
     }
   ],
-
   "camera": [
     {
       "id": 551,
-      "image": "/images/camera-systems.png",
-      "title": "Camera Systems",
+      "image": "/products/bullet.png",
+      "title": "Bullet Camera",
       "desc": ""
     },
     {
       "id": 552,
-      "image": "/images/camera-systems.png",
-      "title": "Camera Systems",
+      "image": "/products/dome.png",
+      "title": "Dome Camera",
       "desc": ""
     },
     {
       "id": 553,
-      "image": "/images/camera-systems.png",
-      "title": "Camera Systems",
+      "image": "/products/speed-dome.png",
+      "title": "Speed Dome Camera",
       "desc": ""
     },
     {
       "id": 554,
-      "image": "/images/fire-alarm.png",
-      "title": "Fire Alarm Systems",
+      "image": "/products/kayit.png",
+      "title": "Recording Device",
       "desc": ""
     }
   ],
-
   "transition": [
     {
       "id": 601,
-      "image": "/images/access-control.png",
+      "image": "/products/yangin-alarm.png",
+      "title": "Access Control Systems",
+      "desc": ""
+    },
+    {
+      "id": 602,
+      "image": "/products/yangin-alarm.png",
       "title": "Access Control Systems",
       "desc": ""
     },
     {
       "id": 603,
-      "image": "/images/access-control.png",
+      "image": "/products/yangin-alarm.png",
       "title": "Access Control Systems",
       "desc": ""
     },
     {
       "id": 604,
-      "image": "/images/access-control.png",
+      "image": "/products/yangin-alarm.png",
       "title": "Access Control Systems",
       "desc": ""
     },
     {
       "id": 605,
-      "image": "/images/access-control.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    },
-    {
-      "id": 606,
-      "image": "/images/access-control.png",
+      "image": "/products/yangin-alarm.png",
       "title": "Access Control Systems",
       "desc": ""
     }
   ],
-
   "fire": [
     {
       "id": 651,
-      "image": "/images/fire-alarm.png",
-      "title": "Fire Alarm Systems",
+      "image": "/products/yangin-buton.png",
+      "title": "Fire Alarm Button",
       "desc": ""
     },
     {
       "id": 652,
-      "image": "/images/fire-alarm.png",
-      "title": "Fire Alarm Systems",
+      "image": "/products/yangin-paneli.png",
+      "title": "Fire Alarm Panel",
       "desc": ""
     },
     {
       "id": 653,
-      "image": "/images/fire-alarm.png",
-      "title": "Fire Alarm Systems",
+      "image": "/products/ısı-dedektor.png",
+      "title": "Wireless Heat Detector",
+      "desc": ""
+    },
+    {
+      "id": 654,
+      "image": "/products/gaz-dedektor.png",
+      "title": "Gas Detector",
+      "desc": ""
+    },
+    {
+      "id": 655,
+      "image": "/products/duman-dedektor.png",
+      "title": "Smoke Detector",
       "desc": ""
     }
   ]
