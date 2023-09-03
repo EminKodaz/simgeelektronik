@@ -78,6 +78,7 @@ function PasswordDemandForm() {
             type="text"
             id="fullName"
             name="fullName"
+            maxLength={30}
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
@@ -92,6 +93,7 @@ function PasswordDemandForm() {
             type="aboneNo"
             id="aboneNo"
             name="aboneNo"
+            maxLength={30}
             value={formData.aboneNo}
             placeholder={t("aboneNoLabel")}
             onChange={handleChange}
@@ -106,6 +108,7 @@ function PasswordDemandForm() {
             type="email"
             id="email"
             name="email"
+            maxLength={40}
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}

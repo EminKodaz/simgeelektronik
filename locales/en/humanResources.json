@@ -19,6 +19,6 @@
   "emailLabel": "Email",
   "messageLabel": "Message You Want to Send",
   "selectCvLabel": "Please Upload Your CV:",
-  "phoneNumber": "555 444 33 22",
+  "phoneNumber": "Phone Number (e.g., 5554443322)",
   "formButton": "Send"
 }

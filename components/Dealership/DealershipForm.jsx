@@ -86,6 +86,7 @@ const DealershipForm2 = () => {
             type="text"
             id="fullName"
             name="fullName"
+            maxLength={30}
             value={formData.fullName}
             placeholder={t("nameLabel")}
             onChange={handleChange}
@@ -100,6 +101,7 @@ const DealershipForm2 = () => {
             type="email"
             id="email"
             name="email"
+            maxLength={40}
             value={formData.email}
             placeholder={t("emailLabel")}
             onChange={handleChange}
@@ -114,6 +116,7 @@ const DealershipForm2 = () => {
             type="text"
             id="companyName"
             name="companyName"
+            maxLength={100}
             value={formData.companyName}
             placeholder={t("companyName")}
             onChange={handleChange}
@@ -131,6 +134,7 @@ const DealershipForm2 = () => {
             id="phoneNumber"
             name="phoneNumber"
             pattern="\d{10}"
+            maxLength={12}
             value={formData.phoneNumber}
             placeholder={t("phoneNumber")}
             onChange={handleChange}
