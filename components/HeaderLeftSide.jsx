@@ -68,13 +68,13 @@ function HeaderLeftSide() {
           })}
 
         <button
-          className="absolute transform max-lg:hidden bottom-6 right-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
+          className="absolute transform max-lg:hidden bottom-1 right-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c] rounded-full flex items-center justify-center p-2"
           onClick={handleNext}
         >
           <BsChevronRight size={44} />
         </button>
         <button
-          className="absolute transform max-lg:hidden  bottom-6 left-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
+          className="absolute transform max-lg:hidden  bottom-1 left-5 z-10 text-sky-500 backdrop-blur-lg bg-[#ffffff0c]  rounded-full flex items-center justify-center p-2"
           onClick={handlePrev}
         >
           <BsChevronLeft size={44} />
