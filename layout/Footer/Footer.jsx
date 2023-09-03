@@ -16,7 +16,7 @@ function Footer() {
           <div className="flex flex-col items-start max-lg:items-center lg:pr-10 gap-5">
             <Image
               src="/images/logo3.png"
-              className="w-80"
+              className="w-56"
               width={2611}
               height={609}
               alt="simgeelektronik"
