@@ -32,54 +32,54 @@
       "desc": ""
     },
     {
-      "id": 503,
+      "id": 502,
       "image": "/products/lcd-tus-takimi.png",
       "title": "LCD Tuş Takımı",
       "desc": ""
     },
     {
-      "id": 502,
+      "id": 503,
       "image": "/products/led-tus-takimi.png",
       "title": "Led Tuş Takımı",
       "desc": ""
     },
     {
-      "id": 502,
+      "id": 504,
       "image": "/products/hareket-sensoru.png",
       "title": "Hareket Dedektörü",
       "desc": ""
     }
     ,
     {
-      "id": 502,
+      "id": 505,
       "image": "/products/darbe-dedektoru.jpg",
       "title": "Darbe Dedektörü",
       "desc": ""
     }
     ,
     {
-      "id": 502,
+      "id": 506,
       "image": "/products/uzaktan-kumanda.png",
       "title": "Uzaktan Kumanda",
       "desc": ""
     }
     ,
     {
-      "id": 502,
+      "id": 507,
       "image": "/products/acil-panik-butonu.png",
       "title": "Acil Panik Butonu",
       "desc": ""
     }
     ,
     {
-      "id": 502,
+      "id": 508,
       "image": "/products/alarm-paneli.png",
       "title": "Alarm Paneli",
       "desc": ""
     }
     ,
     {
-      "id": 502,
+      "id": 509,
       "image": "/products/dokunmatik.png",
       "title": "Dokunmatik Tuş Takımı",
       "desc": ""
@@ -121,6 +121,12 @@
       "desc": ""
     },
     {
+      "id": 602,
+      "image": "/products/yangin-alarm.png",
+      "title": "Geçiş Kontrol Sistemleri",
+      "desc": ""
+    },
+    {
       "id": 603,
       "image": "/products/yangin-alarm.png",
       "title": "Geçiş Kontrol Sistemleri",
@@ -134,12 +140,6 @@
     },
     {
       "id": 605,
-      "image": "/products/yangin-alarm.png",
-      "title": "Geçiş Kontrol Sistemleri",
-      "desc": ""
-    },
-    {
-      "id": 606,
       "image": "/products/yangin-alarm.png",
       "title": "Geçiş Kontrol Sistemleri",
       "desc": ""
@@ -168,14 +168,14 @@
     }
     ,
     {
-      "id": 653,
+      "id": 654,
       "image": "/products/gaz-dedektor.png",
       "title": "Gaz Dedektörü",
       "desc": ""
     }
     ,
     {
-      "id": 653,
+      "id": 655,
       "image": "/products/duman-dedektor.png",
       "title": "Duman Dedektörü",
       "desc": ""
