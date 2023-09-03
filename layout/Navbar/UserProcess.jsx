@@ -84,8 +84,7 @@ function UserProcess({ isMobile }) {
         </Link>
         <Link
           className=" flex items-center mt-3 max-lg:mt-1 hover:text-red-600 font-light rounded-lg"
-          href="/ödemeler"
-          target="_blank"
+          href="/payments"
           onClick={handleButtonClick}
         >
           <MdPayment className="text-red-600 mr-1" />
