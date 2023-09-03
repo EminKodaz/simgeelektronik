@@ -2,10 +2,12 @@ import useTranslation from "next-translate/useTranslation";
 import React, { useEffect, useState } from "react";
 import { BsFillSendFill, BsSendCheckFill } from "react-icons/bs";
 import { AiFillWarning } from "react-icons/ai";
+import Link from "next/link";
 
 function ContactForm() {
   const { t } = useTranslation("contact");
   const [status, setStatus] = useState("idle");
+  const [kvkkAccepted, setKvkkAccepted] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -16,6 +18,7 @@ function ContactForm() {
     fullName: "",
     email: "",
     message: "",
+    kvkk: "",
   });
 
   const handleChange = (e) => {
@@ -23,12 +26,17 @@ function ContactForm() {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
+  const handleKvkkChange = (e) => {
+    setKvkkAccepted(e.target.checked);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};
-    if (!formData.fullName) newErrors.fullName = "Ad-Soyad alanı zorunludur.";
-    if (!formData.email) newErrors.email = "Email alanı zorunludur.";
-    if (!formData.message) newErrors.message = "Mesaj alanı zorunludur.";
+    if (!formData.fullName) newErrors.fullName = `${t("fullNameError")}`;
+    if (!formData.email) newErrors.email = `${t("emailError")}`;
+    if (!formData.message) newErrors.message = `${t("messageError")}`;
+    if (!kvkkAccepted) newErrors.kvkk = `${t("kvkkError")}`;
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -56,6 +64,7 @@ function ContactForm() {
         message: "",
       });
       setErrors({});
+      setKvkkAccepted(false);
     }
   };
   useEffect(() => {
@@ -116,6 +125,20 @@ function ContactForm() {
             onChange={(e) => handleChange(e)}
           ></textarea>
           {errors.message && <p className="text-red-500">{errors.message}</p>}
+        </div>
+        <div className="mb-4 text-sm text-start">
+          <label className="block mb-1 font-semibold">
+            <input
+              type="checkbox"
+              onChange={handleKvkkChange}
+              checked={kvkkAccepted}
+            />{" "}
+            {t("kvkk")}{" "}
+            <Link href="/kvkk" className="underline text-blue-400">
+              {t("kvkkLink")}
+            </Link>{" "}
+          </label>
+          {errors.kvkk && <p className="text-red-500">{errors.kvkk}</p>}
         </div>
         <button
           type="submit"
