@@ -49,7 +49,7 @@ function AboutUs() {
           className="z-10"
         >
           <section className="grid grid-cols-2 max-lg:grid-cols-1 mt-12 min-[2000px]:w-[60%] max-[1300px]:w-[95%] max-lg:w-[90%] w-[75%] max-lg:mt-5 m-auto mb-24 rounded-2xl overflow-hidden group">
-            <div className="bg-[url('/images/aboutside.jpg')] max-lg:hidden bg-cover bg-no-repeat w-full relative">
+            <div className="bg-[url('/images/aboutside.png')] max-lg:hidden bg-cover bg-no-repeat w-full relative">
               <div className="bg-[#7a18183b] w-full h-full  absolute duration-500 -bottom-1/2 transofrm group-hover:-translate-y-1/2 flex flex-col justify-end">
                 <div className="flex   justify-center w-full items-center  h-1/2   duration-300">
                   <div className="w-24 h-24 relative bg-[#ffffff98] group-hover:rotate-45 rounded-lg duration-500">
