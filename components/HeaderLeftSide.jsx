@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import Image from "next/image";
 import HeaderRightSide from "./HeaderRightSide";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import Link from "next/link";
 
 function HeaderLeftSide() {
   const { t } = useTranslation("home");
@@ -39,7 +40,7 @@ function HeaderLeftSide() {
         pagination={true}
         ref={sliderRef}
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           pauseOnMouseEnter: true,
         }}
         className="rounded-l-4xl max-lg:rounded-2xl"
@@ -49,9 +50,11 @@ function HeaderLeftSide() {
             return (
               <SwiperSlide key={item.id}>
                 <div className="absolute top-1/2 transform -translate-y-1/2 left-10 z-20 max-lg:w-[80%] p-5 rounded-xl bg-[#00000096]">
-                  <h1 className=" text-5xl max-lg:text-3xl text-white font-bold ">
-                    {item.title}
-                  </h1>
+                  <Link href="/services" >
+                    <h1 className=" text-5xl max-lg:text-3xl text-white font-bold underline hover:text-sky-200 duration-300">
+                      {item.title}
+                    </h1>
+                  </Link>
                   <p className="text-xl max-lg:text-sm mt-5 max-lg:mt-3 text-white max-lg:hidden w-[65%] max-lg:w-full">
                     {item.desc}
                   </p>
@@ -81,39 +84,6 @@ function HeaderLeftSide() {
         </button>
       </Swiper>
       <HeaderRightSide />
-      {/* <h1 className="text-5xl max-[1300px]:text-4xl font-bold mb-5 text-darkred">
-        {t("slogan-part-1")}
-      </h1>
-      <h1 className="text-5xl max-[1300px]:text-4xl font-bold text-lightred">
-        {t("slogan-part-2")}
-      </h1>
-      <div className="flex mt-5 items-center">
-        <div className="w-24 h-2 bg-lightred rounded-full mr-3"></div>
-        <div className="w-4 h-4 bg-darkred rounded-full "></div>
-      </div>
-      <article className="font-medium text-zinc-500 mt-5 indent-2">
-        {t("article-1")}
-      </article>
-      <div className="flex  mt-10 w-3/4 max-lg:w-full justify-between">
-        <div className="flex flex-col items-center justify-center ">
-          <Counter maxCount={11} />
-          <p className="text-2xl font-medium max-lg:text-lg text-darkred">
-            {t("experience")}
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center  ">
-          <Counter maxCount={32} />
-          <p className="text-2xl font-medium max-lg:text-lg text-darkred">
-            {t("product")}
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center  ">
-          <Counter maxCount={100} />
-          <p className="text-2xl font-medium max-lg:text-lg text-darkred">
-            {t("project-done")}
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 }

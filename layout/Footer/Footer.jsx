@@ -4,7 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 import SocialMedia from "@/components/SocialMedia";
 import WorkingHours from "./WorkingHours";
 import QuickLinks from "./QuickLinks";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsPhoneFill } from "react-icons/bs";
 import Link from "next/link";
 
 function Footer() {
@@ -17,7 +17,7 @@ function Footer() {
           <div className="flex flex-col items-start max-lg:items-center lg:pr-10 gap-5">
             <Image
               src="/images/logo3.png"
-              className="w-56"
+              className="w-36"
               width={2611}
               height={609}
               alt="simgeelektronik"
@@ -30,13 +30,21 @@ function Footer() {
           <QuickLinks />
           <div className="w-fit mx-auto max-lg:items-center">
             <WorkingHours />
-            <button className="py-4 px-8 bg-sky-600 my-7 rounded-2xl text-white hover:text-sky-950 hover:scale-110 hover:bg-slate-200 duration-200">
-              <BsFillTelephoneFill className="inline-block mr-2" size={20} />
-              {t("contactCallButton")} +90 (312) 287 17 40
-            </button>
+            <h2 className="text-3xl mb-5 mt-5 text-white">
+              {t("contactCallButton")}
+            </h2>
+            <div className="inline-block">
+              <div className="py-4 px-5 bg-sky-600 mb-5 rounded-2xl text-white hover:text-sky-950 hover:scale-110 hover:bg-slate-200 duration-200">
+                <BsFillTelephoneFill className="inline-block mr-2" size={20} />
+                +90 (312) 287 17 40
+              </div>
+              <div className="py-4 px-5 bg-sky-600 mb-5 rounded-2xl text-white hover:text-sky-950 hover:scale-110 hover:bg-slate-200 duration-200">
+                <BsPhoneFill className="inline-block mr-2" size={20} />
+                +90 (532) 111 31 25
+              </div>
+            </div>
             <address className="text-white mt-5">
               <h5 className="text-lg font-bold">{t("headquarters")}</h5>
-
               <Link
                 href="https://goo.gl/maps/upFZHKmDSK3n7V778"
                 target="_blank"
