@@ -106,36 +106,54 @@
     }
   ],
   "transition": [
-    {
-      "id": 601,
-      "image": "/products/yangin-alarm.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    },
-    {
-      "id": 602,
-      "image": "/products/yangin-alarm.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    },
-    {
-      "id": 603,
-      "image": "/products/yangin-alarm.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    },
-    {
-      "id": 604,
-      "image": "/products/yangin-alarm.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    },
-    {
-      "id": 605,
-      "image": "/products/yangin-alarm.png",
-      "title": "Access Control Systems",
-      "desc": ""
-    }
+      {
+    "id": 601,
+    "image": "/products/bariyer.png",
+    "title": "Barrier",
+    "desc": ""
+  },
+  {
+    "id": 602,
+    "image": "/products/mantar.png",
+    "title": "Mushroom Barrier",
+    "desc": ""
+  },
+  {
+    "id": 603,
+    "image": "/products/kollu-turnike.png",
+    "title": "Tripod Turnstile",
+    "desc": ""
+  },
+  {
+    "id": 604,
+    "image": "/products/swing-gate.png",
+    "title": "Swing Gate",
+    "desc": ""
+  },
+  {
+    "id": 609,
+    "image": "/products/vip-turnike.png",
+    "title": "VIP Turnstile",
+    "desc": ""
+  },
+  {
+    "id": 605,
+    "image": "/products/parmak-izi.png",
+    "title": "Fingerprint Reader",
+    "desc": ""
+  },
+  {
+    "id": 606,
+    "image": "/products/kart-okuyucu.png",
+    "title": "Card Reader",
+    "desc": ""
+  },
+  {
+    "id": 607,
+    "image": "/products/yuz-tanima.png",
+    "title": "Facial Recognition Device",
+    "desc": ""
+  }
   ],
   "fire": [
     {
